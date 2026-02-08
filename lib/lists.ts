@@ -15,8 +15,10 @@ export interface ListDefinition {
   slug: string;
   source: string;
   description?: string;
-  /** Link to list source (e.g. iCheckMovies list page). */
+  /** Link to list source: direct source when available, else iCheckMovies. */
   sourceUrl?: string;
+  /** True when no direct source was found in CSV (link is iCheckMovies only). */
+  icheckMoviesOnly?: boolean;
 }
 
 /** Legacy slugs for lists that have existing .json files under a different name */
@@ -35,17 +37,24 @@ const LEGACY_SLUG_MAP: Record<string, string> = {
 
 export async function getListDefinitions(): Promise<ListDefinition[]> {
   const rows = await getOfficialListsFromCsv();
-  return rows.map((row, i) => {
+  const withMeta = rows.map((row, i) => {
     const slug = slugFromListUrl(row.url) || `list-${i + 1}`;
+    const hasDirect = row.directSourceUrl.length > 0;
+    const hasDescription = (row.description ?? "").trim().length > 0;
     return {
       id: slug,
       name: row.name,
       slug,
       source: "icheckmovies",
       description: row.description || undefined,
-      sourceUrl: row.url || undefined,
+      sourceUrl: hasDirect ? row.directSourceUrl : (row.url || undefined),
+      icheckMoviesOnly: !hasDirect,
+      _sortFirst: hasDirect && hasDescription,
     };
   });
+  // Lists with direct source + description first; rest (iCheckMovies only or no description) at bottom
+  withMeta.sort((a, b) => (a._sortFirst === b._sortFirst ? 0 : a._sortFirst ? -1 : 1));
+  return withMeta.map(({ _sortFirst, ...list }) => list);
 }
 
 export async function getListBySlug(slug: string): Promise<ListDefinition | undefined> {
