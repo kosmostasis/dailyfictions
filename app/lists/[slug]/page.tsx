@@ -50,7 +50,7 @@ export default async function ListDetailPage({
               rel="noopener noreferrer"
               className="text-sm text-sky-600 underline dark:text-sky-400"
             >
-              View list source on iCheckMovies →
+              {list.icheckMoviesOnly ? "View on iCheckMovies (account required) →" : "View source →"}
             </a>
           </p>
         )}
