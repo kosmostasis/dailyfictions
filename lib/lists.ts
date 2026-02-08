@@ -26,6 +26,14 @@ const KNOWN_DIRECT_SOURCES: Record<string, string> = {
   "IMDb's Top 250": "https://www.imdb.com/chart/top/",
 };
 
+/** Strip [url=...]...[/url] (and variants) from description so the link only appears under "View source". */
+function stripUrlBbcode(description: string): string {
+  return description
+    .replace(/\[\s*url\s*=\s*[^\]]+\][\s\S]*?\[\s*\/\s*url\s*\]/gi, "")
+    .replace(/\n{3,}/g, "\n\n")
+    .trim();
+}
+
 /** Legacy slugs for lists that have existing .json files under a different name */
 const LEGACY_SLUG_MAP: Record<string, string> = {
   "imdbs-top-250": "imdb-top-250",
@@ -54,7 +62,7 @@ export async function getListDefinitions(): Promise<ListDefinition[]> {
       name: row.name,
       slug,
       source: "icheckmovies",
-      description: row.description || undefined,
+      description: row.description ? stripUrlBbcode(row.description) : undefined,
       sourceUrl: hasDirect ? directUrl : (row.url || undefined),
       icheckMoviesOnly: !hasDirect,
       _sortFirst: hasDirect && hasDescription,
