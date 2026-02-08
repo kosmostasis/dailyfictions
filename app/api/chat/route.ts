@@ -5,7 +5,8 @@ import { getChatPersona, getDefaultPersona } from "@/lib/chat-personas";
 import { createProposal } from "@/lib/polls";
 import { isRoomSlug, ROOM_SLUGS } from "@/lib/constants";
 
-const DISCOVER_CHAT_MODEL = "google/gemini-2.0-flash";
+// Mistral via Vercel AI Gateway. Options: mistral/devstral-2 | mistral/devstral-small-2
+const DISCOVER_CHAT_MODEL = "mistral/devstral-2";
 const VALID_ROOMS = ROOM_SLUGS.join(", ");
 
 export const maxDuration = 30;
