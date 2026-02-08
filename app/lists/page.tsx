@@ -45,13 +45,6 @@ export default async function ListsPage() {
           </li>
         ))}
       </ul>
-
-      {lists.some((l) => l.icheckMoviesOnly) && (
-        <p className="mt-8 text-sm text-neutral-500 dark:text-neutral-400">
-          The following lists only have an iCheckMovies link (account required):{" "}
-          {lists.filter((l) => l.icheckMoviesOnly).map((l) => l.name).join(", ")}.
-        </p>
-      )}
     </main>
   );
 }
