@@ -4,6 +4,8 @@ import { useState } from "react";
 
 interface RoomProposeFormProps {
   slug: string;
+  /** Called after a proposal is successfully created; use to refetch the poll list. */
+  onProposed?: () => void;
 }
 
 interface SearchResult {
@@ -13,7 +15,7 @@ interface SearchResult {
   releaseDate: string;
 }
 
-export function RoomProposeForm({ slug }: RoomProposeFormProps) {
+export function RoomProposeForm({ slug, onProposed }: RoomProposeFormProps) {
   const [query, setQuery] = useState("");
   const [results, setResults] = useState<SearchResult[]>([]);
   const [selected, setSelected] = useState<SearchResult | null>(null);
@@ -22,6 +24,7 @@ export function RoomProposeForm({ slug }: RoomProposeFormProps) {
   const [discord, setDiscord] = useState("");
   const [loading, setLoading] = useState(false);
   const [submitted, setSubmitted] = useState(false);
+  const [error, setError] = useState<string | null>(null);
 
   async function search() {
     if (!query.trim()) return;
@@ -39,6 +42,7 @@ export function RoomProposeForm({ slug }: RoomProposeFormProps) {
 
   async function submit() {
     if (!selected) return;
+    setError(null);
     setLoading(true);
     try {
       const res = await fetch(`/api/rooms/${slug}/proposals`, {
@@ -58,6 +62,10 @@ export function RoomProposeForm({ slug }: RoomProposeFormProps) {
         setTrailerUrl("");
         setQuery("");
         setResults([]);
+        onProposed?.();
+      } else {
+        const data = await res.json().catch(() => ({}));
+        setError(data?.error ?? `Request failed (${res.status})`);
       }
     } finally {
       setLoading(false);
@@ -71,6 +79,9 @@ export function RoomProposeForm({ slug }: RoomProposeFormProps) {
       </h2>
       {submitted && (
         <p className="mb-2 text-sm text-green-700 dark:text-green-400">Proposal added. It will appear in the poll above.</p>
+      )}
+      {error && (
+        <p className="mb-2 text-sm text-red-700 dark:text-red-400">{error}</p>
       )}
       <div className="flex gap-2">
         <input
