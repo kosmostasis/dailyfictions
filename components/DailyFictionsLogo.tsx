@@ -29,9 +29,11 @@ export function DailyFictionsLogo({
   return (
     <svg
       viewBox="0 0 32 28"
+      width="32"
+      height="28"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      className={`${colorClass} ${className}`.trim()}
+      className={`size-10 shrink-0 ${colorClass} ${className}`.trim()}
       aria-hidden
     >
       {/* Top stick (striker) */}
