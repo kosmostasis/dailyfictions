@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Default light; dark mode overrides via .dark */
+  :root,
+  .light {
+    --bg: theme("colors.neutral.50");
+    --fg: theme("colors.neutral.900");
+    --muted: theme("colors.neutral.500");
+  }
+
+  .dark {
+    --bg: theme("colors.neutral.950");
+    --fg: theme("colors.neutral.100");
+    --muted: theme("colors.neutral.400");
+  }
+}
+
+/* Neon sign effect for "Choose your reality" */
+.neon-text {
+  color: #0369a1;
+  text-shadow:
+    0 0 4px #0ea5e9,
+    0 0 8px #0ea5e9,
+    0 0 12px #0ea5e9,
+    0 0 16px #0284c7;
+}
+.dark .neon-text {
+  color: #e0f2fe;
+  text-shadow:
+    0 0 4px #e0f2fe,
+    0 0 8px #e0f2fe,
+    0 0 12px #0ea5e9,
+    0 0 16px #0ea5e9,
+    0 0 24px #0284c7;
+}
