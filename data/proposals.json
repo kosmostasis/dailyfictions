@@ -43,5 +43,11 @@
     "tmdb_movie_id": 846892,
     "pitch": "A mesmerizing, dreamlike portrait of humanity, where life unfolds like a circus from a balcony.",
     "created_at": "2026-02-08T13:38:22.437Z"
+  },
+  {
+    "id": "e2e15012-81a4-4536-9f2a-651b437ee84e",
+    "room_slug": "drama",
+    "tmdb_movie_id": 64690,
+    "created_at": "2026-02-08T13:45:11.787Z"
   }
 ]
