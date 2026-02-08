@@ -1,0 +1,24 @@
+[
+  {
+    "id": "d8109192-d62d-43fe-b1d9-506175a6afce",
+    "room_slug": "fantasy",
+    "tmdb_movie_id": 902,
+    "discord_username": "kosmostasis#1984",
+    "created_at": "2026-02-08T07:28:57.832Z"
+  },
+  {
+    "id": "166df6b0-9bcb-46d1-895c-c88c995aaf50",
+    "room_slug": "romance",
+    "tmdb_movie_id": 122906,
+    "pitch": "Maybe my favorite time travel film",
+    "discord_username": "kosmostasis#1984",
+    "created_at": "2026-02-08T07:35:47.896Z"
+  },
+  {
+    "id": "b014e720-de3e-4b78-b8ed-b39c24ccffa7",
+    "room_slug": "horror",
+    "tmdb_movie_id": 313922,
+    "discord_username": "kosmostasis#1984",
+    "created_at": "2026-02-08T07:45:15.899Z"
+  }
+]
