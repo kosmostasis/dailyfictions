@@ -10,6 +10,8 @@ export interface OfficialListRow {
   name: string;
   description: string;
   url: string;
+  /** First [url=...] link extracted from description (direct list source); empty if none. */
+  directSourceUrl: string;
 }
 
 /** Extract slug from iCheckMovies list URL: /lists/NAME/ -> name with + replaced by - */
@@ -81,13 +83,16 @@ export async function getOfficialListsFromCsv(): Promise<OfficialListRow[]> {
   const descIdx = header.indexOf("description");
   const urlIdx = header.indexOf("url");
   if (nameIdx < 0 || descIdx < 0 || urlIdx < 0) return [];
+  const urlInDescRe = /\[url=([^\]]+)\]/i;
   const out: OfficialListRow[] = [];
   for (let r = 1; r < rows.length; r++) {
     const row = rows[r];
     const name = row[nameIdx] ?? "";
     const description = row[descIdx] ?? "";
     const url = (row[urlIdx] ?? "").trim();
-    if (name) out.push({ name, description, url });
+    const directMatch = description.match(urlInDescRe);
+    const directSourceUrl = directMatch ? directMatch[1].trim() : "";
+    if (name) out.push({ name, description, url, directSourceUrl });
   }
   return out;
 }
