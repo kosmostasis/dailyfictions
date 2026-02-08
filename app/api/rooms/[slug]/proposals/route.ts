@@ -1,14 +1,15 @@
 import { NextResponse } from "next/server";
-import { listProposals, createProposal, listVotes } from "@/lib/polls";
+import { listProposals, createProposal, listVotes, hasVoted } from "@/lib/polls";
 import { getConfig, getMovieDetails, posterUrl } from "@/lib/tmdb";
 import { isRoomSlug } from "@/lib/constants";
 
 export async function GET(
-  _request: Request,
+  request: Request,
   { params }: { params: Promise<{ slug: string }> }
 ) {
   const { slug } = await params;
   if (!isRoomSlug(slug)) return NextResponse.json({ error: "Unknown room" }, { status: 404 });
+  const sessionId = request.headers.get("x-session-id") ?? new URL(request.url).searchParams.get("session_id");
   const proposals = await listProposals(slug);
   const votes = await listVotes();
   const voteCount = (id: string) => votes.filter((v) => v.proposal_id === id).length;
@@ -17,12 +18,15 @@ export async function GET(
     ...proposals.map((p) => getMovieDetails(p.tmdb_movie_id)),
   ]);
   const baseUrl = config.images.secure_base_url;
-  const withVotes = proposals.map((p, i) => ({
-    ...p,
-    vote_count: voteCount(p.id),
-    title: details[i]?.title,
-    poster_url: details[i] ? posterUrl(baseUrl, details[i].poster_path) : "",
-  }));
+  const withVotes = await Promise.all(
+    proposals.map(async (p, i) => ({
+      ...p,
+      vote_count: voteCount(p.id),
+      has_voted: sessionId ? await hasVoted(p.id, sessionId) : false,
+      title: details[i]?.title,
+      poster_url: details[i] ? posterUrl(baseUrl, details[i].poster_path) : "",
+    }))
+  );
   withVotes.sort((a, b) => b.vote_count - a.vote_count);
   return NextResponse.json(withVotes);
 }
