@@ -7,6 +7,19 @@ const BASE = "https://api.themoviedb.org/3";
 
 function getApiKey(): string {
   const key = process.env.TMDB_API_KEY;
+  // #region agent log
+  fetch("http://127.0.0.1:7242/ingest/78e219bc-79e7-4277-b148-e1833a36a616", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      location: "lib/tmdb.ts:getApiKey",
+      message: "getApiKey check",
+      data: { keyPresent: !!key, keyLength: key ? key.length : 0 },
+      timestamp: Date.now(),
+      hypothesisId: "H1",
+    }),
+  }).catch(() => {});
+  // #endregion
   if (!key) throw new Error("TMDB_API_KEY is not set");
   return key;
 }
@@ -16,7 +29,22 @@ async function fetchTmdb<T>(path: string, params: Record<string, string> = {}): 
   const search = new URLSearchParams({ api_key: key, ...params });
   const url = `${BASE}${path}?${search}`;
   const res = await fetch(url, { next: { revalidate: 3600 } });
-  if (!res.ok) throw new Error(`TMDB ${res.status}: ${res.statusText}`);
+  if (!res.ok) {
+    // #region agent log
+    fetch("http://127.0.0.1:7242/ingest/78e219bc-79e7-4277-b148-e1833a36a616", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        location: "lib/tmdb.ts:fetchTmdb",
+        message: "TMDB fetch not ok",
+        data: { path, status: res.status, statusText: res.statusText },
+        timestamp: Date.now(),
+        hypothesisId: "H3",
+      }),
+    }).catch(() => {});
+    // #endregion
+    throw new Error(`TMDB ${res.status}: ${res.statusText}`);
+  }
   return res.json() as Promise<T>;
 }
 
@@ -86,18 +114,45 @@ export async function discoverMoviesByGenre(
   });
 }
 
-/** Discover by genre with vote_average >= 8 (highly rated). Use for "In this room we could watch" cycling. */
+/** Discover by genre with vote_average >= 7 (quality) and vote_count so results vary over time. Use for "In this room we could watch" cycling. */
 export async function discoverMoviesByGenreHighlyRated(
   genreId: number,
   page = 1
 ): Promise<TmdbDiscoverResponse> {
-  return fetchTmdb<TmdbDiscoverResponse>("/discover/movie", {
+  // #region agent log
+  fetch("http://127.0.0.1:7242/ingest/78e219bc-79e7-4277-b148-e1833a36a616", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      location: "lib/tmdb.ts:discoverMoviesByGenreHighlyRated:entry",
+      message: "discover highly rated entry",
+      data: { genreId, page },
+      timestamp: Date.now(),
+      hypothesisId: "H4",
+    }),
+  }).catch(() => {});
+  // #endregion
+  const out = await fetchTmdb<TmdbDiscoverResponse>("/discover/movie", {
     with_genres: String(genreId),
-    "vote_average.gte": "8",
-    "vote_count.gte": "500",
+    "vote_average.gte": "7",
+    "vote_count.gte": "200",
     page: String(page),
     sort_by: "vote_count.desc",
   });
+  // #region agent log
+  fetch("http://127.0.0.1:7242/ingest/78e219bc-79e7-4277-b148-e1833a36a616", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      location: "lib/tmdb.ts:discoverMoviesByGenreHighlyRated:result",
+      message: "discover highly rated result",
+      data: { genreId, page, resultsLength: out.results?.length ?? 0, totalPages: out.total_pages },
+      timestamp: Date.now(),
+      hypothesisId: "H4",
+    }),
+  }).catch(() => {});
+  // #endregion
+  return out;
 }
 
 // --- Search (thematic discovery: "I want to see a movie that...") ---
