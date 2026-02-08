@@ -15,6 +15,7 @@ interface Proposal {
   discord_username?: string;
   created_at: string;
   vote_count: number;
+  has_voted?: boolean;
   title?: string;
   poster_url?: string;
 }
@@ -31,7 +32,9 @@ export function RoomPolls({ slug }: RoomPollsProps) {
   const sessionId = typeof window !== "undefined" ? getOrCreateSessionId() : "";
 
   function fetchProposals() {
-    fetch(`/api/rooms/${slug}/proposals`)
+    fetch(`/api/rooms/${slug}/proposals`, {
+      headers: sessionId ? { [SESSION_HEADER]: sessionId } : {},
+    })
       .then((r) => r.json())
       .then(setProposals)
       .finally(() => setLoading(false));
@@ -41,9 +44,9 @@ export function RoomPolls({ slug }: RoomPollsProps) {
     fetchProposals();
   }, [slug]);
 
-  async function vote(proposalId: string) {
+  async function toggleVote(proposalId: string, currentlyVoted: boolean) {
     const res = await fetch(`/api/rooms/${slug}/proposals/${proposalId}/vote`, {
-      method: "POST",
+      method: currentlyVoted ? "DELETE" : "POST",
       headers: { [SESSION_HEADER]: sessionId },
     });
     if (res.ok) fetchProposals();
@@ -132,10 +135,16 @@ export function RoomPolls({ slug }: RoomPollsProps) {
               </div>
               <button
                 type="button"
-                onClick={() => vote(p.id)}
-                className="rounded bg-neutral-200 px-2 py-1 text-sm dark:bg-neutral-700"
+                onClick={() => toggleVote(p.id, p.has_voted ?? false)}
+                title={p.has_voted ? "Take back your upvote" : "Upvote"}
+                className={`rounded px-2 py-1 text-sm ${
+                  p.has_voted
+                    ? "bg-sky-200 text-sky-800 dark:bg-sky-900/50 dark:text-sky-200 hover:bg-sky-300 dark:hover:bg-sky-800/50"
+                    : "bg-neutral-200 dark:bg-neutral-700 hover:bg-neutral-300 dark:hover:bg-neutral-600"
+                }`}
               >
                 ↑ {p.vote_count}
+                {p.has_voted ? " ✓" : ""}
               </button>
             </li>
           ))}
