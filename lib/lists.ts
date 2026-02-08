@@ -21,6 +21,11 @@ export interface ListDefinition {
   icheckMoviesOnly?: boolean;
 }
 
+/** Known direct source URLs for lists that don't have [url=...] in the CSV (e.g. IMDb Top 250). */
+const KNOWN_DIRECT_SOURCES: Record<string, string> = {
+  "IMDb's Top 250": "https://www.imdb.com/chart/top/",
+};
+
 /** Legacy slugs for lists that have existing .json files under a different name */
 const LEGACY_SLUG_MAP: Record<string, string> = {
   "imdbs-top-250": "imdb-top-250",
@@ -39,7 +44,10 @@ export async function getListDefinitions(): Promise<ListDefinition[]> {
   const rows = await getOfficialListsFromCsv();
   const withMeta = rows.map((row, i) => {
     const slug = slugFromListUrl(row.url) || `list-${i + 1}`;
-    const hasDirect = row.directSourceUrl.length > 0;
+    const directUrl = row.directSourceUrl.length > 0
+      ? row.directSourceUrl
+      : (KNOWN_DIRECT_SOURCES[row.name] ?? "");
+    const hasDirect = directUrl.length > 0;
     const hasDescription = (row.description ?? "").trim().length > 0;
     return {
       id: slug,
@@ -47,7 +55,7 @@ export async function getListDefinitions(): Promise<ListDefinition[]> {
       slug,
       source: "icheckmovies",
       description: row.description || undefined,
-      sourceUrl: hasDirect ? row.directSourceUrl : (row.url || undefined),
+      sourceUrl: hasDirect ? directUrl : (row.url || undefined),
       icheckMoviesOnly: !hasDirect,
       _sortFirst: hasDirect && hasDescription,
     };
