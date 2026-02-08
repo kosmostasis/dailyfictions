@@ -1,0 +1,12 @@
+[
+  {"id": "imdb-top-250", "name": "IMDb Top 250", "slug": "imdb-top-250", "source": "icheckmovies", "description": "The most popular movies by IMDb voters."},
+  {"id": "reddit-top-250", "name": "Reddit Top 250", "slug": "reddit-top-250", "source": "icheckmovies", "description": "Top 250 from reddit.com/r/movies."},
+  {"id": "1001-movies", "name": "1001 Movies You Must See Before You Die", "slug": "1001-movies", "source": "icheckmovies", "description": "Film reference book by critics worldwide."},
+  {"id": "tspdt-1000", "name": "TSPDT's 1,000 Greatest Films", "slug": "tspdt-1000", "source": "icheckmovies", "description": "They Shoot Pictures, Don't They? canonical list."},
+  {"id": "oscar-best-picture", "name": "Academy Award - Best Picture", "slug": "oscar-best-picture", "source": "icheckmovies", "description": "Every Best Picture Oscar winner."},
+  {"id": "criterion", "name": "The Criterion Collection", "slug": "criterion", "source": "icheckmovies", "description": "Criterion's curated classics."},
+  {"id": "roger-ebert", "name": "Roger Ebert's Great Movies", "slug": "roger-ebert", "source": "icheckmovies", "description": "Ebert's best films of all time."},
+  {"id": "afi-100", "name": "AFI's 100 Years...100 Movies", "slug": "afi-100", "source": "icheckmovies", "description": "American Film Institute's century list."},
+  {"id": "imdb-sci-fi-50", "name": "IMDb's Sci-Fi Top 50", "slug": "imdb-sci-fi-50", "source": "icheckmovies", "description": "Top 50 sci-fi films."},
+  {"id": "cannes-palme", "name": "Cannes Film Festival - Palme d'Or", "slug": "cannes-palme", "source": "icheckmovies", "description": "Palme d'Or winners."}
+]
