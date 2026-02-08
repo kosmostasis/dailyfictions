@@ -22,9 +22,11 @@ interface Proposal {
 
 interface RoomPollsProps {
   slug: string;
+  /** When this changes, proposals are refetched (e.g. after a new proposal is added). */
+  refreshTrigger?: number;
 }
 
-export function RoomPolls({ slug }: RoomPollsProps) {
+export function RoomPolls({ slug, refreshTrigger = 0 }: RoomPollsProps) {
   const [proposals, setProposals] = useState<Proposal[]>([]);
   const [loading, setLoading] = useState(true);
   const [lockLoading, setLockLoading] = useState(false);
@@ -42,7 +44,7 @@ export function RoomPolls({ slug }: RoomPollsProps) {
 
   useEffect(() => {
     fetchProposals();
-  }, [slug]);
+  }, [slug, refreshTrigger]);
 
   async function toggleVote(proposalId: string, currentlyVoted: boolean) {
     const res = await fetch(`/api/rooms/${slug}/proposals/${proposalId}/vote`, {
