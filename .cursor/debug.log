@@ -448,3 +448,51 @@
 {"location":"lib/tmdb.ts:getApiKey","message":"getApiKey check","data":{"keyPresent":true,"keyLength":32},"timestamp":1770557915115,"hypothesisId":"H1"}
 {"location":"lib/tmdb.ts:getApiKey","message":"getApiKey check","data":{"keyPresent":true,"keyLength":32},"timestamp":1770557915116,"hypothesisId":"H1"}
 {"location":"lib/tmdb.ts:getApiKey","message":"getApiKey check","data":{"keyPresent":true,"keyLength":32},"timestamp":1770557915116,"hypothesisId":"H1"}
+{"location":"app/rooms/[slug]/page.tsx:getMovies:entry","message":"getMovies entry","data":{"slug":"drama"},"timestamp":1770558026491,"hypothesisId":"H2"}
+{"location":"app/rooms/[slug]/page.tsx:getMovies:beforeDiscover","message":"before discover","data":{"slug":"drama","genreId":18,"page":3},"timestamp":1770558026491,"hypothesisId":"H4"}
+{"location":"lib/tmdb.ts:discoverMoviesByGenreHighlyRated:entry","message":"discover highly rated entry","data":{"genreId":18,"page":3},"timestamp":1770558026492,"hypothesisId":"H4"}
+{"location":"lib/tmdb.ts:getApiKey","message":"getApiKey check","data":{"keyPresent":true,"keyLength":32},"timestamp":1770558026492,"hypothesisId":"H1"}
+{"location":"lib/tmdb.ts:discoverMoviesByGenreHighlyRated:result","message":"discover highly rated result","data":{"genreId":18,"page":3,"resultsLength":20,"totalPages":132},"timestamp":1770558026507,"hypothesisId":"H4"}
+{"location":"app/rooms/[slug]/page.tsx:getMovies:afterDiscover","message":"after discover","data":{"slug":"drama","genreId":18,"page":3,"resultsCount":20,"totalPages":132,"returnedCount":20},"timestamp":1770558026511,"hypothesisId":"H4","runId":"post-fix"}
+{"location":"lib/tmdb.ts:getApiKey","message":"getApiKey check","data":{"keyPresent":true,"keyLength":32},"timestamp":1770558027360,"hypothesisId":"H1"}
+{"location":"lib/tmdb.ts:getApiKey","message":"getApiKey check","data":{"keyPresent":true,"keyLength":32},"timestamp":1770558030632,"hypothesisId":"H1"}
+{"location":"lib/tmdb.ts:getApiKey","message":"getApiKey check","data":{"keyPresent":true,"keyLength":32},"timestamp":1770558030633,"hypothesisId":"H1"}
+{"location":"lib/tmdb.ts:getApiKey","message":"getApiKey check","data":{"keyPresent":true,"keyLength":32},"timestamp":1770558030634,"hypothesisId":"H1"}
+{"location":"app/rooms/[slug]/page.tsx:getMovies:entry","message":"getMovies entry","data":{"slug":"drama"},"timestamp":1770558049595,"hypothesisId":"H2"}
+{"location":"app/rooms/[slug]/page.tsx:getMovies:beforeDiscover","message":"before discover","data":{"slug":"drama","genreId":18,"page":3},"timestamp":1770558049596,"hypothesisId":"H4"}
+{"location":"lib/tmdb.ts:discoverMoviesByGenreHighlyRated:entry","message":"discover highly rated entry","data":{"genreId":18,"page":3},"timestamp":1770558049597,"hypothesisId":"H4"}
+{"location":"lib/tmdb.ts:getApiKey","message":"getApiKey check","data":{"keyPresent":true,"keyLength":32},"timestamp":1770558049598,"hypothesisId":"H1"}
+{"location":"lib/tmdb.ts:discoverMoviesByGenreHighlyRated:result","message":"discover highly rated result","data":{"genreId":18,"page":3,"resultsLength":20,"totalPages":132},"timestamp":1770558049622,"hypothesisId":"H4"}
+{"location":"app/rooms/[slug]/page.tsx:getMovies:afterDiscover","message":"after discover","data":{"slug":"drama","genreId":18,"page":3,"resultsCount":20,"totalPages":132,"returnedCount":20},"timestamp":1770558049625,"hypothesisId":"H4","runId":"post-fix"}
+{"location":"app/rooms/[slug]/page.tsx:getMovies:entry","message":"getMovies entry","data":{"slug":"drama"},"timestamp":1770558300394,"hypothesisId":"H2"}
+{"location":"app/rooms/[slug]/page.tsx:getMovies:beforeDiscover","message":"before discover","data":{"slug":"drama","genreId":18,"page":3},"timestamp":1770558300396,"hypothesisId":"H4"}
+{"location":"lib/tmdb.ts:getApiKey","message":"getApiKey check","data":{"keyPresent":true,"keyLength":32},"timestamp":1770558300397,"hypothesisId":"H1"}
+{"location":"lib/tmdb.ts:discoverMoviesByGenreHighlyRated:entry","message":"discover highly rated entry","data":{"genreId":18,"page":3},"timestamp":1770558300398,"hypothesisId":"H4"}
+{"location":"lib/tmdb.ts:getApiKey","message":"getApiKey check","data":{"keyPresent":true,"keyLength":32},"timestamp":1770558300399,"hypothesisId":"H1"}
+{"location":"lib/tmdb.ts:discoverMoviesByGenreHighlyRated:result","message":"discover highly rated result","data":{"genreId":18,"page":3,"resultsLength":20,"totalPages":132},"timestamp":1770558300423,"hypothesisId":"H4"}
+{"location":"app/rooms/[slug]/page.tsx:getMovies:afterDiscover","message":"after discover","data":{"slug":"drama","genreId":18,"page":3,"resultsCount":20,"totalPages":132,"returnedCount":20},"timestamp":1770558300427,"hypothesisId":"H4","runId":"post-fix"}
+{"location":"lib/tmdb.ts:getApiKey","message":"getApiKey check","data":{"keyPresent":true,"keyLength":32},"timestamp":1770558301709,"hypothesisId":"H1"}
+{"location":"lib/tmdb.ts:getApiKey","message":"getApiKey check","data":{"keyPresent":true,"keyLength":32},"timestamp":1770558307649,"hypothesisId":"H1"}
+{"location":"lib/tmdb.ts:getApiKey","message":"getApiKey check","data":{"keyPresent":true,"keyLength":32},"timestamp":1770558307654,"hypothesisId":"H1"}
+{"location":"lib/tmdb.ts:getApiKey","message":"getApiKey check","data":{"keyPresent":true,"keyLength":32},"timestamp":1770558308428,"hypothesisId":"H1"}
+{"location":"lib/tmdb.ts:getApiKey","message":"getApiKey check","data":{"keyPresent":true,"keyLength":32},"timestamp":1770558308774,"hypothesisId":"H1"}
+{"location":"lib/tmdb.ts:getApiKey","message":"getApiKey check","data":{"keyPresent":true,"keyLength":32},"timestamp":1770558311813,"hypothesisId":"H1"}
+{"location":"lib/tmdb.ts:getApiKey","message":"getApiKey check","data":{"keyPresent":true,"keyLength":32},"timestamp":1770558319023,"hypothesisId":"H1"}
+{"location":"lib/tmdb.ts:getApiKey","message":"getApiKey check","data":{"keyPresent":true,"keyLength":32},"timestamp":1770558319024,"hypothesisId":"H1"}
+{"location":"lib/tmdb.ts:getApiKey","message":"getApiKey check","data":{"keyPresent":true,"keyLength":32},"timestamp":1770558319025,"hypothesisId":"H1"}
+{"location":"lib/tmdb.ts:getApiKey","message":"getApiKey check","data":{"keyPresent":true,"keyLength":32},"timestamp":1770558319025,"hypothesisId":"H1"}
+{"location":"lib/tmdb.ts:getApiKey","message":"getApiKey check","data":{"keyPresent":true,"keyLength":32},"timestamp":1770558319026,"hypothesisId":"H1"}
+{"location":"lib/tmdb.ts:getApiKey","message":"getApiKey check","data":{"keyPresent":true,"keyLength":32},"timestamp":1770558319027,"hypothesisId":"H1"}
+{"location":"lib/tmdb.ts:getApiKey","message":"getApiKey check","data":{"keyPresent":true,"keyLength":32},"timestamp":1770558319029,"hypothesisId":"H1"}
+{"location":"lib/tmdb.ts:getApiKey","message":"getApiKey check","data":{"keyPresent":true,"keyLength":32},"timestamp":1770558319030,"hypothesisId":"H1"}
+{"location":"lib/tmdb.ts:getApiKey","message":"getApiKey check","data":{"keyPresent":true,"keyLength":32},"timestamp":1770558325212,"hypothesisId":"H1"}
+{"location":"lib/tmdb.ts:getApiKey","message":"getApiKey check","data":{"keyPresent":true,"keyLength":32},"timestamp":1770558325213,"hypothesisId":"H1"}
+{"location":"lib/tmdb.ts:getApiKey","message":"getApiKey check","data":{"keyPresent":true,"keyLength":32},"timestamp":1770558325213,"hypothesisId":"H1"}
+{"location":"lib/tmdb.ts:getApiKey","message":"getApiKey check","data":{"keyPresent":true,"keyLength":32},"timestamp":1770558325214,"hypothesisId":"H1"}
+{"location":"lib/tmdb.ts:getApiKey","message":"getApiKey check","data":{"keyPresent":true,"keyLength":32},"timestamp":1770558330802,"hypothesisId":"H1"}
+{"location":"lib/tmdb.ts:getApiKey","message":"getApiKey check","data":{"keyPresent":true,"keyLength":32},"timestamp":1770558330803,"hypothesisId":"H1"}
+{"location":"lib/tmdb.ts:getApiKey","message":"getApiKey check","data":{"keyPresent":true,"keyLength":32},"timestamp":1770558330803,"hypothesisId":"H1"}
+{"location":"lib/tmdb.ts:getApiKey","message":"getApiKey check","data":{"keyPresent":true,"keyLength":32},"timestamp":1770558330804,"hypothesisId":"H1"}
+{"location":"lib/tmdb.ts:getApiKey","message":"getApiKey check","data":{"keyPresent":true,"keyLength":32},"timestamp":1770558330805,"hypothesisId":"H1"}
+{"location":"lib/tmdb.ts:getApiKey","message":"getApiKey check","data":{"keyPresent":true,"keyLength":32},"timestamp":1770558330805,"hypothesisId":"H1"}
+{"location":"lib/tmdb.ts:getApiKey","message":"getApiKey check","data":{"keyPresent":true,"keyLength":32},"timestamp":1770558330806,"hypothesisId":"H1"}
