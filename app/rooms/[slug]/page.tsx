@@ -173,16 +173,16 @@ export default async function RoomPage({
         </div>
 
         {locked && (
-          <section className="mb-8 rounded-lg border-2 border-amber-500/50 bg-amber-50/50 p-5 dark:border-amber-400/30 dark:bg-amber-950/30">
-            <h2 className="mb-2 text-sm font-medium uppercase tracking-wider text-amber-800 dark:text-amber-200">
+          <section className={`mb-8 rounded-lg border-2 p-5 ${theme.accent.pickSection}`}>
+            <h2 className={`mb-2 text-sm font-medium uppercase tracking-wider ${theme.accent.pickHeading}`}>
               Tonight&apos;s pick
             </h2>
-            <p className="mb-3 font-medium text-amber-900 dark:text-amber-100">
+            <p className={`mb-3 font-medium ${theme.accent.pickTitle}`}>
               {locked.title ?? `Movie #${locked.tmdb_movie_id}`}
             </p>
             <Link
               href={`/movie/${locked.tmdb_movie_id}`}
-              className="inline-flex items-center gap-2 rounded-md bg-amber-600 px-4 py-2 text-sm font-medium text-white shadow-sm transition hover:bg-amber-500 dark:bg-amber-500 dark:hover:bg-amber-400"
+              className={`inline-flex items-center gap-2 rounded-md px-4 py-2 text-sm font-medium ${theme.accent.ctaButton}`}
             >
               We&apos;re watching this →
             </Link>
