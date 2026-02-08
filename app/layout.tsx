@@ -39,13 +39,38 @@ export default async function RootLayout({
               >
                 Lists
               </Link>
+              <Link
+                href="/polls"
+                className="rounded-md px-2 py-1.5 text-sm text-neutral-600 hover:bg-neutral-100 hover:text-neutral-900 dark:text-neutral-400 dark:hover:bg-neutral-800 dark:hover:text-neutral-100"
+              >
+                Polls
+              </Link>
               <ThemeToggle />
             </nav>
           </div>
         </header>
         <main>{children}</main>
         <footer className="mt-auto border-t border-neutral-200 py-3 dark:border-neutral-800">
-          <div className="mx-auto flex max-w-6xl justify-end px-4">
+          <div className="mx-auto flex max-w-6xl flex-col items-end gap-2 px-4 sm:flex-row sm:justify-between sm:items-center">
+            <p className="text-sm text-neutral-500 dark:text-neutral-400">
+              <a
+                href="https://github.com/kosmostasis/dailyfictions"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:underline"
+              >
+                Coded with &lt;3
+              </a>
+              {" by "}
+              <a
+                href="https://x.com/kosmostasis"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:underline"
+              >
+                kosmostasis#1984
+              </a>
+            </p>
             <RegionSelector initialRegion={watchRegion} />
           </div>
         </footer>
