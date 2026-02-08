@@ -10,8 +10,7 @@ import {
   getMovieDetails,
   posterUrl,
 } from "@/lib/tmdb";
-import { RoomPolls } from "./RoomPolls";
-import { RoomProposeForm } from "./RoomProposeForm";
+import { RoomPollSection } from "./RoomPollSection";
 import { RoomGenreDropdown } from "./RoomGenreDropdown";
 import { GenreIcon } from "@/components/GenreIcon";
 
@@ -189,9 +188,7 @@ export default async function RoomPage({
           </section>
         )}
 
-        <RoomPolls slug={slug} />
-
-        <RoomProposeForm slug={slug} />
+        <RoomPollSection slug={slug} />
 
         <section className="mt-10">
           <h2 className="mb-4 text-sm font-medium uppercase tracking-wider opacity-70">
