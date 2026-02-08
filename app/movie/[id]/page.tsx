@@ -197,7 +197,7 @@ export default async function MoviePage({
               rel="noopener noreferrer"
               className="inline-block text-sm text-sky-600 underline dark:text-sky-400"
             >
-              Discuss on TMDB
+              TMDB
             </a>
             {movie.imdb_id && (
               <a
@@ -209,6 +209,14 @@ export default async function MoviePage({
                 IMDb
               </a>
             )}
+            <a
+              href={`https://www.rottentomatoes.com/search?search=${encodeURIComponent(movie.title)}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block text-sm text-sky-600 underline dark:text-sky-400"
+            >
+              Rotten Tomatoes
+            </a>
             <a
               href={`https://letterboxd.com/search/${encodeURIComponent(movie.title)}/`}
               target="_blank"
