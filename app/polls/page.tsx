@@ -2,6 +2,7 @@ import Link from "next/link";
 import { ROOMS, ROOM_SLUGS } from "@/lib/constants";
 import { listProposals, listVotes } from "@/lib/polls";
 import { getConfig, getMovieDetails, posterUrl } from "@/lib/tmdb";
+import { ProposalVoteButton } from "@/components/ProposalVoteButton";
 
 const MIN_VOTES_FOR_MAIN = 5;
 
@@ -60,10 +61,13 @@ export default async function PollsOverviewPage() {
               const movie = detailsById[p.tmdb_movie_id];
               const poster = movie ? posterUrl(baseUrl, movie.poster_path) : "";
               return (
-                <li key={p.id}>
+                <li
+                  key={p.id}
+                  className="flex gap-3 rounded-lg border border-neutral-200 bg-white/80 p-3 transition hover:shadow dark:border-neutral-700 dark:bg-neutral-900/50"
+                >
                   <Link
                     href={`/movie/${p.tmdb_movie_id}`}
-                    className="flex gap-3 rounded-lg border border-neutral-200 bg-white/80 p-3 transition hover:shadow dark:border-neutral-700 dark:bg-neutral-900/50"
+                    className="flex min-w-0 flex-1 gap-3"
                   >
                     <div className="h-20 w-14 shrink-0 overflow-hidden rounded bg-neutral-200 dark:bg-neutral-700">
                       {poster ? (
@@ -75,10 +79,15 @@ export default async function PollsOverviewPage() {
                     <div className="min-w-0 flex-1">
                       <p className="font-medium truncate">{movie?.title ?? `#${p.tmdb_movie_id}`}</p>
                       <p className="text-xs text-neutral-500 dark:text-neutral-400">
-                        {p.room_name} · ↑ {p.vote_count}
+                        {p.room_name}
                       </p>
                     </div>
                   </Link>
+                  <ProposalVoteButton
+                    proposalId={p.id}
+                    roomSlug={p.room_slug}
+                    voteCount={p.vote_count}
+                  />
                 </li>
               );
             })}
@@ -139,9 +148,11 @@ export default async function PollsOverviewPage() {
                           >
                             {movie?.title ?? `#${p.tmdb_movie_id}`}
                           </Link>
-                          <span className="text-xs text-neutral-500 dark:text-neutral-400">
-                            ↑ {p.vote_count}
-                          </span>
+                          <ProposalVoteButton
+                            proposalId={p.id}
+                            roomSlug={slug}
+                            voteCount={p.vote_count}
+                          />
                         </li>
                       );
                     })}
