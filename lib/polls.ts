@@ -91,6 +91,11 @@ export async function getVoteCount(proposalId: string): Promise<number> {
   return votes.filter((v) => v.proposal_id === proposalId).length;
 }
 
+export async function hasVoted(proposalId: string, sessionId: string): Promise<boolean> {
+  const votes = (await readJson<Vote[]>("votes.json")) ?? [];
+  return votes.some((v) => v.proposal_id === proposalId && v.session_id === sessionId);
+}
+
 export async function addVote(proposalId: string, sessionId: string): Promise<boolean> {
   const votes = (await readJson<Vote[]>("votes.json")) ?? [];
   if (votes.some((v) => v.proposal_id === proposalId && v.session_id === sessionId))
