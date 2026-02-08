@@ -27,10 +27,11 @@ Open [http://localhost:3000](http://localhost:3000). Code changes hot-reload.
 
 ## Environment
 
-Copy `.env.example` to `.env` and add your TMDB API key:
+Copy `.env.example` to `.env`:
 
-- Get a key: **[https://www.themoviedb.org/settings/api](https://www.themoviedb.org/settings/api)**
-- Do **not** commit `.env` or put a real key in the repo.
+- **TMDB_API_KEY** (required): [themoviedb.org/settings/api](https://www.themoviedb.org/settings/api)
+- **AI_GATEWAY_API_KEY** (optional): for Discover chat. Vercel gives $5/month free credit (team → AI Gateway). If unset, Discover chat shows an error when used.
+- Do **not** commit `.env` or put real keys in the repo.
 
 ## Stack
 
@@ -40,7 +41,7 @@ Room and director config: `lib/constants.ts`. List definitions: `lib/lists.ts`.
 
 ## Deploy
 
-- **Vercel:** Link the repo, set `TMDB_API_KEY` in Environment Variables, then deploy. Build: `npm run build`; output: default.
+- **Vercel:** Link the repo, set `TMDB_API_KEY` (required) and optionally `AI_GATEWAY_API_KEY` (Discover chat) in Environment Variables, then deploy. Build: `npm run build`; output: default.
 - **Docker:** From project root: `docker build -t dailyfictions .` (use a Dockerfile that runs `npm ci && npm run build && npm start` with Node 20+). Run with `TMDB_API_KEY` in the environment.
 - Ensure `npm run build` passes before deploying.
 
