@@ -30,7 +30,7 @@ Open [http://localhost:3000](http://localhost:3000). Code changes hot-reload.
 Copy `.env.example` to `.env`:
 
 - **TMDB_API_KEY** (required): [themoviedb.org/settings/api](https://www.themoviedb.org/settings/api)
-- **AI_GATEWAY_API_KEY** (optional): for Discover chat. Vercel gives $5/month free credit (team → AI Gateway). If unset, Discover chat shows an error when used.
+- **AI_GATEWAY_API_KEY** (optional): for Discover chat (Mistral via Vercel AI Gateway). If unset, Discover chat shows an error when used.
 - Do **not** commit `.env` or put real keys in the repo.
 
 ## Stack
