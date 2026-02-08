@@ -12,6 +12,8 @@ import {
 } from "@/lib/tmdb";
 import { RoomPolls } from "./RoomPolls";
 import { RoomProposeForm } from "./RoomProposeForm";
+import { RoomGenreDropdown } from "./RoomGenreDropdown";
+import { GenreIcon } from "@/components/GenreIcon";
 
 /** Day-based seed so "In this room we could watch" cycles over time (new page each day). */
 function getCyclePage(): number {
@@ -82,8 +84,12 @@ export default async function RoomPage({
   return (
     <div className={`min-h-screen ${themeClass}`}>
       <div className="mx-auto max-w-6xl px-4 py-8">
-        <div className="mb-8">
-          <h1 className="text-3xl font-medium tracking-tight">{room.name}</h1>
+        <div className="mb-8 flex flex-wrap items-center gap-4">
+          <h1 className="flex items-center gap-2">
+            <GenreIcon slug={slug} />
+            <span className="sr-only">{room.name}</span>
+          </h1>
+          <RoomGenreDropdown currentSlug={slug} />
         </div>
 
         {locked && (
