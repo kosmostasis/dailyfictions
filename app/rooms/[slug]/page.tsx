@@ -22,22 +22,102 @@ function getCyclePage(): number {
 }
 
 async function getMovies(slug: string) {
+  // #region agent log
+  fetch("http://127.0.0.1:7242/ingest/78e219bc-79e7-4277-b148-e1833a36a616", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      location: "app/rooms/[slug]/page.tsx:getMovies:entry",
+      message: "getMovies entry",
+      data: { slug },
+      timestamp: Date.now(),
+      hypothesisId: "H2",
+    }),
+  }).catch(() => {});
+  // #endregion
   const genreId = getGenreIdForRoom(slug);
-  if (genreId == null) return null;
+  if (genreId == null) {
+    // #region agent log
+    fetch("http://127.0.0.1:7242/ingest/78e219bc-79e7-4277-b148-e1833a36a616", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        location: "app/rooms/[slug]/page.tsx:getMovies:genreNull",
+        message: "genreId is null, returning null",
+        data: { slug },
+        timestamp: Date.now(),
+        hypothesisId: "H2",
+      }),
+    }).catch(() => {});
+    // #endregion
+    return null;
+  }
   try {
-    const page = getCyclePage();
-    const [config, discover] = await Promise.all([
+    const cyclePage = getCyclePage();
+    // #region agent log
+    fetch("http://127.0.0.1:7242/ingest/78e219bc-79e7-4277-b148-e1833a36a616", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        location: "app/rooms/[slug]/page.tsx:getMovies:beforeDiscover",
+        message: "before discover",
+        data: { slug, genreId, page: cyclePage },
+        timestamp: Date.now(),
+        hypothesisId: "H4",
+      }),
+    }).catch(() => {});
+    // #endregion
+    let [config, discover] = await Promise.all([
       getConfig(),
-      discoverMoviesByGenreHighlyRated(genreId, page),
+      discoverMoviesByGenreHighlyRated(genreId, cyclePage),
     ]);
+    // When cycle page exceeds total_pages, TMDB returns empty results. Wrap to a valid page.
+    if (discover.results.length === 0 && discover.total_pages >= 1) {
+      const safePage = ((cyclePage - 1) % discover.total_pages) + 1;
+      discover = await discoverMoviesByGenreHighlyRated(genreId, safePage);
+    }
+    const count = discover.results.length;
+    const slice = discover.results.slice(0, 20);
+    // #region agent log
+    fetch("http://127.0.0.1:7242/ingest/78e219bc-79e7-4277-b148-e1833a36a616", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        location: "app/rooms/[slug]/page.tsx:getMovies:afterDiscover",
+        message: "after discover",
+        data: { slug, genreId, page: cyclePage, resultsCount: count, totalPages: discover.total_pages, returnedCount: slice.length },
+        timestamp: Date.now(),
+        hypothesisId: "H4",
+        runId: "post-fix",
+      }),
+    }).catch(() => {});
+    // #endregion
     const baseUrl = config.images.secure_base_url;
-    return discover.results.slice(0, 20).map((m) => ({
+    return slice.map((m) => ({
       id: m.id,
       title: m.title,
       posterUrl: posterUrl(baseUrl, m.poster_path),
       releaseDate: m.release_date ?? "",
     }));
-  } catch {
+  } catch (err) {
+    // #region agent log
+    fetch("http://127.0.0.1:7242/ingest/78e219bc-79e7-4277-b148-e1833a36a616", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        location: "app/rooms/[slug]/page.tsx:getMovies:catch",
+        message: "getMovies threw",
+        data: {
+          slug,
+          genreId,
+          errorMessage: err instanceof Error ? err.message : String(err),
+        },
+        timestamp: Date.now(),
+        hypothesisId: "H1",
+        runId: "H3",
+      }),
+    }).catch(() => {});
+    // #endregion
     return null;
   }
 }
