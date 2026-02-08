@@ -9,6 +9,8 @@ import {
   posterUrl,
 } from "@/lib/tmdb";
 import { WATCH_REGION_COOKIE, DEFAULT_WATCH_REGION } from "@/lib/regions";
+import { ROOMS } from "@/lib/constants";
+import { ProposeFilmBlock } from "./ProposeFilmBlock";
 
 function providerLogoUrl(baseUrl: string, logoPath: string | null): string {
   if (!logoPath) return "";
@@ -102,6 +104,8 @@ export default async function MoviePage({
             )}
           </div>
         </div>
+
+        <ProposeFilmBlock movieId={movieId} rooms={ROOMS.map((r) => ({ slug: r.slug, name: r.name }))} />
 
         <section className="mt-10">
           <h2 className="text-lg font-medium">Where to watch</h2>
