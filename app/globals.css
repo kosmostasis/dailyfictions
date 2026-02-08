@@ -36,3 +36,90 @@
     0 0 16px #0ea5e9,
     0 0 24px #0284c7;
 }
+
+/* ----- Typographic logo options (test page) ----- */
+
+/* Wes Anderson: vintage title card, centered serif, warm on cream */
+.logo-anderson {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.5rem, 4vw, 2.25rem);
+  font-weight: 600;
+  color: #92400e;
+  letter-spacing: 0.08em;
+  line-height: 1.3;
+}
+.dark .logo-anderson {
+  color: #fcd34d;
+}
+
+/* Wong Kar-Wai: neon sign, Hong Kong night */
+.logo-wong {
+  font-family: system-ui, sans-serif;
+  font-size: clamp(1.25rem, 3.5vw, 1.75rem);
+  font-weight: 700;
+  color: #fda4af;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-shadow:
+    0 0 8px #fda4af,
+    0 0 16px #e11d48,
+    0 0 24px #e11d48;
+}
+
+/* Jodorowsky: surreal, bold, mystical */
+.logo-jodorowsky {
+  font-family: system-ui, sans-serif;
+  font-size: clamp(1.35rem, 3.5vw, 1.9rem);
+  font-weight: 800;
+  color: #f0abfc;
+  letter-spacing: 0.02em;
+  text-shadow:
+    2px 2px 0 #a21caf,
+    4px 4px 0 rgba(0, 0, 0, 0.3);
+}
+
+/* Fellini: baroque, dreamlike */
+.logo-fellini {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.4rem, 3.5vw, 1.85rem);
+  font-weight: 600;
+  font-style: italic;
+  color: #5b21b6;
+  letter-spacing: 0.06em;
+}
+.dark .logo-fellini {
+  color: #c4b5fd;
+}
+
+/* PTA: minimal, elegant */
+.logo-pta {
+  font-family: system-ui, sans-serif;
+  font-size: clamp(1.2rem, 3vw, 1.6rem);
+  font-weight: 300;
+  color: #fafafa;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+}
+
+/* Herzog: raw documentary */
+.logo-herzog {
+  font-family: system-ui, sans-serif;
+  font-size: clamp(1.15rem, 2.8vw, 1.5rem);
+  font-weight: 500;
+  color: #fef3c7;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+/* Classic cinema marquee */
+.logo-marquee {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.35rem, 3.5vw, 1.9rem);
+  font-weight: 700;
+  color: #1c1917;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+.dark .logo-marquee {
+  color: #fafaf9;
+}
