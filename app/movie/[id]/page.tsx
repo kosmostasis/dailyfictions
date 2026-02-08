@@ -223,7 +223,7 @@ export default async function MoviePage({
               rel="noopener noreferrer"
               className="inline-block text-sm text-sky-600 underline dark:text-sky-400"
             >
-              Find on Letterboxd
+              Letterboxd
             </a>
           </div>
         </section>
