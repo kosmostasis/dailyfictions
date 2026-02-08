@@ -6,20 +6,27 @@ import { getLocked, getPlayed } from "@/lib/polls";
 import {
   getConfig,
   getGenreIdForRoom,
-  discoverMoviesByGenre,
+  discoverMoviesByGenreHighlyRated,
   getMovieDetails,
   posterUrl,
 } from "@/lib/tmdb";
 import { RoomPolls } from "./RoomPolls";
 import { RoomProposeForm } from "./RoomProposeForm";
 
+/** Day-based seed so "In this room we could watch" cycles over time (new page each day). */
+function getCyclePage(): number {
+  const dayIndex = Math.floor(Date.now() / 86400000);
+  return (dayIndex % 15) + 1; // pages 1–15
+}
+
 async function getMovies(slug: string) {
   const genreId = getGenreIdForRoom(slug);
   if (genreId == null) return null;
   try {
+    const page = getCyclePage();
     const [config, discover] = await Promise.all([
       getConfig(),
-      discoverMoviesByGenre(genreId, 1),
+      discoverMoviesByGenreHighlyRated(genreId, page),
     ]);
     const baseUrl = config.images.secure_base_url;
     return discover.results.slice(0, 20).map((m) => ({
