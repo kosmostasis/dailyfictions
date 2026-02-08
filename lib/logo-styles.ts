@@ -1,6 +1,6 @@
 /**
  * Typographic logo styles for "Daily Fictions Film Club" (director-inspired).
- * Used on homepage (cycle on refresh) and /test.
+ * Used on homepage (cycle on refresh).
  */
 
 export const LOGO_STYLES = [
