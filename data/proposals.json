@@ -36,5 +36,12 @@
     "pitch": "🔥",
     "discord_username": "kosmostasis#1984",
     "created_at": "2026-02-08T12:32:26.978Z"
+  },
+  {
+    "id": "73f8785e-0a79-4a77-8124-dba2e95f7828",
+    "room_slug": "documentary",
+    "tmdb_movie_id": 846892,
+    "pitch": "A mesmerizing, dreamlike portrait of humanity, where life unfolds like a circus from a balcony.",
+    "created_at": "2026-02-08T13:38:22.437Z"
   }
 ]
