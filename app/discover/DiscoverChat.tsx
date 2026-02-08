@@ -74,7 +74,14 @@ export function DiscoverChat() {
         api: "/api/chat",
         prepareSendMessagesRequest: (opts) => ({
           ...opts,
-          body: { ...opts.body, personaId: personaIdRef.current },
+          body: {
+            ...opts.body,
+            id: opts.id,
+            messages: opts.messages,
+            trigger: opts.trigger,
+            messageId: opts.messageId,
+            personaId: personaIdRef.current,
+          },
         }),
       }),
     []
