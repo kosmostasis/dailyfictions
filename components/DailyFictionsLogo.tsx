@@ -4,17 +4,18 @@
  */
 import type { RoomSlug } from "@/lib/constants";
 
+/** Clapper color per room: distinct and mood-matched (soft palettes key off these). */
 const ROOM_LOGO_CLASS: Record<RoomSlug, string> = {
-  comedy: "text-amber-600 dark:text-amber-400",
-  action: "text-slate-600 dark:text-slate-400",
-  horror: "text-rose-600 dark:text-rose-400",
-  drama: "text-violet-600 dark:text-violet-400",
-  "sci-fi": "text-sky-600 dark:text-sky-400",
-  fantasy: "text-fuchsia-600 dark:text-fuchsia-400",
-  romance: "text-red-600 dark:text-red-400",
-  thriller: "text-stone-600 dark:text-stone-400",
-  documentary: "text-emerald-600 dark:text-emerald-400",
-  animation: "text-teal-600 dark:text-teal-400",
+  comedy: "text-yellow-500 dark:text-yellow-400",       // warm, cheerful gold
+  action: "text-orange-500 dark:text-orange-400",        // punchy, high-energy
+  horror: "text-red-900 dark:text-red-400",              // dread / cold glow
+  drama: "text-violet-600 dark:text-violet-300",        // gravitas, rich
+  "sci-fi": "text-cyan-400 dark:text-cyan-300",          // cold, tech, space
+  fantasy: "text-fuchsia-500 dark:text-fuchsia-300",    // magical, surreal
+  romance: "text-rose-500 dark:text-rose-300",           // tender, warm
+  thriller: "text-zinc-500 dark:text-zinc-400",          // noir, tension
+  documentary: "text-emerald-600 dark:text-emerald-400", // natural, grounded
+  animation: "text-teal-500 dark:text-teal-300",         // playful, clear
 };
 
 export function DailyFictionsLogo({
