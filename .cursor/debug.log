@@ -1,0 +1,69 @@
+{"location":"app/rooms/[slug]/page.tsx:getMovies:entry","message":"getMovies entry","data":{"slug":"thriller"},"timestamp":1770557183804,"hypothesisId":"H2"}
+{"location":"app/rooms/[slug]/page.tsx:getMovies:beforeDiscover","message":"before discover","data":{"slug":"thriller","genreId":53,"page":3},"timestamp":1770557183805,"hypothesisId":"H4"}
+{"location":"lib/tmdb.ts:discoverMoviesByGenreHighlyRated:entry","message":"discover highly rated entry","data":{"genreId":53,"page":3},"timestamp":1770557183806,"hypothesisId":"H4"}
+{"location":"lib/tmdb.ts:getApiKey","message":"getApiKey check","data":{"keyPresent":true,"keyLength":32},"timestamp":1770557183807,"hypothesisId":"H1"}
+{"location":"lib/tmdb.ts:discoverMoviesByGenreHighlyRated:result","message":"discover highly rated result","data":{"genreId":53,"page":3,"resultsLength":20,"totalPages":39},"timestamp":1770557184550,"hypothesisId":"H4"}
+{"location":"app/rooms/[slug]/page.tsx:getMovies:afterDiscover","message":"after discover","data":{"slug":"thriller","genreId":53,"page":3,"resultsCount":20,"totalPages":39,"returnedCount":20},"timestamp":1770557184556,"hypothesisId":"H4","runId":"post-fix"}
+{"location":"lib/tmdb.ts:getApiKey","message":"getApiKey check","data":{"keyPresent":true,"keyLength":32},"timestamp":1770557184954,"hypothesisId":"H1"}
+{"location":"app/rooms/[slug]/page.tsx:getMovies:entry","message":"getMovies entry","data":{"slug":"thriller"},"timestamp":1770557185113,"hypothesisId":"H2"}
+{"location":"app/rooms/[slug]/page.tsx:getMovies:beforeDiscover","message":"before discover","data":{"slug":"thriller","genreId":53,"page":3},"timestamp":1770557185115,"hypothesisId":"H4"}
+{"location":"lib/tmdb.ts:discoverMoviesByGenreHighlyRated:entry","message":"discover highly rated entry","data":{"genreId":53,"page":3},"timestamp":1770557185116,"hypothesisId":"H4"}
+{"location":"lib/tmdb.ts:getApiKey","message":"getApiKey check","data":{"keyPresent":true,"keyLength":32},"timestamp":1770557185118,"hypothesisId":"H1"}
+{"location":"lib/tmdb.ts:discoverMoviesByGenreHighlyRated:result","message":"discover highly rated result","data":{"genreId":53,"page":3,"resultsLength":20,"totalPages":39},"timestamp":1770557185182,"hypothesisId":"H4"}
+{"location":"app/rooms/[slug]/page.tsx:getMovies:afterDiscover","message":"after discover","data":{"slug":"thriller","genreId":53,"page":3,"resultsCount":20,"totalPages":39,"returnedCount":20},"timestamp":1770557185187,"hypothesisId":"H4","runId":"post-fix"}
+{"location":"app/rooms/[slug]/page.tsx:getMovies:entry","message":"getMovies entry","data":{"slug":"documentary"},"timestamp":1770557188359,"hypothesisId":"H2"}
+{"location":"app/rooms/[slug]/page.tsx:getMovies:beforeDiscover","message":"before discover","data":{"slug":"documentary","genreId":99,"page":3},"timestamp":1770557188360,"hypothesisId":"H4"}
+{"location":"lib/tmdb.ts:discoverMoviesByGenreHighlyRated:entry","message":"discover highly rated entry","data":{"genreId":99,"page":3},"timestamp":1770557188360,"hypothesisId":"H4"}
+{"location":"lib/tmdb.ts:getApiKey","message":"getApiKey check","data":{"keyPresent":true,"keyLength":32},"timestamp":1770557188360,"hypothesisId":"H1"}
+{"location":"lib/tmdb.ts:discoverMoviesByGenreHighlyRated:result","message":"discover highly rated result","data":{"genreId":99,"page":3,"resultsLength":20,"totalPages":11},"timestamp":1770557188714,"hypothesisId":"H4"}
+{"location":"app/rooms/[slug]/page.tsx:getMovies:afterDiscover","message":"after discover","data":{"slug":"documentary","genreId":99,"page":3,"resultsCount":20,"totalPages":11,"returnedCount":20},"timestamp":1770557188717,"hypothesisId":"H4","runId":"post-fix"}
+{"location":"lib/tmdb.ts:getApiKey","message":"getApiKey check","data":{"keyPresent":true,"keyLength":32},"timestamp":1770557188781,"hypothesisId":"H1"}
+{"location":"lib/tmdb.ts:getApiKey","message":"getApiKey check","data":{"keyPresent":true,"keyLength":32},"timestamp":1770557188814,"hypothesisId":"H1"}
+{"location":"app/rooms/[slug]/page.tsx:getMovies:entry","message":"getMovies entry","data":{"slug":"animation"},"timestamp":1770557196032,"hypothesisId":"H2"}
+{"location":"app/rooms/[slug]/page.tsx:getMovies:beforeDiscover","message":"before discover","data":{"slug":"animation","genreId":16,"page":3},"timestamp":1770557196033,"hypothesisId":"H4"}
+{"location":"lib/tmdb.ts:discoverMoviesByGenreHighlyRated:entry","message":"discover highly rated entry","data":{"genreId":16,"page":3},"timestamp":1770557196034,"hypothesisId":"H4"}
+{"location":"lib/tmdb.ts:getApiKey","message":"getApiKey check","data":{"keyPresent":true,"keyLength":32},"timestamp":1770557196034,"hypothesisId":"H1"}
+{"location":"lib/tmdb.ts:discoverMoviesByGenreHighlyRated:result","message":"discover highly rated result","data":{"genreId":16,"page":3,"resultsLength":20,"totalPages":33},"timestamp":1770557196833,"hypothesisId":"H4"}
+{"location":"app/rooms/[slug]/page.tsx:getMovies:afterDiscover","message":"after discover","data":{"slug":"animation","genreId":16,"page":3,"resultsCount":20,"totalPages":33,"returnedCount":20},"timestamp":1770557196838,"hypothesisId":"H4","runId":"post-fix"}
+{"location":"lib/tmdb.ts:getApiKey","message":"getApiKey check","data":{"keyPresent":true,"keyLength":32},"timestamp":1770557196941,"hypothesisId":"H1"}
+{"location":"lib/tmdb.ts:getApiKey","message":"getApiKey check","data":{"keyPresent":true,"keyLength":32},"timestamp":1770557196963,"hypothesisId":"H1"}
+{"location":"app/rooms/[slug]/page.tsx:getMovies:entry","message":"getMovies entry","data":{"slug":"fantasy"},"timestamp":1770557201870,"hypothesisId":"H2"}
+{"location":"app/rooms/[slug]/page.tsx:getMovies:beforeDiscover","message":"before discover","data":{"slug":"fantasy","genreId":14,"page":3},"timestamp":1770557201870,"hypothesisId":"H4"}
+{"location":"lib/tmdb.ts:discoverMoviesByGenreHighlyRated:entry","message":"discover highly rated entry","data":{"genreId":14,"page":3},"timestamp":1770557201871,"hypothesisId":"H4"}
+{"location":"lib/tmdb.ts:getApiKey","message":"getApiKey check","data":{"keyPresent":true,"keyLength":32},"timestamp":1770557201872,"hypothesisId":"H1"}
+{"location":"lib/tmdb.ts:discoverMoviesByGenreHighlyRated:result","message":"discover highly rated result","data":{"genreId":14,"page":3,"resultsLength":20,"totalPages":27},"timestamp":1770557202633,"hypothesisId":"H4"}
+{"location":"app/rooms/[slug]/page.tsx:getMovies:afterDiscover","message":"after discover","data":{"slug":"fantasy","genreId":14,"page":3,"resultsCount":20,"totalPages":27,"returnedCount":20},"timestamp":1770557202641,"hypothesisId":"H4","runId":"post-fix"}
+{"location":"lib/tmdb.ts:getApiKey","message":"getApiKey check","data":{"keyPresent":true,"keyLength":32},"timestamp":1770557202726,"hypothesisId":"H1"}
+{"location":"lib/tmdb.ts:getApiKey","message":"getApiKey check","data":{"keyPresent":true,"keyLength":32},"timestamp":1770557202844,"hypothesisId":"H1"}
+{"location":"app/rooms/[slug]/page.tsx:getMovies:entry","message":"getMovies entry","data":{"slug":"sci-fi"},"timestamp":1770557205329,"hypothesisId":"H2"}
+{"location":"app/rooms/[slug]/page.tsx:getMovies:beforeDiscover","message":"before discover","data":{"slug":"sci-fi","genreId":878,"page":3},"timestamp":1770557205330,"hypothesisId":"H4"}
+{"location":"lib/tmdb.ts:discoverMoviesByGenreHighlyRated:entry","message":"discover highly rated entry","data":{"genreId":878,"page":3},"timestamp":1770557205331,"hypothesisId":"H4"}
+{"location":"lib/tmdb.ts:getApiKey","message":"getApiKey check","data":{"keyPresent":true,"keyLength":32},"timestamp":1770557205331,"hypothesisId":"H1"}
+{"location":"lib/tmdb.ts:discoverMoviesByGenreHighlyRated:result","message":"discover highly rated result","data":{"genreId":878,"page":3,"resultsLength":20,"totalPages":21},"timestamp":1770557205714,"hypothesisId":"H4"}
+{"location":"app/rooms/[slug]/page.tsx:getMovies:afterDiscover","message":"after discover","data":{"slug":"sci-fi","genreId":878,"page":3,"resultsCount":20,"totalPages":21,"returnedCount":20},"timestamp":1770557205717,"hypothesisId":"H4","runId":"post-fix"}
+{"location":"app/rooms/[slug]/page.tsx:getMovies:entry","message":"getMovies entry","data":{"slug":"drama"},"timestamp":1770557208028,"hypothesisId":"H2"}
+{"location":"app/rooms/[slug]/page.tsx:getMovies:beforeDiscover","message":"before discover","data":{"slug":"drama","genreId":18,"page":3},"timestamp":1770557208028,"hypothesisId":"H4"}
+{"location":"lib/tmdb.ts:discoverMoviesByGenreHighlyRated:entry","message":"discover highly rated entry","data":{"genreId":18,"page":3},"timestamp":1770557208029,"hypothesisId":"H4"}
+{"location":"lib/tmdb.ts:getApiKey","message":"getApiKey check","data":{"keyPresent":true,"keyLength":32},"timestamp":1770557208029,"hypothesisId":"H1"}
+{"location":"lib/tmdb.ts:discoverMoviesByGenreHighlyRated:result","message":"discover highly rated result","data":{"genreId":18,"page":3,"resultsLength":20,"totalPages":132},"timestamp":1770557208384,"hypothesisId":"H4"}
+{"location":"app/rooms/[slug]/page.tsx:getMovies:afterDiscover","message":"after discover","data":{"slug":"drama","genreId":18,"page":3,"resultsCount":20,"totalPages":132,"returnedCount":20},"timestamp":1770557208387,"hypothesisId":"H4","runId":"post-fix"}
+{"location":"app/rooms/[slug]/page.tsx:getMovies:entry","message":"getMovies entry","data":{"slug":"horror"},"timestamp":1770557211197,"hypothesisId":"H2"}
+{"location":"app/rooms/[slug]/page.tsx:getMovies:beforeDiscover","message":"before discover","data":{"slug":"horror","genreId":27,"page":3},"timestamp":1770557211197,"hypothesisId":"H4"}
+{"location":"lib/tmdb.ts:discoverMoviesByGenreHighlyRated:entry","message":"discover highly rated entry","data":{"genreId":27,"page":3},"timestamp":1770557211198,"hypothesisId":"H4"}
+{"location":"lib/tmdb.ts:getApiKey","message":"getApiKey check","data":{"keyPresent":true,"keyLength":32},"timestamp":1770557211199,"hypothesisId":"H1"}
+{"location":"lib/tmdb.ts:discoverMoviesByGenreHighlyRated:result","message":"discover highly rated result","data":{"genreId":27,"page":3,"resultsLength":20,"totalPages":13},"timestamp":1770557211577,"hypothesisId":"H4"}
+{"location":"app/rooms/[slug]/page.tsx:getMovies:afterDiscover","message":"after discover","data":{"slug":"horror","genreId":27,"page":3,"resultsCount":20,"totalPages":13,"returnedCount":20},"timestamp":1770557211580,"hypothesisId":"H4","runId":"post-fix"}
+{"location":"lib/tmdb.ts:getApiKey","message":"getApiKey check","data":{"keyPresent":true,"keyLength":32},"timestamp":1770557211655,"hypothesisId":"H1"}
+{"location":"lib/tmdb.ts:getApiKey","message":"getApiKey check","data":{"keyPresent":true,"keyLength":32},"timestamp":1770557211674,"hypothesisId":"H1"}
+{"location":"app/rooms/[slug]/page.tsx:getMovies:entry","message":"getMovies entry","data":{"slug":"action"},"timestamp":1770557215029,"hypothesisId":"H2"}
+{"location":"app/rooms/[slug]/page.tsx:getMovies:beforeDiscover","message":"before discover","data":{"slug":"action","genreId":28,"page":3},"timestamp":1770557215030,"hypothesisId":"H4"}
+{"location":"lib/tmdb.ts:discoverMoviesByGenreHighlyRated:entry","message":"discover highly rated entry","data":{"genreId":28,"page":3},"timestamp":1770557215030,"hypothesisId":"H4"}
+{"location":"lib/tmdb.ts:getApiKey","message":"getApiKey check","data":{"keyPresent":true,"keyLength":32},"timestamp":1770557215031,"hypothesisId":"H1"}
+{"location":"lib/tmdb.ts:discoverMoviesByGenreHighlyRated:result","message":"discover highly rated result","data":{"genreId":28,"page":3,"resultsLength":20,"totalPages":39},"timestamp":1770557215393,"hypothesisId":"H4"}
+{"location":"app/rooms/[slug]/page.tsx:getMovies:afterDiscover","message":"after discover","data":{"slug":"action","genreId":28,"page":3,"resultsCount":20,"totalPages":39,"returnedCount":20},"timestamp":1770557215396,"hypothesisId":"H4","runId":"post-fix"}
+{"location":"app/rooms/[slug]/page.tsx:getMovies:entry","message":"getMovies entry","data":{"slug":"comedy"},"timestamp":1770557218650,"hypothesisId":"H2"}
+{"location":"app/rooms/[slug]/page.tsx:getMovies:beforeDiscover","message":"before discover","data":{"slug":"comedy","genreId":35,"page":3},"timestamp":1770557218651,"hypothesisId":"H4"}
+{"location":"lib/tmdb.ts:discoverMoviesByGenreHighlyRated:entry","message":"discover highly rated entry","data":{"genreId":35,"page":3},"timestamp":1770557218651,"hypothesisId":"H4"}
+{"location":"lib/tmdb.ts:getApiKey","message":"getApiKey check","data":{"keyPresent":true,"keyLength":32},"timestamp":1770557218651,"hypothesisId":"H1"}
+{"location":"lib/tmdb.ts:discoverMoviesByGenreHighlyRated:result","message":"discover highly rated result","data":{"genreId":35,"page":3,"resultsLength":20,"totalPages":63},"timestamp":1770557219059,"hypothesisId":"H4"}
+{"location":"app/rooms/[slug]/page.tsx:getMovies:afterDiscover","message":"after discover","data":{"slug":"comedy","genreId":35,"page":3,"resultsCount":20,"totalPages":63,"returnedCount":20},"timestamp":1770557219067,"hypothesisId":"H4","runId":"post-fix"}
