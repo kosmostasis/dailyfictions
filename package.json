@@ -9,8 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@ai-sdk/mistral": "^3.0.19",
     "@ai-sdk/react": "^3.0.79",
     "ai": "^6.0.77",
+    "dotenv": "^17.2.4",
     "next": "^15.0.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
