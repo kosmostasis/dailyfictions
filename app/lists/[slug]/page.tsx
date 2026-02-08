@@ -38,8 +38,20 @@ export default async function ListDetailPage({
       <div className="mb-8">
         <h1 className="text-2xl font-medium tracking-tight">{list.name}</h1>
         {list.description && (
-          <p className="mt-1 text-sm text-neutral-500 dark:text-neutral-400">
+          <p className="mt-2 whitespace-pre-wrap text-sm text-neutral-500 dark:text-neutral-400">
             {list.description}
+          </p>
+        )}
+        {list.sourceUrl && (
+          <p className="mt-3">
+            <a
+              href={list.sourceUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm text-sky-600 underline dark:text-sky-400"
+            >
+              View list source on iCheckMovies →
+            </a>
           </p>
         )}
       </div>
