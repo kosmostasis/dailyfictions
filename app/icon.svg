@@ -1,0 +1,7 @@
+<svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Film clapper (centered): top stick, bottom board, slate, hinge -->
+  <rect x="2" y="6" width="28" height="5" rx="0.5" fill="#ea580c" fill-opacity="0.9"/>
+  <rect x="2" y="14" width="28" height="14" rx="1" fill="#ea580c" fill-opacity="0.95"/>
+  <rect x="6" y="16" width="20" height="10" rx="0.5" fill="#ea580c" fill-opacity="0.25"/>
+  <circle cx="6" cy="12" r="1.5" fill="#ea580c"/>
+</svg>
