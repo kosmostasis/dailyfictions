@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev --hostname 127.0.0.1 --port 3000",
-    "dev:safe": "sh -c 'ulimit -n 10240 2>/dev/null; exec next dev --hostname 127.0.0.1 --port 3000'",
+    "dev:safe": "WATCHPACK_POLLING=true next dev --hostname 127.0.0.1 --port 3000",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
