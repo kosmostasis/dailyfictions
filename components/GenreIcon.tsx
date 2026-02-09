@@ -108,4 +108,11 @@ const ICONS: Record<RoomSlug, React.ReactNode> = {
       <circle cx="16" cy="5" r="1" fill="currentColor" opacity="0.9" />
     </>
   ),
+  bollywood: (
+    <>
+      {/* Dancer / figure with arms up (song and dance) */}
+      <circle cx="12" cy="6" r="3" fill="none" stroke="currentColor" strokeWidth="1.2" />
+      <path d="M12 9 v6 M9 12 Q12 10 15 12 M8 18 Q12 14 16 18" stroke="currentColor" strokeWidth="1.2" fill="none" strokeLinecap="round" strokeLinejoin="round" />
+    </>
+  ),
 };
