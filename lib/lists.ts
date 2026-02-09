@@ -124,12 +124,14 @@ export async function getListDefinitions(): Promise<ListDefinition[]> {
       _hasMovies: (await getListMovieIds(item.slug)).length > 0,
     }))
   );
-  // Lists with JSON (12-film preview) first; then by direct source + description; pin-to-bottom last
+  // Lists with JSON (previews) first; among those, pin-to-bottom (e.g. Reddit Top 250) last; then by direct source + description
   withMovies.sort((a, b) => {
-    const aBottom = PIN_TO_BOTTOM_SLUGS.has(a.slug);
-    const bBottom = PIN_TO_BOTTOM_SLUGS.has(b.slug);
-    if (aBottom !== bBottom) return aBottom ? 1 : -1;
     if (a._hasMovies !== b._hasMovies) return a._hasMovies ? -1 : 1;
+    if (a._hasMovies && b._hasMovies) {
+      const aBottom = PIN_TO_BOTTOM_SLUGS.has(a.slug);
+      const bBottom = PIN_TO_BOTTOM_SLUGS.has(b.slug);
+      if (aBottom !== bBottom) return aBottom ? 1 : -1;
+    }
     return a._sortFirst === b._sortFirst ? 0 : a._sortFirst ? -1 : 1;
   });
   return withMovies.map(({ _sortFirst, _hasMovies, ...list }) => list);
