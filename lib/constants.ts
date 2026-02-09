@@ -13,7 +13,8 @@ export type RoomSlug =
   | "romance"
   | "thriller"
   | "documentary"
-  | "animation";
+  | "animation"
+  | "bollywood";
 
 export type DirectorKind = "named" | "aesthetic-only";
 
@@ -37,6 +38,7 @@ export const ROOM_SLUGS: RoomSlug[] = [
   "thriller",
   "documentary",
   "animation",
+  "bollywood",
 ];
 
 export const ROOMS: RoomConfig[] = [
@@ -50,6 +52,7 @@ export const ROOMS: RoomConfig[] = [
   { slug: "thriller", name: "Thriller", director: "Paul Thomas Anderson", directorKind: "named", tagline: "Imperfect realism" },
   { slug: "documentary", name: "Documentary", director: "Werner Herzog", directorKind: "named", tagline: "Ecstatic truth" },
   { slug: "animation", name: "Animation", director: "—", directorKind: "aesthetic-only", tagline: "Drawn worlds" },
+  { slug: "bollywood", name: "Bollywood", director: "—", directorKind: "aesthetic-only", tagline: "Song, dance, drama" },
 ];
 
 const bySlug = new Map<RoomSlug, RoomConfig>(ROOMS.map((r) => [r.slug, r]));
