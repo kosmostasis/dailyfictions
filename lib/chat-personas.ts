@@ -62,5 +62,5 @@ export function getChatPersona(id: string): ChatPersona | undefined {
 }
 
 export function getDefaultPersona(): ChatPersona {
-  return CHAT_PERSONAS[0];
+  return byId.get("anderson") ?? CHAT_PERSONAS[0];
 }
