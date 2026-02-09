@@ -55,6 +55,9 @@ export const ROOMS: RoomConfig[] = [
   { slug: "bollywood", name: "Bollywood", director: "—", directorKind: "aesthetic-only", tagline: "Song, dance, drama" },
 ];
 
+/** Room that displays the global #1 film (top vote across all rooms). Locked every Friday 4pm MYT. */
+export const MAIN_ROOM_SLUG: RoomSlug = "drama";
+
 const bySlug = new Map<RoomSlug, RoomConfig>(ROOMS.map((r) => [r.slug, r]));
 
 export function getRoomBySlug(slug: string): RoomConfig | undefined {
