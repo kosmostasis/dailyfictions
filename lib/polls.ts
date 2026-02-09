@@ -8,6 +8,7 @@
 import { readFile, writeFile } from "fs/promises";
 import path from "path";
 import { randomUUID } from "crypto";
+import { MAIN_ROOM_SLUG, ROOM_SLUGS } from "./constants";
 
 const DATA = path.join(process.cwd(), "data");
 
@@ -145,4 +146,59 @@ export async function setLocked(
 export async function getPlayed(roomSlug: string): Promise<PlayedEntry[]> {
   const played = (await readJson<Record<string, PlayedEntry[]>>("played.json")) ?? {};
   return played[roomSlug] ?? [];
+}
+
+/**
+ * Run weekly lock: every room gets its top-voted proposal locked; MAIN_ROOM_SLUG
+ * gets the global top-voted proposal (across all rooms). Call from cron Friday 4pm MYT.
+ */
+export async function runWeeklyLock(): Promise<{ locked: string[] }> {
+  const [proposalsList, votesList] = await Promise.all([
+    readJson<Proposal[]>("proposals.json"),
+    readJson<Vote[]>("votes.json"),
+  ]);
+  const proposals = proposalsList ?? [];
+  const votes = votesList ?? [];
+  const voteCount = (proposalId: string) =>
+    votes.filter((v) => v.proposal_id === proposalId).length;
+
+  const locked: string[] = [];
+
+  // Global winner: single proposal with most votes (any room)
+  const withCounts = proposals.map((p) => ({ p, count: voteCount(p.id) }));
+  const globalWinner = withCounts
+    .filter((x) => x.count > 0)
+    .sort((a, b) => b.count - a.count)[0];
+  if (globalWinner) {
+    await setLocked(
+      MAIN_ROOM_SLUG,
+      globalWinner.p.id,
+      globalWinner.p.tmdb_movie_id
+    );
+    locked.push(MAIN_ROOM_SLUG);
+  }
+
+  // Per-room winner; skip MAIN_ROOM_SLUG (already set to global winner above)
+  for (const slug of ROOM_SLUGS) {
+    if (slug === MAIN_ROOM_SLUG) continue;
+    const inRoom = proposals.filter((p) => p.room_slug === slug);
+    const top = inRoom
+      .map((p) => ({ p, count: voteCount(p.id) }))
+      .filter((x) => x.count > 0)
+      .sort((a, b) => b.count - a.count)[0];
+    if (top) {
+      await setLocked(slug, top.p.id, top.p.tmdb_movie_id);
+      locked.push(slug);
+    }
+  }
+
+  return { locked };
+}
+
+/**
+ * Clear all locked picks so voting reopens. Call from cron Monday (e.g. 00:01 MYT).
+ * Does not modify played history.
+ */
+export async function clearAllLocked(): Promise<void> {
+  await writeJson("locked.json", {});
 }
