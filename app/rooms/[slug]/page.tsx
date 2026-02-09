@@ -190,6 +190,9 @@ export default async function RoomPage({
             >
               We&apos;re watching this →
             </Link>
+            <p className="mt-3 text-xs opacity-80">
+              Voting locks every Friday at 4pm Malaysia time and reopens on Mondays.
+            </p>
           </section>
         )}
 
