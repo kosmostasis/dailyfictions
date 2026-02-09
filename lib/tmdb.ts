@@ -83,6 +83,11 @@ export const ROOM_TO_TMDB_GENRE_ID: Record<string, number> = {
   animation: 16,
 };
 
+/** Rooms that use origin country instead of genre (e.g. Bollywood = India). */
+export const ROOM_TO_ORIGIN_COUNTRY: Record<string, string> = {
+  bollywood: "IN",
+};
+
 export function getGenreIdForRoom(roomSlug: string): number | undefined {
   return ROOM_TO_TMDB_GENRE_ID[roomSlug];
 }
@@ -153,6 +158,20 @@ export async function discoverMoviesByGenreHighlyRated(
   }).catch(() => {});
   // #endregion
   return out;
+}
+
+/** Discover by origin country (e.g. IN for India/Bollywood) with quality filter. */
+export async function discoverMoviesByOriginCountryHighlyRated(
+  originCountry: string,
+  page = 1
+): Promise<TmdbDiscoverResponse> {
+  return fetchTmdb<TmdbDiscoverResponse>("/discover/movie", {
+    with_origin_country: originCountry,
+    "vote_average.gte": "6",
+    "vote_count.gte": "100",
+    page: String(page),
+    sort_by: "vote_count.desc",
+  });
 }
 
 // --- Search (thematic discovery: "I want to see a movie that...") ---
