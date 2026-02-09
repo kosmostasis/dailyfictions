@@ -229,6 +229,14 @@ export default async function MoviePage({
             >
               Letterboxd
             </a>
+            <a
+              href={`https://www.icheckmovies.com/movies/${encodeURIComponent(movie.title).replace(/%20/g, "+")}/`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block text-sm text-sky-600 underline dark:text-sky-400"
+            >
+              iCheckMovies
+            </a>
           </div>
         </section>
       </div>
