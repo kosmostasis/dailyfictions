@@ -4,7 +4,7 @@ import { listProposals, listVotes } from "@/lib/polls";
 import { getConfig, getMovieDetails, posterUrl } from "@/lib/tmdb";
 import { ProposalVoteButton } from "@/components/ProposalVoteButton";
 
-const MIN_VOTES_FOR_MAIN = 5;
+const TOP_CROSS_ROOM_COUNT = 5;
 
 export const metadata = {
   title: "Poll Results | Daily Fictions",
@@ -30,9 +30,10 @@ export default async function PollsOverviewPage() {
   const allProposalsWithVotes = roomData.flatMap(({ slug, room, proposals }) =>
     proposals.map((p) => ({ ...p, room_slug: slug, room_name: room.name }))
   );
-  const topPicks = allProposalsWithVotes
-    .filter((p) => p.vote_count >= MIN_VOTES_FOR_MAIN)
-    .sort((a, b) => b.vote_count - a.vote_count);
+  const topFiveAcrossRooms = [...allProposalsWithVotes]
+    .sort((a, b) => b.vote_count - a.vote_count)
+    .slice(0, TOP_CROSS_ROOM_COUNT);
+  const mainRoomDisplayName = "13th Floor VIP Room";
 
   const movieIds = [...new Set(allProposalsWithVotes.map((p) => p.tmdb_movie_id))];
   const [config, ...details] = await Promise.all([
@@ -48,22 +49,27 @@ export default async function PollsOverviewPage() {
     <main className="mx-auto max-w-4xl px-4 py-10">
       <h1 className="text-2xl font-medium tracking-tight">Poll Results</h1>
       <p className="mt-1 text-sm text-neutral-500 dark:text-neutral-400">
-        Proposals and votes across all rooms. Films with 5+ upvotes are featured below.
+        Top 5 films across all genres. The film with most upvotes gets the main {mainRoomDisplayName}. Voting locks every Friday at 4pm Malaysia time and reopens on Mondays.
       </p>
 
-      {topPicks.length > 0 && (
+      {topFiveAcrossRooms.length > 0 && (
         <section className="mt-10">
           <h2 className="mb-4 text-sm font-medium uppercase tracking-wider opacity-70">
-            Top picks (5+ upvotes) — pitched across rooms
+            TOP 5 ACROSS ALL GENRES
           </h2>
           <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {topPicks.map((p) => {
+            {topFiveAcrossRooms.map((p, i) => {
               const movie = detailsById[p.tmdb_movie_id];
               const poster = movie ? posterUrl(baseUrl, movie.poster_path) : "";
+              const isMainRoomPick = i === 0;
               return (
                 <li
                   key={p.id}
-                  className="flex gap-3 rounded-lg border border-neutral-200 bg-white/80 p-3 transition hover:shadow dark:border-neutral-700 dark:bg-neutral-900/50"
+                  className={`flex gap-3 rounded-lg border p-3 transition hover:shadow dark:bg-neutral-900/50 ${
+                    isMainRoomPick
+                      ? "border-amber-400 bg-amber-50/80 dark:border-amber-500/50 dark:bg-amber-950/30"
+                      : "border-neutral-200 bg-white/80 dark:border-neutral-700"
+                  }`}
                 >
                   <Link
                     href={`/movie/${p.tmdb_movie_id}`}
@@ -79,7 +85,7 @@ export default async function PollsOverviewPage() {
                     <div className="min-w-0 flex-1">
                       <p className="font-medium truncate">{movie?.title ?? `#${p.tmdb_movie_id}`}</p>
                       <p className="text-xs text-neutral-500 dark:text-neutral-400">
-                        {p.room_name}
+                        {isMainRoomPick ? mainRoomDisplayName : p.room_name}
                       </p>
                     </div>
                   </Link>
@@ -96,9 +102,12 @@ export default async function PollsOverviewPage() {
       )}
 
       <section className="mt-10">
-        <h2 className="mb-4 text-sm font-medium uppercase tracking-wider opacity-70">
-          By room
+        <h2 className="mb-1 text-sm font-medium uppercase tracking-wider opacity-70">
+          BY GENRE
         </h2>
+        <p className="mb-4 text-xs text-neutral-500 dark:text-neutral-400">
+          Each genre can claim a VIP Room on the 13th Floor.
+        </p>
         <ul className="space-y-6">
           {roomData.map(({ slug, room, proposals }) => {
             const sorted = [...proposals].sort((a, b) => b.vote_count - a.vote_count);
