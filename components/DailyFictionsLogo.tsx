@@ -16,6 +16,7 @@ const ROOM_LOGO_CLASS: Record<RoomSlug, string> = {
   thriller: "text-zinc-500 dark:text-zinc-400",          // noir, tension
   documentary: "text-emerald-600 dark:text-emerald-400", // natural, grounded
   animation: "text-teal-500 dark:text-teal-300",         // playful, clear
+  bollywood: "text-amber-500 dark:text-amber-400",       // warm, festive
 };
 
 export function DailyFictionsLogo({
