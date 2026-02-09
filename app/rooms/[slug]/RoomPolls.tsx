@@ -29,7 +29,6 @@ interface RoomPollsProps {
 export function RoomPolls({ slug, refreshTrigger = 0 }: RoomPollsProps) {
   const [proposals, setProposals] = useState<Proposal[]>([]);
   const [loading, setLoading] = useState(true);
-  const [lockLoading, setLockLoading] = useState(false);
   const [shareCopied, setShareCopied] = useState(false);
   const sessionId = typeof window !== "undefined" ? getOrCreateSessionId() : "";
 
@@ -54,22 +53,6 @@ export function RoomPolls({ slug, refreshTrigger = 0 }: RoomPollsProps) {
     if (res.ok) fetchProposals();
   }
 
-  async function lockTop() {
-    if (proposals.length === 0) return;
-    setLockLoading(true);
-    const top = proposals[0];
-    const res = await fetch(`/api/rooms/${slug}/lock`, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ proposal_id: top.id }),
-    });
-    setLockLoading(false);
-    if (res.ok) {
-      fetchProposals();
-      window.location.reload();
-    }
-  }
-
   if (loading) return <p className="text-sm opacity-70">Loading proposals…</p>;
 
   return (
@@ -78,27 +61,17 @@ export function RoomPolls({ slug, refreshTrigger = 0 }: RoomPollsProps) {
         <h2 className="text-sm font-medium uppercase tracking-wider opacity-70">
           Room poll — propose & upvote
         </h2>
-        <div className="flex items-center gap-1">
-          <button
-            type="button"
-            onClick={() => {
-              const url = typeof window !== "undefined" ? window.location.href : "";
-              navigator.clipboard?.writeText(url).then(() => setShareCopied(true));
-              setTimeout(() => setShareCopied(false), 2000);
-            }}
-            className="rounded px-2 py-1 text-xs opacity-80 hover:opacity-100"
-          >
-            {shareCopied ? "Link copied" : "Share poll (copy link)"}
-          </button>
-          <button
-            type="button"
-            onClick={lockTop}
-            disabled={lockLoading || proposals.length === 0}
-            className="rounded bg-black/20 px-2 py-1 text-xs font-medium dark:bg-white/20 disabled:opacity-50"
-          >
-            {lockLoading ? "…" : "Lock top as pick"}
-          </button>
-        </div>
+        <button
+          type="button"
+          onClick={() => {
+            const url = typeof window !== "undefined" ? window.location.href : "";
+            navigator.clipboard?.writeText(url).then(() => setShareCopied(true));
+            setTimeout(() => setShareCopied(false), 2000);
+          }}
+          className="rounded px-2 py-1 text-xs opacity-80 hover:opacity-100"
+        >
+          {shareCopied ? "Link copied" : "Share poll (copy link)"}
+        </button>
       </div>
       {proposals.length === 0 ? (
         <p className="text-sm opacity-70">No proposals yet. Add one below.</p>
