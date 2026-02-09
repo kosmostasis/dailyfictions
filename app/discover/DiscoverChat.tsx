@@ -93,7 +93,7 @@ export function DiscoverChat() {
   return (
     <div className="mx-auto max-w-2xl">
       <div className="mb-4 flex flex-wrap items-center gap-3">
-        <h1 className="text-2xl font-medium tracking-tight">Discover</h1>
+        <h1 className="text-2xl font-medium tracking-tight">Discover Films with</h1>
         <select
           value={personaId}
           onChange={(e) => setPersonaId(e.target.value)}
