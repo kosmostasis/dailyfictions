@@ -116,4 +116,14 @@ export const ROOM_THEMES: Record<
       ctaButton: "bg-teal-600 text-white shadow-sm transition hover:bg-teal-500 dark:bg-teal-500 dark:hover:bg-teal-400",
     },
   },
+  bollywood: {
+    light: "bg-yellow-50 text-yellow-950",
+    dark: "dark:bg-yellow-950/40 dark:text-yellow-100",
+    accent: {
+      pickSection: "border-yellow-500/50 bg-yellow-50/50 dark:border-yellow-400/30 dark:bg-yellow-950/30",
+      pickHeading: "text-yellow-800 dark:text-yellow-200",
+      pickTitle: "text-yellow-900 dark:text-yellow-100",
+      ctaButton: "bg-yellow-600 text-white shadow-sm transition hover:bg-yellow-500 dark:bg-yellow-500 dark:hover:bg-yellow-400",
+    },
+  },
 };
