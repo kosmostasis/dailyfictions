@@ -6,7 +6,9 @@ import { getLocked, getPlayed } from "@/lib/polls";
 import {
   getConfig,
   getGenreIdForRoom,
+  ROOM_TO_ORIGIN_COUNTRY,
   discoverMoviesByGenreHighlyRated,
+  discoverMoviesByOriginCountryHighlyRated,
   getMovieDetails,
   posterUrl,
 } from "@/lib/tmdb";
@@ -34,8 +36,9 @@ async function getMovies(slug: string) {
     }),
   }).catch(() => {});
   // #endregion
+  const originCountry = ROOM_TO_ORIGIN_COUNTRY[slug];
   const genreId = getGenreIdForRoom(slug);
-  if (genreId == null) {
+  if (genreId == null && !originCountry) {
     // #region agent log
     fetch("http://127.0.0.1:7242/ingest/78e219bc-79e7-4277-b148-e1833a36a616", {
       method: "POST",
@@ -60,20 +63,22 @@ async function getMovies(slug: string) {
       body: JSON.stringify({
         location: "app/rooms/[slug]/page.tsx:getMovies:beforeDiscover",
         message: "before discover",
-        data: { slug, genreId, page: cyclePage },
+        data: { slug, genreId, originCountry, page: cyclePage },
         timestamp: Date.now(),
         hypothesisId: "H4",
       }),
     }).catch(() => {});
     // #endregion
-    let [config, discover] = await Promise.all([
-      getConfig(),
-      discoverMoviesByGenreHighlyRated(genreId, cyclePage),
-    ]);
+    const discoverFn = originCountry
+      ? () => discoverMoviesByOriginCountryHighlyRated(originCountry, cyclePage)
+      : () => discoverMoviesByGenreHighlyRated(genreId!, cyclePage);
+    let [config, discover] = await Promise.all([getConfig(), discoverFn()]);
     // When cycle page exceeds total_pages, TMDB returns empty results. Wrap to a valid page.
     if (discover.results.length === 0 && discover.total_pages >= 1) {
       const safePage = ((cyclePage - 1) % discover.total_pages) + 1;
-      discover = await discoverMoviesByGenreHighlyRated(genreId, safePage);
+      discover = originCountry
+        ? await discoverMoviesByOriginCountryHighlyRated(originCountry, safePage)
+        : await discoverMoviesByGenreHighlyRated(genreId!, safePage);
     }
     const count = discover.results.length;
     const slice = discover.results.slice(0, 20);
