@@ -7,7 +7,7 @@ import { ProposalVoteButton } from "@/components/ProposalVoteButton";
 const MIN_VOTES_FOR_MAIN = 5;
 
 export const metadata = {
-  title: "Poll results | Daily Fictions",
+  title: "Poll Results | Daily Fictions",
   description: "Overview of film proposals and votes across all rooms.",
 };
 
@@ -46,7 +46,7 @@ export default async function PollsOverviewPage() {
 
   return (
     <main className="mx-auto max-w-4xl px-4 py-10">
-      <h1 className="text-2xl font-medium tracking-tight">Poll results</h1>
+      <h1 className="text-2xl font-medium tracking-tight">Poll Results</h1>
       <p className="mt-1 text-sm text-neutral-500 dark:text-neutral-400">
         Proposals and votes across all rooms. Films with 5+ upvotes are featured below.
       </p>
