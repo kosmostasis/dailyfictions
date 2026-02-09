@@ -12,7 +12,13 @@ const PREVIEW_POOL = 24; // fetch extra so we can skip films already shown in ot
 export default async function ListsPage() {
   const lists = await getListDefinitions();
   const pools = await Promise.all(
-    lists.map((list) => getListMovies(list.slug, PREVIEW_POOL))
+    lists.map(async (list) => {
+      try {
+        return await getListMovies(list.slug, PREVIEW_POOL);
+      } catch {
+        return [];
+      }
+    })
   );
   // Prefer films not already shown in a previous list (reduce repetition across previews)
   const seenIds = new Set<number>();
