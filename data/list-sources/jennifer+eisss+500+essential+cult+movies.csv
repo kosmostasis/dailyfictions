@@ -1,0 +1,503 @@
+rank,rankdifference,title,year,url,checkedcount,favouritecount,dislikedcount,officialtoplistcount,usertoplistcount,akatitle,imdburl,checked,favorite,disliked,watchlist,owned
+1,13,"All About Eve",1950,http://www.icheckmovies.com/movies/all+about+eve/,17650,2086,69,26,1197,,http://www.imdb.com/title/tt0042192/,"2012-03-14 22:10:04",no,no,no,no
+2,48,"Black Narcissus",1947,http://www.icheckmovies.com/movies/black+narcissus/,6118,596,55,17,696,,http://www.imdb.com/title/tt0039192/,"2012-03-14 22:10:04",yes,no,no,no
+3,50,"Blackboard Jungle",1955,http://www.icheckmovies.com/movies/blackboard+jungle/,1456,59,8,4,216,,http://www.imdb.com/title/tt0047885/,"2013-02-25 06:08:13",no,no,no,no
+4,153,"Easy Rider",1969,http://www.icheckmovies.com/movies/easy+rider/,19197,1131,210,17,761,,http://www.imdb.com/title/tt0064276/,"2012-03-14 22:10:25",yes,no,no,no
+5,206,"Harold and Maude",1971,http://www.icheckmovies.com/movies/harold+and+maude/,15937,2147,152,21,776,,http://www.imdb.com/title/tt0067185/,"2012-07-01 05:57:04",no,no,no,no
+6,279,"The Lost Weekend",1945,http://www.icheckmovies.com/movies/the+lost+weekend/,6395,585,37,18,627,,http://www.imdb.com/title/tt0037884/,"2012-06-14 15:29:58",no,no,no,no
+7,331,"One Flew Over the Cuckoo's Nest",1975,http://www.icheckmovies.com/movies/one+flew+over+the+cuckoos+nest/,77986,8491,224,36,1552,,http://www.imdb.com/title/tt0073486/,"2012-03-14 22:10:26",yes,no,no,no
+8,336,"The Outsiders",1983,http://www.icheckmovies.com/movies/the+outsiders/,8165,327,72,2,222,,http://www.imdb.com/title/tt0086066/,"2019-01-01 05:21:39",no,no,no,no
+9,397,"The Shawshank Redemption",1994,http://www.icheckmovies.com/movies/the+shawshank+redemption/,114297,17276,402,24,1572,,http://www.imdb.com/title/tt0111161/,"2012-03-14 22:10:26",yes,no,no,no
+10,426,"The Swimmer",1968,http://www.icheckmovies.com/movies/the+swimmer/,1831,278,12,6,299,,http://www.imdb.com/title/tt0063663/,"2015-10-27 03:49:21",yes,no,no,no
+11,-8,"37°2 le matin",1986,http://www.icheckmovies.com/movies/372+le+matin/,2325,210,38,8,345,"Betty Blue",http://www.imdb.com/title/tt0090563/,"2012-03-14 22:10:23",yes,no,no,no
+12,-4,"The Addiction",1995,http://www.icheckmovies.com/movies/the+addiction/,1731,91,54,5,247,,http://www.imdb.com/title/tt0112288/,no,no,no,no,no
+13,3,"Almost Famous",2000,http://www.icheckmovies.com/movies/almost+famous/,40425,3594,215,9,723,,http://www.imdb.com/title/tt0181875/,"2012-03-14 22:10:24",no,no,no,no
+14,7,"Amores perros",2000,http://www.icheckmovies.com/movies/amores+perros/,24694,2334,150,16,740,,http://www.imdb.com/title/tt0245712/,"2012-03-14 22:10:27",no,no,no,no
+15,28,"The Beguiled",1971,http://www.icheckmovies.com/movies/the+beguiled/,1479,95,10,3,223,,http://www.imdb.com/title/tt0066819/,no,no,no,no,no
+16,28,"The Best of Everything",1959,http://www.icheckmovies.com/movies/the+best+of+everything/,250,13,2,1,77,,http://www.imdb.com/title/tt0052619/,no,no,no,no,no
+17,32,"Big Wednesday",1978,http://www.icheckmovies.com/movies/big+wednesday/,713,48,10,4,135,"Summer of Innocence",http://www.imdb.com/title/tt0077235/,no,no,no,no,no
+18,47,"The Boys in the Band",1970,http://www.icheckmovies.com/movies/the+boys+in+the+band/,574,50,3,1,167,,http://www.imdb.com/title/tt0065488/,no,no,no,no,no
+19,48,Breakin',1984,http://www.icheckmovies.com/movies/breakin/,813,21,24,2,67,,http://www.imdb.com/title/tt0086998/,no,no,no,no,no
+20,49,"Brief Encounter",1945,http://www.icheckmovies.com/movies/brief+encounter/,8581,1046,58,22,858,,http://www.imdb.com/title/tt0037558/,"2012-06-04 04:02:59",yes,no,no,no
+21,49,"Bring Me the Head of Alfredo Garcia",1974,http://www.icheckmovies.com/movies/bring+me+the+head+of+alfredo+garcia/,3803,393,46,10,454,,http://www.imdb.com/title/tt0071249/,"2017-05-23 05:19:37",yes,no,no,no
+22,50,"Bronenosets Potyomkin",1925,http://www.icheckmovies.com/movies/bronenosets+potyomkin/,13774,905,88,29,1051,"Battleship Potemkin",http://www.imdb.com/title/tt0015648/,"2012-03-14 22:10:04",no,no,no,no
+23,61,Carny,1980,http://www.icheckmovies.com/movies/carny/,256,13,5,1,60,,http://www.imdb.com/title/tt0080500/,no,no,no,no,no
+24,69,"Cisco Pike",1971,http://www.icheckmovies.com/movies/cisco+pike/,250,11,2,1,68,,http://www.imdb.com/title/tt0068384/,no,no,no,no,no
+25,72,Cockfighter,1974,http://www.icheckmovies.com/movies/cockfighter/,586,41,7,2,170,,http://www.imdb.com/title/tt0071338/,"2025-04-02 22:51:29",no,no,no,no
+26,91,"Das Experiment",2001,http://www.icheckmovies.com/movies/das+experiment/,7995,641,47,1,232,"The Experiment",http://www.imdb.com/title/tt0250258/,"2012-03-14 22:10:25",yes,no,no,no
+27,92,"The Dawn Patrol",1938,http://www.icheckmovies.com/movies/the+dawn+patrol-1938/,368,25,1,2,110,,http://www.imdb.com/title/tt0030044/,no,no,no,no,no
+28,94,"Days of Heaven",1978,http://www.icheckmovies.com/movies/days+of+heaven/,10042,1213,77,19,819,,http://www.imdb.com/title/tt0077405/,"2012-06-03 20:53:28",yes,no,no,no
+29,107,"The Devils",1971,http://www.icheckmovies.com/movies/the+devils/,2902,368,36,11,478,,http://www.imdb.com/title/tt0066993/,"2024-04-06 21:52:34",no,no,no,no
+30,115,"Don't Look Now",1973,http://www.icheckmovies.com/movies/dont+look+now/,9446,796,127,17,844,,http://www.imdb.com/title/tt0069995/,"2012-03-14 22:10:06",no,no,no,no
+31,124,"The Duellists",1977,http://www.icheckmovies.com/movies/the+duellists/,2330,172,28,5,215,,http://www.imdb.com/title/tt0075968/,no,no,no,no,no
+32,139,"Far from Heaven",2002,http://www.icheckmovies.com/movies/far+from+heaven/,5985,326,45,10,434,,http://www.imdb.com/title/tt0297884/,no,no,no,no,no
+33,146,"Five Easy Pieces",1970,http://www.icheckmovies.com/movies/five+easy+pieces/,6462,480,50,13,575,,http://www.imdb.com/title/tt0065724/,"2015-03-29 20:55:27",yes,no,no,no
+34,156,"Funny Games",1997,http://www.icheckmovies.com/movies/funny+games/,13238,1141,205,12,636,,http://www.imdb.com/title/tt0119167/,"2012-03-14 22:10:06",no,no,no,no
+35,159,"The Ghost and Mrs. Muir",1947,http://www.icheckmovies.com/movies/the+ghost+and+mrs.+muir/,3360,283,19,8,408,,http://www.imdb.com/title/tt0039420/,no,no,no,no,no
+36,160,"Ghosts... of the Civil Dead",1988,http://www.icheckmovies.com/movies/ghosts...+of+the+civil+dead/,252,9,10,1,69,,http://www.imdb.com/title/tt0095217/,no,no,no,no,no
+37,158,"Ghost World",2001,http://www.icheckmovies.com/movies/ghost+world/,17717,1666,144,8,497,,http://www.imdb.com/title/tt0162346/,"2012-03-14 22:10:17",yes,no,no,no
+38,160,"The Girl on a Motorcycle",1968,http://www.icheckmovies.com/movies/the+girl+on+a+motorcycle/,409,6,16,1,68,,http://www.imdb.com/title/tt0063013/,no,no,no,no,no
+39,160,"Glen or Glenda",1953,http://www.icheckmovies.com/movies/glen+or+glenda/,1503,53,76,3,172,,http://www.imdb.com/title/tt0045826/,no,no,no,no,no
+40,184,"House of Games",1987,http://www.icheckmovies.com/movies/house+of+games/,3064,206,43,7,306,,http://www.imdb.com/title/tt0093223/,no,no,no,no,no
+41,185,"Hush...Hush, Sweet Charlotte",1964,http://www.icheckmovies.com/movies/hush...hush+sweet+charlotte/,1670,113,11,3,228,,http://www.imdb.com/title/tt0058213/,no,no,no,no,no
+42,188,"Idi i smotri",1985,http://www.icheckmovies.com/movies/idi+i+smotri/,7168,1526,70,28,966,"Come and See",http://www.imdb.com/title/tt0091251/,"2012-05-10 08:28:50",yes,no,no,no
+43,193,"In the Company of Men",1997,http://www.icheckmovies.com/movies/in+the+company+of+men/,2280,142,29,6,212,,http://www.imdb.com/title/tt0119361/,no,no,no,no,no
+44,205,Kids,1995,http://www.icheckmovies.com/movies/kids/,7703,439,144,5,283,,http://www.imdb.com/title/tt0113540/,"2012-03-14 22:10:18",yes,no,no,no
+45,206,"The Killing of Sister George",1968,http://www.icheckmovies.com/movies/the+killing+of+sister+george/,346,16,5,2,123,,http://www.imdb.com/title/tt0063185/,no,no,no,no,no
+46,213,"The Lady Eve",1941,http://www.icheckmovies.com/movies/the+lady+eve/,5885,524,50,21,675,,http://www.imdb.com/title/tt0033804/,"2012-03-14 22:10:06",no,no,no,no
+47,53,"Le mépris",1963,http://www.icheckmovies.com/movies/le+mepris/,6703,721,103,17,756,Contempt,http://www.imdb.com/title/tt0057345/,"2012-03-14 22:10:13",yes,no,no,no
+48,220,Lenny,1974,http://www.icheckmovies.com/movies/lenny/,1950,138,11,4,270,,http://www.imdb.com/title/tt0071746/,no,no,no,no,no
+49,223,"Les valseuses",1974,http://www.icheckmovies.com/movies/les+valseuses/,1223,96,33,6,218,"Going Places",http://www.imdb.com/title/tt0072353/,no,no,no,no,no
+50,223,"Light Sleeper",1992,http://www.icheckmovies.com/movies/light+sleeper/,932,54,11,3,147,,http://www.imdb.com/title/tt0102307/,no,no,no,no,no
+51,227,Lolita,1962,http://www.icheckmovies.com/movies/lolita/,17724,1070,119,11,634,,http://www.imdb.com/title/tt0056193/,"2012-03-14 22:10:17",yes,no,no,no
+52,227,"The Loneliness of the Long Distance Runner",1962,http://www.icheckmovies.com/movies/the+loneliness+of+the+long+distance+runner/,2115,159,14,6,340,,http://www.imdb.com/title/tt0056194/,"2012-03-14 22:10:22",yes,no,no,no
+53,233,"Love Streams",1984,http://www.icheckmovies.com/movies/love+streams/,1446,188,21,8,356,,http://www.imdb.com/title/tt0087644/,no,no,no,no,no
+54,246,Marnie,1964,http://www.icheckmovies.com/movies/marnie/,7242,333,66,8,423,,http://www.imdb.com/title/tt0058329/,"2014-08-01 06:31:11",yes,no,no,no
+55,246,Martin,1977,http://www.icheckmovies.com/movies/martin/,1942,149,23,3,290,,http://www.imdb.com/title/tt0077914/,no,no,no,no,no
+56,251,"Midnight Cowboy",1969,http://www.icheckmovies.com/movies/midnight+cowboy/,15303,1197,83,22,839,,http://www.imdb.com/title/tt0064665/,"2012-03-14 22:10:04",yes,no,no,no
+57,255,"Mommie Dearest",1981,http://www.icheckmovies.com/movies/mommie+dearest/,2607,111,33,2,185,,http://www.imdb.com/title/tt0082766/,no,no,no,no,no
+58,258,Mudhoney,1965,http://www.icheckmovies.com/movies/mudhoney/,261,11,7,1,49,"Mud Honey",http://www.imdb.com/title/tt0059477/,no,no,no,yes,no
+59,258,"My Own Private Idaho",1991,http://www.icheckmovies.com/movies/my+own+private+idaho/,8899,593,97,11,483,,http://www.imdb.com/title/tt0102494/,"2012-03-14 22:10:17",no,no,no,no
+60,259,"The Naked Kiss",1964,http://www.icheckmovies.com/movies/the+naked+kiss/,2070,165,20,6,282,,http://www.imdb.com/title/tt0058390/,no,no,no,no,no
+61,259,"Naked Tango",1990,http://www.icheckmovies.com/movies/naked+tango/,104,0,2,1,34,,http://www.imdb.com/title/tt0100222/,no,no,no,no,no
+62,269,"The Ninth Configuration",1980,http://www.icheckmovies.com/movies/the+ninth+configuration/,951,75,21,3,195,,http://www.imdb.com/title/tt0081237/,"2015-07-03 23:36:39",yes,no,no,no
+63,285,"Paris, Texas",1984,http://www.icheckmovies.com/movies/paris+texas/,13352,1995,70,22,922,,http://www.imdb.com/title/tt0087884/,"2012-03-14 22:10:25",no,no,no,no
+64,310,"Rebel Without a Cause",1955,http://www.icheckmovies.com/movies/rebel+without+a+cause/,18400,1226,114,16,891,,http://www.imdb.com/title/tt0048545/,"2012-03-14 22:10:04",no,no,no,no
+65,311,"Tell Your Children",1938,http://www.icheckmovies.com/movies/tell+your+children/,1101,11,101,2,114,"Reefer Madness",http://www.imdb.com/title/tt0028346/,no,no,no,no,no
+66,325,Rushmore,1998,http://www.icheckmovies.com/movies/rushmore/,28191,2736,198,11,715,,http://www.imdb.com/title/tt0128445/,"2012-03-14 22:10:25",yes,no,no,no
+67,326,Salvador,1986,http://www.icheckmovies.com/movies/salvador/,2581,125,16,8,281,,http://www.imdb.com/title/tt0091886/,no,no,no,no,no
+68,333,"The Servant",1963,http://www.icheckmovies.com/movies/the+servant/,2611,318,20,17,507,,http://www.imdb.com/title/tt0057490/,no,no,no,yes,no
+69,342,Showgirls,1995,http://www.icheckmovies.com/movies/showgirls/,10075,245,396,6,309,,http://www.imdb.com/title/tt0114436/,no,no,no,no,no
+70,342,"Sid and Nancy",1986,http://www.icheckmovies.com/movies/sid+and+nancy/,5470,240,50,3,220,,http://www.imdb.com/title/tt0091954/,"2012-03-14 22:10:20",no,no,no,no
+71,362,"Sunset Blvd.",1950,http://www.icheckmovies.com/movies/sunset+blvd./,27097,3851,110,35,1536,"Sunset Boulevard",http://www.imdb.com/title/tt0043014/,"2012-03-14 22:10:06",yes,no,no,no
+72,362,"Sweet Smell of Success",1957,http://www.icheckmovies.com/movies/sweet+smell+of+success/,6486,839,37,22,764,,http://www.imdb.com/title/tt0051036/,"2012-06-10 21:59:13",yes,no,no,no
+73,366,"Taxi Driver",1976,http://www.icheckmovies.com/movies/taxi+driver/,72450,7601,344,34,1852,,http://www.imdb.com/title/tt0075314/,"2012-03-14 22:10:26",yes,no,no,no
+74,382,Tracks,1976,http://www.icheckmovies.com/movies/tracks/,142,5,4,1,48,,http://www.imdb.com/title/tt0075345/,no,no,no,no,no
+75,375,"To Sleep with Anger",1990,http://www.icheckmovies.com/movies/to+sleep+with+anger/,765,45,8,7,205,,http://www.imdb.com/title/tt0100791/,no,no,no,no,no
+76,383,"Trois couleurs: Bleu",1993,http://www.icheckmovies.com/movies/trois+couleurs+bleu/,13728,1534,69,19,831,"Three Colors: Blue",http://www.imdb.com/title/tt0108394/,"2012-08-28 08:37:52",yes,no,no,no
+77,383,"Trois couleurs : Blanc",1994,http://www.icheckmovies.com/movies/trois+couleurs++blanc/,9046,775,41,11,556,"Three Colors: White",http://www.imdb.com/title/tt0111507/,"2012-09-10 06:37:20",no,no,no,no
+78,383,"Trois couleurs : Rouge",1994,http://www.icheckmovies.com/movies/trois+couleurs++rouge/,12356,1512,53,22,885,"Three Colors: Red",http://www.imdb.com/title/tt0111495/,"2012-09-10 06:37:20",yes,no,no,no
+79,387,"Twin Peaks: Fire Walk with Me",1992,http://www.icheckmovies.com/movies/twin+peaks+fire+walk+with+me/,10014,799,135,6,510,,http://www.imdb.com/title/tt0105665/,"2012-07-08 04:43:18",no,no,no,no
+80,399,"Walk on the Wild Side",1962,http://www.icheckmovies.com/movies/walk+on+the+wild+side/,359,8,5,1,96,,http://www.imdb.com/title/tt0056671/,no,no,no,no,no
+81,411,"The Wild One",1953,http://www.icheckmovies.com/movies/the+wild+one/,1868,79,20,2,171,,http://www.imdb.com/title/tt0047677/,no,no,no,no,no
+82,411,"Wise Blood",1979,http://www.icheckmovies.com/movies/wise+blood/,1375,111,22,6,222,,http://www.imdb.com/title/tt0080140/,no,no,no,no,no
+83,414,"A Woman Under the Influence",1974,http://www.icheckmovies.com/movies/a+woman+under+the+influence/,6088,900,44,14,765,,http://www.imdb.com/title/tt0072417/,"2012-03-14 22:10:06",yes,no,no,no
+84,-26,"Blood Simple",1984,http://www.icheckmovies.com/movies/blood+simple-1984/,11339,1022,61,10,576,,http://www.imdb.com/title/tt0086979/,"2012-07-31 07:54:13",no,no,no,no
+85,-5,"Cape Fear",1962,http://www.icheckmovies.com/movies/cape+fear/,6436,325,15,7,339,,http://www.imdb.com/title/tt0055824/,"2012-11-08 07:18:48",yes,no,no,no
+86,45,Deliverance,1972,http://www.icheckmovies.com/movies/deliverance/,16488,885,97,15,742,,http://www.imdb.com/title/tt0068473/,"2012-06-28 00:41:09",no,no,no,no
+87,52,"Dirty Harry",1971,http://www.icheckmovies.com/movies/dirty+harry/,23390,1133,76,17,662,,http://www.imdb.com/title/tt0066999/,"2012-03-14 22:10:19",yes,no,no,no
+88,201,"M - Eine Stadt sucht einen Mörder",1931,http://www.icheckmovies.com/movies/m+-+eine+stadt+sucht+einen+morder/,20955,2847,87,36,1423,M,http://www.imdb.com/title/tt0022100/,"2012-03-14 22:10:27",yes,no,no,no
+89,215,Memento,2000,http://www.icheckmovies.com/movies/memento/,97001,11393,481,28,1509,,http://www.imdb.com/title/tt0209144/,"2012-03-14 22:10:27",yes,no,no,no
+90,218,"Mildred Pierce",1945,http://www.icheckmovies.com/movies/mildred+pierce/,5469,467,24,17,657,,http://www.imdb.com/title/tt0037913/,"2019-01-18 07:33:26",yes,no,no,no
+91,236,"The Night of the Hunter",1955,http://www.icheckmovies.com/movies/the+night+of+the+hunter/,15023,2013,130,34,1302,,http://www.imdb.com/title/tt0048424/,"2012-03-14 22:10:06",yes,no,no,no
+92,337,"Straw Dogs",1971,http://www.icheckmovies.com/movies/straw+dogs/,8804,651,96,11,529,,http://www.imdb.com/title/tt0067800/,"2012-03-14 22:10:06",yes,no,no,no
+93,382,Vertigo,1958,http://www.icheckmovies.com/movies/vertigo/,46082,5042,212,42,1822,,http://www.imdb.com/title/tt0052357/,"2012-03-14 22:10:09",yes,no,no,no
+94,-90,"84C MoPic",1989,http://www.icheckmovies.com/movies/84c+mopic/,193,7,3,1,56,,http://www.imdb.com/title/tt0096744/,no,no,no,no,no
+95,-88,"Ace in the Hole",1951,http://www.icheckmovies.com/movies/ace+in+the+hole/,6778,932,29,21,697,,http://www.imdb.com/title/tt0043338/,"2012-07-04 03:07:44",yes,no,no,no
+96,-72,"Angel Heart",1987,http://www.icheckmovies.com/movies/angel+heart/,6292,484,57,6,354,,http://www.imdb.com/title/tt0092563/,"2016-12-27 05:09:00",no,no,no,no
+97,-72,"Apartment Zero",1988,http://www.icheckmovies.com/movies/apartment+zero/,354,15,9,1,64,,http://www.imdb.com/title/tt0094667/,no,no,no,no,no
+98,-70,"Assault on Precinct 13",1976,http://www.icheckmovies.com/movies/assault+on+precinct+13/,6603,418,39,6,400,,http://www.imdb.com/title/tt0074156/,"2017-05-18 06:19:27",no,no,no,no
+99,-70,"At Close Range",1986,http://www.icheckmovies.com/movies/at+close+range/,1020,43,11,2,113,,http://www.imdb.com/title/tt0090670/,no,no,no,no,no
+100,-66,"Bad Timing",1980,http://www.icheckmovies.com/movies/bad+timing/,1684,117,46,7,258,,http://www.imdb.com/title/tt0080408/,"2016-01-16 03:17:16",no,no,no,no
+101,-65,Baise-moi,2000,http://www.icheckmovies.com/movies/baise-moi/,1833,32,174,3,129,,http://www.imdb.com/title/tt0249380/,no,no,no,no,no
+102,-42,Blow-Up,1966,http://www.icheckmovies.com/movies/blow-up-1966/,11486,1145,143,20,808,,http://www.imdb.com/title/tt0060176/,"2012-03-14 22:10:23",yes,no,no,no
+103,-39,"Boxing Helena",1993,http://www.icheckmovies.com/movies/boxing+helena/,1254,28,75,2,116,,http://www.imdb.com/title/tt0106471/,no,no,no,no,no
+104,-27,Caché,2005,http://www.icheckmovies.com/movies/cache/,10265,1035,138,15,692,,http://www.imdb.com/title/tt0387898/,"2012-03-14 22:10:19",no,no,no,no
+105,-4,"The Conversation",1974,http://www.icheckmovies.com/movies/the+conversation/,15531,1685,82,23,969,,http://www.imdb.com/title/tt0071360/,"2012-06-05 07:23:52",yes,no,no,no
+106,5,"Cutter's Way",1981,http://www.icheckmovies.com/movies/cutters+way/,1228,75,16,7,220,,http://www.imdb.com/title/tt0082220/,"2012-03-14 22:10:06",no,no,no,no
+107,9,"Das Boot",1981,http://www.icheckmovies.com/movies/das+boot/,22805,1979,90,16,912,"The Boat",http://www.imdb.com/title/tt0082096/,"2012-05-14 01:47:36",yes,no,no,no
+108,13,"The Day of the Locust",1975,http://www.icheckmovies.com/movies/the+day+of+the+locust/,692,44,7,1,144,,http://www.imdb.com/title/tt0072848/,"2023-07-27 11:39:21",no,no,no,no
+109,16,"Dead Man's Shoes",2004,http://www.icheckmovies.com/movies/dead+mans+shoes/,5057,458,54,4,253,,http://www.imdb.com/title/tt0419677/,no,no,no,yes,no
+110,2,D.O.A.,1949,http://www.icheckmovies.com/movies/d.o.a./,2097,111,17,5,243,,http://www.imdb.com/title/tt0042369/,no,no,no,no,no
+111,39,"Dressed to Kill",1980,http://www.icheckmovies.com/movies/dressed+to+kill/,4820,307,49,6,435,,http://www.imdb.com/title/tt0080661/,"2012-03-14 22:10:04",yes,no,no,no
+112,42,Duel,1971,http://www.icheckmovies.com/movies/duel/,8219,575,34,4,435,,http://www.imdb.com/title/tt0067023/,"2012-07-31 07:54:13",no,no,no,no
+113,103,"Hells Angels on Wheels",1967,http://www.icheckmovies.com/movies/hells+angels+on+wheels/,276,4,13,1,56,,http://www.imdb.com/title/tt0061758/,no,no,no,no,no
+114,105,"The Hill",1965,http://www.icheckmovies.com/movies/the+hill/,1094,118,8,1,225,,http://www.imdb.com/title/tt0059274/,no,no,no,no,no
+115,139,"Kiss Kiss Bang Bang",2005,http://www.icheckmovies.com/movies/kiss+kiss+bang+bang/,27674,2458,168,4,511,,http://www.imdb.com/title/tt0373469/,"2012-03-14 22:10:24",yes,no,no,no
+116,154,"Le samouraï",1967,http://www.icheckmovies.com/movies/le+samourai/,8623,1375,34,20,815,"Le Samouraï",http://www.imdb.com/title/tt0062229/,"2012-03-14 22:10:06",no,no,no,no
+117,176,Manhunter,1986,http://www.icheckmovies.com/movies/manhunter/,7841,423,54,6,469,,http://www.imdb.com/title/tt0091474/,no,no,no,no,no
+118,179,"The Manchurian Candidate",1962,http://www.icheckmovies.com/movies/the+manchurian+candidate/,15895,981,79,16,730,,http://www.imdb.com/title/tt0056218/,"2012-05-09 09:18:25",no,no,no,no
+119,211,Nikita,1990,http://www.icheckmovies.com/movies/nikita/,7532,360,61,4,290,"La Femme Nikita",http://www.imdb.com/title/tt0100263/,"2012-03-14 22:10:19",no,no,no,no
+120,225,"Panic in the Streets",1950,http://www.icheckmovies.com/movies/panic+in+the+streets/,1369,75,7,5,191,,http://www.imdb.com/title/tt0042832/,no,no,no,no,no
+121,226,"The Parallax View",1974,http://www.icheckmovies.com/movies/the+parallax+view/,2627,170,19,11,313,,http://www.imdb.com/title/tt0071970/,"2015-03-30 02:29:20",no,no,no,no
+122,237,"Play Misty for Me",1971,http://www.icheckmovies.com/movies/play+misty+for+me/,3102,111,36,4,203,,http://www.imdb.com/title/tt0067588/,no,no,no,no,no
+123,256,Repulsion,1965,http://www.icheckmovies.com/movies/repulsion/,9480,1055,98,16,824,,http://www.imdb.com/title/tt0059646/,"2012-03-14 22:10:23",yes,no,no,no
+124,285,"Shock Corridor",1963,http://www.icheckmovies.com/movies/shock+corridor/,3499,263,42,14,460,,http://www.imdb.com/title/tt0057495/,"2016-07-03 18:08:02",yes,no,no,no
+125,295,"Southern Comfort",1981,http://www.icheckmovies.com/movies/southern+comfort/,1359,107,6,2,191,,http://www.imdb.com/title/tt0083111/,"2025-01-05 02:32:01",no,no,no,no
+126,301,"The Strange Love of Martha Ivers",1946,http://www.icheckmovies.com/movies/the+strange+love+of+martha+ivers/,1372,116,10,4,217,,http://www.imdb.com/title/tt0038988/,no,no,no,no,no
+127,301,"Strategia del ragno",1970,http://www.icheckmovies.com/movies/strategia+del+ragno/,754,34,10,8,237,"The Spider's Stratagem",http://www.imdb.com/title/tt0066413/,no,no,no,no,no
+128,316,"They Might Be Giants",1971,http://www.icheckmovies.com/movies/they+might+be+giants/,462,33,6,1,91,,http://www.imdb.com/title/tt0067848/,no,no,no,no,no
+129,336,"Twilight's Last Gleaming",1977,http://www.icheckmovies.com/movies/twilights+last+gleaming/,371,12,3,2,83,,http://www.imdb.com/title/tt0076845/,no,no,no,no,no
+130,-31,"Un condamné à mort s'est échappé ou Le vent souffle où il veut",1956,http://www.icheckmovies.com/movies/un+condamne+a+mort+sest+echappe+ou+le+vent+souffle+ou+il+veut/,4761,816,28,20,839,"A Man Escaped",http://www.imdb.com/title/tt0049902/,"2012-07-21 20:02:21",no,no,no,no
+131,346,Viridiana,1961,http://www.icheckmovies.com/movies/viridiana/,5290,646,42,24,698,,http://www.imdb.com/title/tt0055601/,"2012-03-14 22:10:10",no,no,no,no
+132,352,"What Ever Happened to Aunt Alice?",1969,http://www.icheckmovies.com/movies/what+ever+happened+to+aunt+alicequestion/,284,3,3,1,66,,http://www.imdb.com/title/tt0065206/,no,no,no,no,no
+133,357,"Wild at Heart",1990,http://www.icheckmovies.com/movies/wild+at+heart/,10314,754,128,6,515,,http://www.imdb.com/title/tt0100935/,"2012-03-14 22:10:19",no,no,no,no
+134,-125,"The Adventures of Buckaroo Banzai Across the 8th Dimension",1984,http://www.icheckmovies.com/movies/the+adventures+of+buckaroo+banzai+across+the+8th+dimension/,2873,164,87,4,213,,http://www.imdb.com/title/tt0086856/,"2012-03-14 22:10:18",no,no,no,no
+135,-8,"Death Race 2000",1975,http://www.icheckmovies.com/movies/death+race+2000/,3964,186,55,4,251,,http://www.imdb.com/title/tt0072856/,"2016-12-28 18:05:20",no,no,no,no
+136,29,"Escape from New York",1981,http://www.icheckmovies.com/movies/escape+from+new+york/,13931,807,106,5,508,,http://www.imdb.com/title/tt0082340/,"2012-03-14 22:10:19",no,no,no,no
+137,41,"First Blood",1982,http://www.icheckmovies.com/movies/first+blood/,16358,923,100,5,395,,http://www.imdb.com/title/tt0083944/,"2017-04-22 06:43:13",no,no,no,no
+138,85,Goemool,2006,http://www.icheckmovies.com/movies/goemool/,10453,737,121,11,589,"The Host",http://www.imdb.com/title/tt0468492/,"2012-03-14 22:10:20",no,no,no,no
+139,153,"Mad Max",1979,http://www.icheckmovies.com/movies/mad+max/,26136,918,286,13,568,,http://www.imdb.com/title/tt0079501/,"2012-03-14 22:10:25",no,no,no,no
+140,231,"Race with the Devil",1975,http://www.icheckmovies.com/movies/race+with+the+devil/,851,40,9,2,148,,http://www.imdb.com/title/tt0073600/,no,no,no,no,no
+141,316,Tremors,1990,http://www.icheckmovies.com/movies/tremors/,17726,839,128,3,363,,http://www.imdb.com/title/tt0100814/,"2012-03-14 22:10:25",no,no,no,no
+142,358,Yôjinbô,1961,http://www.icheckmovies.com/movies/yojinbo/,14221,1676,64,20,834,Yojimbo,http://www.imdb.com/title/tt0055630/,"2012-03-14 22:10:04",no,no,no,no
+143,337,"The Warriors",1979,http://www.icheckmovies.com/movies/the+warriors/,10725,940,57,8,444,,http://www.imdb.com/title/tt0080120/,"2012-03-14 22:10:06",yes,no,no,no
+144,334,"The 7th Voyage of Sinbad",1958,http://www.icheckmovies.com/movies/the+7th+voyage+of+sinbad/,2089,85,14,5,211,,http://www.imdb.com/title/tt0051337/,"2017-05-13 15:30:49",no,no,no,no
+145,-93,"Black Sunday",1977,http://www.icheckmovies.com/movies/black+sunday/,730,25,7,1,79,,http://www.imdb.com/title/tt0075765/,no,no,no,no,no
+146,-98,"Big Trouble in Little China",1986,http://www.icheckmovies.com/movies/big+trouble+in+little+china/,13855,1026,114,3,336,,http://www.imdb.com/title/tt0090728/,"2012-03-14 22:10:17",no,no,no,no
+147,-53,"Clash of the Titans",1981,http://www.icheckmovies.com/movies/clash+of+the+titans-1981/,5360,195,49,3,192,,http://www.imdb.com/title/tt0082186/,no,no,no,no,no
+148,-46,"Coogan's Bluff",1968,http://www.icheckmovies.com/movies/coogans+bluff/,1305,33,19,2,114,,http://www.imdb.com/title/tt0062824/,no,no,no,no,no
+149,-36,Diabolik,1968,http://www.icheckmovies.com/movies/diabolik/,1430,99,15,4,157,"Danger: Diabolik",http://www.imdb.com/title/tt0062861/,"2013-11-14 16:58:57",no,no,no,no
+150,-35,Darkman,1990,http://www.icheckmovies.com/movies/darkman/,6715,200,95,2,193,,http://www.imdb.com/title/tt0099365/,"2012-03-14 22:10:19",no,no,no,no
+151,-13,"Dip huet seung hung",1989,http://www.icheckmovies.com/movies/dip+huet+seung+hung/,5702,482,61,16,572,"The Killer",http://www.imdb.com/title/tt0097202/,"2012-03-14 22:10:18",yes,no,no,no
+152,147,"El mariachi",1992,http://www.icheckmovies.com/movies/el+mariachi/,7049,287,52,4,194,,http://www.imdb.com/title/tt0104815/,"2012-05-15 09:12:02",no,no,no,no
+153,31,"Foxy Brown",1974,http://www.icheckmovies.com/movies/foxy+brown/,1922,77,13,3,149,,http://www.imdb.com/title/tt0071517/,no,no,no,no,no
+154,39,"The Gauntlet",1977,http://www.icheckmovies.com/movies/the+gauntlet/,1533,44,28,2,101,,http://www.imdb.com/title/tt0076070/,no,no,no,no,no
+155,100,Knightriders,1981,http://www.icheckmovies.com/movies/knightriders/,559,26,13,1,87,,http://www.imdb.com/title/tt0082622/,no,no,no,no,no
+156,126,"The Long Kiss Goodnight",1996,http://www.icheckmovies.com/movies/the+long+kiss+goodnight/,4863,174,63,2,160,,http://www.imdb.com/title/tt0116908/,no,no,no,no,no
+157,138,"The Man Who Would Be King",1975,http://www.icheckmovies.com/movies/the+man+who+would+be+king/,4899,385,39,5,419,,http://www.imdb.com/title/tt0073341/,"2024-01-17 19:04:50",no,no,no,no
+158,157,"Mou gaan dou",2002,http://www.icheckmovies.com/movies/mou+gaan+dou/,10852,1065,70,14,528,"Infernal Affairs",http://www.imdb.com/title/tt0338564/,"2012-03-14 22:10:27",yes,no,no,no
+159,216,"Red Dawn",1984,http://www.icheckmovies.com/movies/red+dawn/,4354,117,162,3,139,,http://www.imdb.com/title/tt0087985/,no,no,no,no,no
+160,226,"Romper Stomper",1992,http://www.icheckmovies.com/movies/romper+stomper/,4555,153,41,3,165,,http://www.imdb.com/title/tt0105275/,"2012-03-14 22:10:08",yes,no,no,no
+161,242,Shaft,1971,http://www.icheckmovies.com/movies/shaft/,6160,127,44,10,354,,http://www.imdb.com/title/tt0067741/,"2017-05-08 02:41:40",no,no,no,no
+162,269,Subway,1985,http://www.icheckmovies.com/movies/subway/,1328,77,21,2,125,,http://www.imdb.com/title/tt0090095/,"2012-03-14 22:10:05",no,no,no,no
+163,275,Taxi,1998,http://www.icheckmovies.com/movies/taxi/,7453,191,94,1,102,,http://www.imdb.com/title/tt0152930/,"2017-09-11 00:05:02",no,no,no,no
+164,288,"Too Late the Hero",1970,http://www.icheckmovies.com/movies/too+late+the+hero/,245,10,2,1,63,,http://www.imdb.com/title/tt0066471/,no,no,no,no,no
+165,298,"True Romance",1993,http://www.icheckmovies.com/movies/true+romance/,18567,1814,88,7,541,,http://www.imdb.com/title/tt0108399/,"2012-03-14 22:10:24",no,no,no,no
+166,-112,"Blade Runner",1982,http://www.icheckmovies.com/movies/blade+runner/,73535,7814,655,36,1888,,http://www.imdb.com/title/tt0083658/,"2012-03-14 22:10:26",yes,no,no,no
+167,-101,Brazil,1985,http://www.icheckmovies.com/movies/brazil/,28525,3378,343,23,1156,,http://www.imdb.com/title/tt0088846/,"2012-03-14 22:10:26",yes,no,no,no
+168,-48,"The Day the Earth Stood Still",1951,http://www.icheckmovies.com/movies/the+day+the+earth+stood+still/,17665,935,91,12,677,,http://www.imdb.com/title/tt0043456/,"2012-05-15 06:19:59",no,no,no,no
+169,89,Labyrinth,1986,http://www.icheckmovies.com/movies/labyrinth/,16620,1368,112,4,399,,http://www.imdb.com/title/tt0091369/,"2012-03-14 22:10:21",no,no,no,no
+170,176,"El laberinto del fauno",2006,http://www.icheckmovies.com/movies/el+laberinto+del+fauno/,74831,8360,528,34,1488,"Pan's Labyrinth",http://www.imdb.com/title/tt0457430/,"2012-03-14 22:10:27",yes,no,no,no
+171,183,Pi,1998,http://www.icheckmovies.com/movies/pi/,22199,1798,287,6,541,,http://www.imdb.com/title/tt0138704/,"2012-03-14 22:10:24",yes,no,no,no
+172,186,"Planet of the Apes",1968,http://www.icheckmovies.com/movies/planet+of+the+apes/,41689,1935,173,16,809,,http://www.imdb.com/title/tt0063442/,"2012-05-14 20:29:31",yes,no,no,no
+173,223,"A Scanner Darkly",2006,http://www.icheckmovies.com/movies/a+scanner+darkly/,15748,1013,201,3,363,,http://www.imdb.com/title/tt0405296/,"2012-03-14 22:10:19",yes,no,no,no
+174,251,"Star Wars",1977,http://www.icheckmovies.com/movies/star+wars/,120825,10263,490,41,1863,,http://www.imdb.com/title/tt0076759/,"2012-03-14 22:10:26",yes,no,no,no
+175,301,Videodrome,1983,http://www.icheckmovies.com/movies/videodrome/,15141,1369,140,18,953,,http://www.imdb.com/title/tt0086541/,"2012-03-14 22:10:19",no,no,no,no
+176,245,"2001: A Space Odyssey",1968,http://www.icheckmovies.com/movies/2001+a+space+odyssey/,70652,8233,910,44,2145,,http://www.imdb.com/title/tt0062622/,"2012-03-14 22:10:27",yes,no,no,no
+177,-164,Akira,1988,http://www.icheckmovies.com/movies/akira/,30734,2997,245,23,955,,http://www.imdb.com/title/tt0094625/,"2012-03-14 22:10:26",yes,no,no,no
+178,-160,"Alphaville: Une étrange aventure de Lemmy Caution",1965,http://www.icheckmovies.com/movies/alphaville+une+etrange+aventure+de+lemmy+caution/,6119,428,141,13,560,Alphaville,http://www.imdb.com/title/tt0058898/,"2012-03-14 22:10:18",no,no,no,no
+179,-160,"Altered States",1980,http://www.icheckmovies.com/movies/altered+states/,4629,331,72,6,381,,http://www.imdb.com/title/tt0080360/,"2012-07-25 03:51:51",no,no,no,no
+180,-157,"The Andromeda Strain",1971,http://www.icheckmovies.com/movies/the+andromeda+strain/,4358,238,30,3,268,,http://www.imdb.com/title/tt0066769/,"2017-05-15 20:00:48",no,no,no,no
+181,-143,Barbarella,1968,http://www.icheckmovies.com/movies/barbarella/,6145,270,140,7,327,,http://www.imdb.com/title/tt0062711/,"2013-12-18 17:56:19",yes,no,no,no
+182,-93,"Chôjin densetsu urotsukidôji: Original gekijô kôkai-ban",1989,http://www.icheckmovies.com/movies/chojin+densetsu+urotsukidoji+original+gekijo+kokai-ban/,436,13,15,2,92,"Urotsukidoji: Legend of the Overfiend",http://www.imdb.com/title/tt0108461/,no,no,no,yes,no
+183,-85,"Conan the Barbarian",1982,http://www.icheckmovies.com/movies/conan+the+barbarian/,10741,373,143,4,305,,http://www.imdb.com/title/tt0082198/,"2012-03-14 22:10:17",no,no,no,no
+184,-79,"The Craft",1996,http://www.icheckmovies.com/movies/the+craft/,8600,385,100,2,205,,http://www.imdb.com/title/tt0115963/,no,no,no,no,no
+185,-55,Delicatessen,1991,http://www.icheckmovies.com/movies/delicatessen/,14374,1308,114,15,586,,http://www.imdb.com/title/tt0101700/,"2012-03-14 22:10:17",yes,no,no,no
+186,-53,"Demon Seed",1977,http://www.icheckmovies.com/movies/demon+seed/,1026,29,14,2,149,,http://www.imdb.com/title/tt0075931/,no,no,no,no,no
+187,-38,Dreamscape,1984,http://www.icheckmovies.com/movies/dreamscape/,1207,30,17,1,113,,http://www.imdb.com/title/tt0087175/,no,no,no,no,no
+188,-32,Dune,1984,http://www.icheckmovies.com/movies/dune/,12872,556,341,4,363,,http://www.imdb.com/title/tt0087182/,"2012-07-11 02:48:59",no,no,no,no
+189,-31,"Edward Scissorhands",1990,http://www.icheckmovies.com/movies/edward+scissorhands/,80137,5757,319,10,806,,http://www.imdb.com/title/tt0099487/,"2012-03-14 22:10:26",no,no,no,no
+190,-23,Excalibur,1981,http://www.icheckmovies.com/movies/excalibur/,5466,281,68,3,312,,http://www.imdb.com/title/tt0082348/,no,no,no,no,no
+191,-22,"Fahrenheit 451",1966,http://www.icheckmovies.com/movies/fahrenheit+451/,7040,362,78,4,272,,http://www.imdb.com/title/tt0060390/,"2012-03-14 22:10:23",no,no,no,no
+192,-10,"The Fly",1958,http://www.icheckmovies.com/movies/the+fly-1958/,6563,175,33,4,276,,http://www.imdb.com/title/tt0051622/,no,no,no,no,no
+193,-10,"Forbidden Planet",1956,http://www.icheckmovies.com/movies/forbidden+planet/,7536,485,41,9,592,,http://www.imdb.com/title/tt0049223/,"2012-03-14 22:10:05",no,no,no,no
+194,7,Gojira,1954,http://www.icheckmovies.com/movies/gojira/,7801,437,31,13,567,Godzilla,http://www.imdb.com/title/tt0047034/,"2014-02-23 04:52:45",no,no,no,no
+195,20,"Heavy Metal",1981,http://www.icheckmovies.com/movies/heavy+metal/,4711,212,77,2,188,,http://www.imdb.com/title/tt0082509/,"2012-03-14 22:10:19",no,no,no,no
+196,41,"The Incredible Shrinking Man",1957,http://www.icheckmovies.com/movies/the+incredible+shrinking+man/,4189,301,27,10,506,,http://www.imdb.com/title/tt0050539/,"2012-03-14 22:10:06",yes,no,no,no
+197,43,"Interstella 5555: The 5tory of the 5ecret 5tar 5ystem",2003,http://www.icheckmovies.com/movies/interstella+5555+the+5tory+of+the+5ecret+5tar+5ystem/,4813,463,40,3,181,,http://www.imdb.com/title/tt0368667/,"2012-03-14 22:10:23",yes,no,no,no
+198,43,"Invasion of the Body Snatchers",1956,http://www.icheckmovies.com/movies/invasion+of+the+body+snatchers/,13962,710,45,19,789,,http://www.imdb.com/title/tt0049366/,"2012-03-14 22:10:06",no,no,no,no
+199,57,"Kôkaku Kidôtai",1995,http://www.icheckmovies.com/movies/kokaku+kidotai/,17859,1543,121,12,661,"Ghost in the Shell",http://www.imdb.com/title/tt0113568/,"2012-03-14 22:10:26",yes,no,no,no
+200,57,"Kyûketsuki hantâ D",1985,http://www.icheckmovies.com/movies/kyuketsuki+hanta+d/,1142,59,10,2,119,"Vampire Hunter D",http://www.imdb.com/title/tt0090248/,"2012-03-14 22:10:19",no,no,no,no
+201,74,"Liquid Sky",1982,http://www.icheckmovies.com/movies/liquid+sky/,934,65,46,4,239,,http://www.imdb.com/title/tt0085852/,"2012-07-18 02:42:49",no,no,no,no
+202,75,"Logan's Run",1976,http://www.icheckmovies.com/movies/logans+run/,6263,314,82,4,289,,http://www.imdb.com/title/tt0074812/,"2012-03-14 22:10:19",no,no,no,no
+203,91,"The Man Who Fell to Earth",1976,http://www.icheckmovies.com/movies/the+man+who+fell+to+earth/,5927,300,100,8,453,,http://www.imdb.com/title/tt0074851/,"2012-03-14 22:10:06",yes,no,no,no
+204,295,X,1963,http://www.icheckmovies.com/movies/x/,1171,49,7,5,201,"X: The Man with the X-Ray Eyes",http://www.imdb.com/title/tt0057693/,"2018-11-23 23:02:27",no,no,no,no
+205,101,Metropolis,1927,http://www.icheckmovies.com/movies/metropolis/,28635,2919,154,36,1449,,http://www.imdb.com/title/tt0017136/,"2012-03-14 22:10:27",yes,no,no,no
+206,103,Mirrormask,2005,http://www.icheckmovies.com/movies/mirrormask/,2741,206,68,2,108,,http://www.imdb.com/title/tt0366780/,"2012-03-14 22:10:15",yes,no,no,no
+207,106,Mononoke-hime,1997,http://www.icheckmovies.com/movies/mononoke-hime/,44410,5216,194,18,1069,"Princess Mononoke",http://www.imdb.com/title/tt0119698/,"2012-03-14 22:10:27",yes,no,no,no
+208,114,"The Navigator: A Medieval Odyssey",1988,http://www.icheckmovies.com/movies/the+navigator+a+medieval+odyssey/,545,25,8,4,123,,http://www.imdb.com/title/tt0095709/,no,no,no,no,no
+209,120,"Tim Burton's the Nightmare Before Christmas",1993,http://www.icheckmovies.com/movies/tim+burtons+the+nightmare+before+christmas/,79191,5711,462,16,890,"The Nightmare Before Christmas",http://www.imdb.com/title/tt0107688/,"2012-03-14 22:10:27",yes,no,no,no
+210,122,"Nochnoy dozor",2004,http://www.icheckmovies.com/movies/nochnoy+dozor/,3470,154,157,3,139,"Night Watch",http://www.imdb.com/title/tt0403358/,"2012-03-14 22:10:17",no,no,no,no
+211,126,"The Omega Man",1971,http://www.icheckmovies.com/movies/the+omega+man/,3578,96,83,3,207,,http://www.imdb.com/title/tt0067525/,"2012-10-24 03:06:48",no,no,no,no
+212,129,Orphée,1950,http://www.icheckmovies.com/movies/orphee/,3567,363,27,18,565,Orpheus,http://www.imdb.com/title/tt0041719/,"2012-03-14 22:10:14",yes,no,no,no
+213,129,Outland,1981,http://www.icheckmovies.com/movies/outland/,2400,64,24,2,132,,http://www.imdb.com/title/tt0082869/,"2018-12-02 23:56:23",no,no,no,no
+214,143,"Plan 9 from Outer Space",1957,http://www.icheckmovies.com/movies/plan+9+from+outer+space/,5402,173,281,6,331,,http://www.imdb.com/title/tt0052077/,no,no,no,no,no
+215,162,Renaissance,2006,http://www.icheckmovies.com/movies/renaissance/,1072,33,34,2,102,,http://www.imdb.com/title/tt0386741/,"2012-03-14 22:10:18",no,no,no,no
+216,169,Rollerball,1975,http://www.icheckmovies.com/movies/rollerball/,3957,137,46,4,217,,http://www.imdb.com/title/tt0073631/,"2018-11-22 04:28:45",no,no,no,no
+217,177,"Santa Claus Conquers the Martians",1964,http://www.icheckmovies.com/movies/santa+claus+conquers+the+martians/,1349,22,114,2,120,,http://www.imdb.com/title/tt0058548/,no,no,no,no,no
+218,180,Screamers,1995,http://www.icheckmovies.com/movies/screamers/,1799,65,29,1,107,,http://www.imdb.com/title/tt0114367/,"2012-03-14 22:10:21",no,no,no,no
+219,194,"Silent Running",1972,http://www.icheckmovies.com/movies/silent+running/,3662,148,89,8,262,,http://www.imdb.com/title/tt0067756/,"2012-03-14 22:10:23",yes,no,no,no
+220,203,Stalker,1979,http://www.icheckmovies.com/movies/stalker/,14134,2343,194,24,1166,,http://www.imdb.com/title/tt0079944/,"2012-03-14 22:10:06",yes,no,no,no
+221,203,"Star Trek II: The Wrath of Khan",1982,http://www.icheckmovies.com/movies/star+trek+ii+the+wrath+of+khan/,15243,874,68,7,400,,http://www.imdb.com/title/tt0084726/,"2013-10-02 18:10:02",no,no,no,no
+222,221,"They Live",1988,http://www.icheckmovies.com/movies/they+live/,11363,1062,81,8,555,,http://www.imdb.com/title/tt0096256/,"2012-03-14 22:10:06",no,no,no,no
+223,223,"The Thing with Two Heads",1972,http://www.icheckmovies.com/movies/the+thing+with+two+heads/,431,11,17,1,87,,http://www.imdb.com/title/tt0069372/,no,no,no,no,no
+224,224,"THX 1138",1971,http://www.icheckmovies.com/movies/thx+1138/,6378,307,122,5,310,,http://www.imdb.com/title/tt0066434/,"2012-03-14 22:10:19",yes,no,no,no
+225,237,Tron,1982,http://www.icheckmovies.com/movies/tron/,18627,727,184,5,353,,http://www.imdb.com/title/tt0084827/,"2012-03-14 22:10:25",no,no,no,no
+226,243,Unbreakable,2000,http://www.icheckmovies.com/movies/unbreakable/,39057,1893,333,6,437,,http://www.imdb.com/title/tt0217869/,"2012-03-14 22:10:04",no,no,no,no
+227,256,Westworld,1973,http://www.icheckmovies.com/movies/westworld/,5968,291,54,5,325,,http://www.imdb.com/title/tt0070909/,"2013-01-12 20:25:36",no,no,no,no
+228,268,"The Wizard of Oz",1939,http://www.icheckmovies.com/movies/the+wizard+of+oz/,91295,3945,372,37,1462,,http://www.imdb.com/title/tt0032138/,"2012-03-14 22:10:27",yes,no,no,no
+229,-194,Badlands,1973,http://www.icheckmovies.com/movies/badlands/,12552,1411,53,23,884,,http://www.imdb.com/title/tt0069762/,"2012-03-14 22:10:06",no,no,no,no
+230,-169,"Blue Velvet",1986,http://www.icheckmovies.com/movies/blue+velvet/,27672,2944,217,27,1324,,http://www.imdb.com/title/tt0090756/,"2012-03-14 22:10:25",yes,no,no,no
+231,-103,"Death Wish",1974,http://www.icheckmovies.com/movies/death+wish/,3514,119,44,4,194,,http://www.imdb.com/title/tt0071402/,no,no,no,no,no
+232,-91,"Dog Day Afternoon",1975,http://www.icheckmovies.com/movies/dog+day+afternoon/,27535,2589,78,24,997,,http://www.imdb.com/title/tt0072890/,"2012-04-22 22:50:38",no,no,no,no
+233,-24,"Lat sau san taam",1992,http://www.icheckmovies.com/movies/lat+sau+san+taam/,5639,550,47,12,496,"Hard Boiled",http://www.imdb.com/title/tt0104684/,"2012-07-20 06:10:49",yes,no,no,no
+234,-24,"The Harder They Come",1972,http://www.icheckmovies.com/movies/the+harder+they+come/,1957,93,16,7,259,,http://www.imdb.com/title/tt0070155/,"2012-03-14 22:10:05",no,no,no,no
+235,56,"The Mack",1973,http://www.icheckmovies.com/movies/the+mack/,481,17,10,2,76,,http://www.imdb.com/title/tt0070350/,no,no,no,no,no
+236,124,"Point Blank",1967,http://www.icheckmovies.com/movies/point+blank/,4674,361,38,16,515,,http://www.imdb.com/title/tt0062138/,no,no,no,no,no
+237,200,"The Taking of Pelham One Two Three",1974,http://www.icheckmovies.com/movies/the+taking+of+pelham+one+two+three/,4885,360,12,6,332,,http://www.imdb.com/title/tt0072251/,no,no,no,no,no
+238,215,"Touch of Evil",1958,http://www.icheckmovies.com/movies/touch+of+evil/,15226,1602,91,31,1146,,http://www.imdb.com/title/tt0052311/,"2012-03-14 22:10:06",no,no,no,no
+239,-233,"À bout de souffle",1960,http://www.icheckmovies.com/movies/a+bout+de+souffle/,16263,1773,156,29,1131,Breathless,http://www.imdb.com/title/tt0053472/,"2012-03-14 22:10:25",yes,no,no,no
+240,-223,"Alone in the Dark",1982,http://www.icheckmovies.com/movies/alone+in+the+dark-1982/,969,20,20,2,101,,http://www.imdb.com/title/tt0083542/,no,no,no,no,no
+241,-219,"Anatomy of a Murder",1959,http://www.icheckmovies.com/movies/anatomy+of+a+murder/,9928,893,38,15,712,,http://www.imdb.com/title/tt0052561/,"2012-03-14 22:10:06",no,no,no,no
+242,-196,"The Big Combo",1955,http://www.icheckmovies.com/movies/the+big+combo/,1544,105,11,7,267,,http://www.imdb.com/title/tt0047878/,no,no,no,no,no
+243,-184,"Bloody Mama",1970,http://www.icheckmovies.com/movies/bloody+mama/,455,9,10,2,84,,http://www.imdb.com/title/tt0065481/,no,no,no,no,no
+244,-181,Bound,1996,http://www.icheckmovies.com/movies/bound/,4267,350,32,6,390,,http://www.imdb.com/title/tt0115736/,"2012-03-14 22:10:19",no,no,no,no
+245,-177,Brick,2005,http://www.icheckmovies.com/movies/brick/,17888,1805,233,8,406,,http://www.imdb.com/title/tt0393109/,"2012-03-14 22:10:19",yes,no,no,no
+246,-156,Chopper,2000,http://www.icheckmovies.com/movies/chopper/,2971,152,23,3,162,,http://www.imdb.com/title/tt0221073/,no,no,no,no,no
+247,-113,"Der amerikanische Freund",1977,http://www.icheckmovies.com/movies/der+amerikanische+freund/,2965,257,24,8,458,"The American Friend",http://www.imdb.com/title/tt0075675/,no,no,no,yes,no
+248,-113,Detour,1945,http://www.icheckmovies.com/movies/detour/,4209,306,33,16,509,,http://www.imdb.com/title/tt0037638/,"2020-01-03 18:16:17",no,no,no,no
+249,-112,Dillinger,1973,http://www.icheckmovies.com/movies/dillinger-1973-1/,617,25,3,2,101,,http://www.imdb.com/title/tt0069976/,no,no,no,no,no
+250,-98,"The Driver",1978,http://www.icheckmovies.com/movies/the+driver/,2238,158,14,6,292,,http://www.imdb.com/title/tt0077474/,no,no,no,no,no
+251,-98,"Drugstore Cowboy",1989,http://www.icheckmovies.com/movies/drugstore+cowboy/,5506,310,28,8,309,,http://www.imdb.com/title/tt0097240/,"2012-03-14 22:10:18",yes,no,no,no
+252,-79,"Faster, Pussycat! Kill! Kill!",1965,http://www.icheckmovies.com/movies/faster+pussycatexclamation+killexclamation+killexclamation/,4561,280,72,8,323,"The Leather Girls",http://www.imdb.com/title/tt0059170/,"2017-05-03 16:41:10",no,no,no,no
+253,-51,Goodfellas,1990,http://www.icheckmovies.com/movies/goodfellas/,77107,8594,218,32,1707,,http://www.imdb.com/title/tt0099685/,"2012-03-14 22:10:18",yes,no,no,no
+254,-49,"The Grifters",1990,http://www.icheckmovies.com/movies/the+grifters/,3412,142,54,9,245,,http://www.imdb.com/title/tt0099703/,no,no,no,no,no
+255,-48,"The Grissom Gang",1971,http://www.icheckmovies.com/movies/the+grissom+gang/,181,7,4,1,63,,http://www.imdb.com/title/tt0067162/,no,no,no,no,no
+256,-38,"High School Confidential!",1958,http://www.icheckmovies.com/movies/high+school+confidentialexclamation/,250,6,4,1,59,,http://www.imdb.com/title/tt0051724/,no,no,no,no,no
+257,-35,"The Honeymoon Killers",1970,http://www.icheckmovies.com/movies/the+honeymoon+killers/,1193,56,25,5,199,"The Lonely Hearts Killers",http://www.imdb.com/title/tt0064437/,no,no,no,no,no
+258,-24,"Il portiere di notte",1974,http://www.icheckmovies.com/movies/il+portiere+di+notte/,1994,106,38,5,252,"The Night Porter",http://www.imdb.com/title/tt0071910/,"2012-03-14 22:10:05",no,no,no,no
+259,-6,"King of New York",1990,http://www.icheckmovies.com/movies/king+of+new+york/,5188,242,49,8,300,,http://www.imdb.com/title/tt0099939/,"2017-03-09 02:45:21",no,no,no,no
+260,1,"La haine",1995,http://www.icheckmovies.com/movies/la+haine/,15764,1937,68,16,762,"La Haine",http://www.imdb.com/title/tt0113247/,"2012-03-14 22:10:26",yes,no,no,no
+261,4,"The Last Seduction",1994,http://www.icheckmovies.com/movies/the+last+seduction/,3228,180,36,10,280,,http://www.imdb.com/title/tt0110308/,no,no,no,no,no
+262,5,"Le doulos",1962,http://www.icheckmovies.com/movies/le+doulos/,2216,215,12,10,320,"The Informer",http://www.imdb.com/title/tt0054821/,"2022-01-17 23:27:28",no,no,no,no
+263,6,Léon,1994,http://www.icheckmovies.com/movies/leon/,74208,8842,255,23,1079,"Léon: The Professional",http://www.imdb.com/title/tt0110413/,"2012-03-14 22:10:26",no,no,no,no
+264,7,"Les diaboliques",1955,http://www.icheckmovies.com/movies/les+diaboliques/,9843,1258,47,21,944,Diabolique,http://www.imdb.com/title/tt0046911/,"2012-03-14 22:10:19",yes,no,no,no
+265,9,"The Limey",1999,http://www.icheckmovies.com/movies/the+limey/,3580,215,43,5,225,,http://www.imdb.com/title/tt0165854/,no,no,no,no,no
+266,15,"The Long Goodbye",1973,http://www.icheckmovies.com/movies/the+long+goodbye/,6090,667,44,15,597,,http://www.imdb.com/title/tt0070334/,"2012-03-14 22:10:05",yes,no,no,no
+267,13,"The Long Good Friday",1980,http://www.icheckmovies.com/movies/the+long+good+friday/,3595,281,21,12,346,,http://www.imdb.com/title/tt0081070/,"2020-01-04 05:28:13",no,no,no,no
+268,34,"Mean Streets",1973,http://www.icheckmovies.com/movies/mean+streets/,13937,843,103,22,692,,http://www.imdb.com/title/tt0070379/,"2012-07-20 06:10:49",no,no,no,no
+269,52,"The Narrow Margin",1952,http://www.icheckmovies.com/movies/the+narrow+margin/,1628,140,12,7,278,,http://www.imdb.com/title/tt0044954/,no,no,no,no,no
+270,53,"Ne le dis à personne",2006,http://www.icheckmovies.com/movies/ne+le+dis+a+personne/,2934,212,16,1,207,"Tell No One",http://www.imdb.com/title/tt0362225/,no,no,no,no,no
+271,65,Oldeuboi,2003,http://www.icheckmovies.com/movies/oldeuboi/,46299,6639,340,34,1371,Oldboy,http://www.imdb.com/title/tt0364569/,"2012-03-14 22:10:26",yes,no,no,no
+272,81,"The Phenix City Story",1955,http://www.icheckmovies.com/movies/the+phenix+city+story/,984,51,11,6,232,,http://www.imdb.com/title/tt0048488/,no,no,no,no,no
+273,89,"The Postman Always Rings Twice",1981,http://www.icheckmovies.com/movies/the+postman+always+rings+twice-1981-1/,1892,48,21,3,141,,http://www.imdb.com/title/tt0082934/,no,no,no,no,no
+274,92,"The Prowler",1951,http://www.icheckmovies.com/movies/the+prowler/,834,43,6,4,227,,http://www.imdb.com/title/tt0043938/,no,no,no,no,no
+275,107,"Reservoir Dogs",1992,http://www.icheckmovies.com/movies/reservoir+dogs/,91551,10009,360,26,1491,,http://www.imdb.com/title/tt0105236/,"2012-03-14 22:10:26",yes,no,no,no
+276,111,Rope,1948,http://www.icheckmovies.com/movies/rope/,18462,1851,59,10,780,,http://www.imdb.com/title/tt0040746/,"2012-04-28 18:43:08",yes,no,no,no
+277,142,Sonachine,1993,http://www.icheckmovies.com/movies/sonachine/,2928,327,21,11,358,Sonatine,http://www.imdb.com/title/tt0108188/,"2015-06-14 04:37:11",yes,no,no,no
+278,157,"Sweet Sweetback's Baadasssss Song",1971,http://www.icheckmovies.com/movies/sweet+sweetbacks+baadasssss+song/,1902,51,81,12,262,,http://www.imdb.com/title/tt0067810/,no,no,no,yes,no
+279,172,"Tôkyô nagaremono",1966,http://www.icheckmovies.com/movies/tokyo+nagaremono/,2330,155,21,8,239,"Tokyo Drifter",http://www.imdb.com/title/tt0061101/,"2012-03-14 22:10:06",no,no,no,no
+280,192,"The Usual Suspects",1995,http://www.icheckmovies.com/movies/the+usual+suspects/,74982,7803,330,24,1198,,http://www.imdb.com/title/tt0114814/,"2012-03-14 22:10:26",yes,no,no,no
+281,-261,"An American Werewolf in London",1981,http://www.icheckmovies.com/movies/an+american+werewolf+in+london/,19766,1118,110,12,715,,http://www.imdb.com/title/tt0082010/,"2012-07-09 07:05:09",no,no,no,no
+282,-116,"The Evil Dead",1981,http://www.icheckmovies.com/movies/the+evil+dead/,27146,1769,212,8,779,,http://www.imdb.com/title/tt0083907/,"2012-03-14 22:10:21",yes,no,no,no
+283,-71,"The Haunting",1963,http://www.icheckmovies.com/movies/the+haunting/,8708,484,50,6,555,,http://www.imdb.com/title/tt0057129/,"2015-02-07 18:44:21",no,no,no,no
+284,42,"Night of the Demon",1957,http://www.icheckmovies.com/movies/night+of+the+demon/,2525,195,17,7,400,"Curse of the Demon",http://www.imdb.com/title/tt0050766/,no,no,no,no,no
+285,43,"Night of the Living Dead",1968,http://www.icheckmovies.com/movies/night+of+the+living+dead/,28431,1717,107,21,1052,,http://www.imdb.com/title/tt0063350/,"2012-03-14 22:10:06",no,no,no,no
+286,97,Ringu,1998,http://www.icheckmovies.com/movies/ringu/,14381,535,100,12,508,,http://www.imdb.com/title/tt0178868/,"2012-03-14 22:10:06",no,no,no,no
+287,120,"The Shining",1980,http://www.icheckmovies.com/movies/the+shining/,99655,9871,438,28,1903,,http://www.imdb.com/title/tt0081505/,"2012-03-14 22:10:26",yes,no,no,no
+288,157,"The Thing",1982,http://www.icheckmovies.com/movies/the+thing/,45633,4494,223,21,1426,,http://www.imdb.com/title/tt0084787/,"2012-03-14 22:10:27",yes,no,no,no
+289,196,"What Ever Happened to Baby Jane?",1962,http://www.icheckmovies.com/movies/what+ever+happened+to+baby+janequestion-1962-1/,9719,964,61,15,673,,http://www.imdb.com/title/tt0056687/,"2012-03-14 22:10:23",yes,no,no,no
+290,199,"The Wicker Man",1973,http://www.icheckmovies.com/movies/the+wicker+man/,14968,1156,158,13,775,,http://www.imdb.com/title/tt0070917/,"2012-03-14 22:10:05",no,no,no,no
+291,-289,"28 Days Later",2002,http://www.icheckmovies.com/movies/28+days+later/,54133,3663,323,8,746,,http://www.imdb.com/title/tt0289043/,"2012-03-14 22:10:11",no,no,no,no
+292,-277,Alligator,1980,http://www.icheckmovies.com/movies/alligator/,1491,33,27,2,196,,http://www.imdb.com/title/tt0080354/,no,no,no,no,no
+293,-267,"Army of Darkness",1992,http://www.icheckmovies.com/movies/army+of+darkness/,20612,1634,173,6,509,,http://www.imdb.com/title/tt0106308/,"2012-03-14 22:10:06",no,no,no,no
+294,-263,"The Baby",1973,http://www.icheckmovies.com/movies/the+baby/,591,22,24,2,121,,http://www.imdb.com/title/tt0069754/,no,no,no,no,no
+295,-262,"Bad Taste",1987,http://www.icheckmovies.com/movies/bad+taste/,5759,294,121,6,301,,http://www.imdb.com/title/tt0092610/,no,no,no,yes,no
+296,-256,"Basket Case",1982,http://www.icheckmovies.com/movies/basket+case/,2615,109,44,2,248,,http://www.imdb.com/title/tt0083624/,"2012-07-09 07:05:09",no,no,no,no
+297,-256,"Batoru rowaiaru",2000,http://www.icheckmovies.com/movies/batoru+rowaiaru/,23952,2223,174,9,724,"Battle Royale",http://www.imdb.com/title/tt0266308/,"2012-03-14 22:10:17",no,no,no,no
+298,-247,"Black Sheep",2006,http://www.icheckmovies.com/movies/black+sheep/,4405,100,116,2,163,,http://www.imdb.com/title/tt0779982/,"2012-03-14 22:10:20",no,no,no,no
+299,-244,"The Blair Witch Project",1999,http://www.icheckmovies.com/movies/the+blair+witch+project/,52448,1561,1184,14,743,,http://www.imdb.com/title/tt0185937/,"2012-03-14 22:10:06",no,no,no,no
+300,-244,"The Blob",1958,http://www.icheckmovies.com/movies/the+blob/,6246,157,68,5,270,,http://www.imdb.com/title/tt0051418/,no,no,no,no,no
+301,-244,"Blood Feast",1963,http://www.icheckmovies.com/movies/blood+feast/,1450,37,82,4,188,,http://www.imdb.com/title/tt0056875/,no,no,no,no,no
+302,-229,"The Brood",1979,http://www.icheckmovies.com/movies/the+brood/,4095,231,37,5,395,,http://www.imdb.com/title/tt0078908/,"2013-01-03 08:10:14",yes,no,no,no
+303,-228,"A Bucket of Blood",1959,http://www.icheckmovies.com/movies/a+bucket+of+blood/,1506,84,11,2,227,,http://www.imdb.com/title/tt0052655/,no,no,no,no,no
+304,-228,"Das Cabinet des Dr. Caligari",1920,http://www.icheckmovies.com/movies/das+cabinet+des+dr.+caligari/,16379,1454,76,30,1115,"The Cabinet of Dr. Caligari",http://www.imdb.com/title/tt0010323/,"2012-03-14 22:10:25",yes,no,no,no
+305,-227,"Cannibal ferox",1981,http://www.icheckmovies.com/movies/cannibal+ferox/,1077,8,72,4,133,"Cannibal Ferox",http://www.imdb.com/title/tt0082700/,no,no,no,no,no
+306,-223,"Carnival of Souls",1962,http://www.icheckmovies.com/movies/carnival+of+souls/,4399,345,50,5,439,,http://www.imdb.com/title/tt0055830/,no,no,no,no,no
+307,-219,"Child's Play",1988,http://www.icheckmovies.com/movies/childs+play/,14466,331,160,2,296,,http://www.imdb.com/title/tt0094862/,no,no,no,no,no
+308,-212,"A Clockwork Orange",1971,http://www.icheckmovies.com/movies/a+clockwork+orange/,88794,10252,853,37,1855,,http://www.imdb.com/title/tt0066921/,"2012-03-14 22:10:27",yes,no,no,no
+309,-205,"Countess Dracula",1971,http://www.icheckmovies.com/movies/countess+dracula/,694,12,18,1,99,,http://www.imdb.com/title/tt0065580/,no,no,no,no,no
+310,-203,Cronos,1992,http://www.icheckmovies.com/movies/cronos/,4890,191,54,6,293,,http://www.imdb.com/title/tt0104029/,"2012-07-15 05:13:29",no,no,no,no
+311,-202,Cube,1997,http://www.icheckmovies.com/movies/cube/,23863,1445,246,5,428,,http://www.imdb.com/title/tt0123755/,"2012-03-14 22:10:20",no,no,no,no
+312,-194,"Dawn of the Dead",1978,http://www.icheckmovies.com/movies/dawn+of+the+dead/,30334,1718,156,15,898,,http://www.imdb.com/title/tt0077402/,"2012-03-14 22:10:04",yes,no,no,no
+313,-187,"Dead of Night",1945,http://www.icheckmovies.com/movies/dead+of+night/,2720,219,26,9,409,,http://www.imdb.com/title/tt0037635/,"2017-05-26 19:08:39",no,no,no,no
+314,-182,"Dellamorte Dellamore",1994,http://www.icheckmovies.com/movies/dellamorte+dellamore/,2719,271,35,5,299,"Cemetery Man",http://www.imdb.com/title/tt0109592/,"2017-10-07 06:13:36",no,no,no,no
+315,-173,"Dog Soldiers",2002,http://www.icheckmovies.com/movies/dog+soldiers/,5857,218,82,2,199,,http://www.imdb.com/title/tt0280609/,"2012-03-14 22:10:05",no,no,no,no
+316,-165,"The Driller Killer",1979,http://www.icheckmovies.com/movies/the+driller+killer/,1128,35,54,2,145,,http://www.imdb.com/title/tt0079082/,no,no,no,no,no
+317,-149,"Faces of Death",1978,http://www.icheckmovies.com/movies/faces+of+death/,1253,8,71,2,96,,http://www.imdb.com/title/tt0077533/,no,no,no,no,no
+318,-141,"Fiend Without a Face",1958,http://www.icheckmovies.com/movies/fiend+without+a+face/,1092,23,22,5,145,,http://www.imdb.com/title/tt0050393/,no,no,no,no,no
+319,-134,Freaks,1932,http://www.icheckmovies.com/movies/freaks/,12167,1179,60,20,845,,http://www.imdb.com/title/tt0022913/,"2012-07-07 23:28:12",yes,no,no,no
+320,-131,"From Dusk Till Dawn",1996,http://www.icheckmovies.com/movies/from+dusk+till+dawn/,27542,1564,242,2,487,,http://www.imdb.com/title/tt0116367/,"2012-03-14 22:10:19",no,no,no,no
+321,-129,"The Fury",1978,http://www.icheckmovies.com/movies/the+fury/,1576,66,23,2,202,,http://www.imdb.com/title/tt0077588/,no,no,no,no,no
+322,-125,"Ginger Snaps",2000,http://www.icheckmovies.com/movies/ginger+snaps/,6909,432,73,6,307,,http://www.imdb.com/title/tt0210070/,"2012-03-14 22:10:19",no,no,no,no
+323,-120,Gothic,1986,http://www.icheckmovies.com/movies/gothic/,1016,25,31,2,120,,http://www.imdb.com/title/tt0091142/,no,no,no,no,no
+324,-103,"The Hitcher",1986,http://www.icheckmovies.com/movies/the+hitcher/,5470,271,48,2,229,,http://www.imdb.com/title/tt0091209/,no,no,no,no,no
+325,-100,"The Hunger",1983,http://www.icheckmovies.com/movies/the+hunger/,2889,188,42,2,319,,http://www.imdb.com/title/tt0085701/,"2012-09-17 10:54:52",no,no,no,no
+326,-99,"I Bury the Living",1958,http://www.icheckmovies.com/movies/i+bury+the+living/,616,24,9,2,106,,http://www.imdb.com/title/tt0051755/,no,no,no,no,no
+327,-99,"I lunghi capelli della morte",1964,http://www.icheckmovies.com/movies/i+lunghi+capelli+della+morte/,261,10,5,1,75,"The Long Hair of Death",http://www.imdb.com/title/tt0058307/,no,no,no,no,no
+328,-99,"I Walked with a Zombie",1943,http://www.icheckmovies.com/movies/i+walked+with+a+zombie/,3388,224,22,11,484,,http://www.imdb.com/title/tt0036027/,"2012-03-14 22:10:05",no,no,no,no
+329,-91,"The Incredibly Strange Creatures Who Stopped Living and Became Mixed-Up Zombies!!?",1964,http://www.icheckmovies.com/movies/the+incredibly+strange+creatures+who+stopped+living+and+became+mixed-up+zombiesexclamationexclamationquestion/,513,8,59,1,84,,http://www.imdb.com/title/tt0057181/,no,no,no,no,no
+330,-86,Jaws,1975,http://www.icheckmovies.com/movies/jaws/,91291,4141,417,29,1616,,http://www.imdb.com/title/tt0073195/,"2012-03-14 22:10:27",no,no,no,no
+331,-85,Ju-on,2002,http://www.icheckmovies.com/movies/ju-on/,6120,196,73,3,207,"Ju-on: The Grudge",http://www.imdb.com/title/tt0364385/,no,no,no,no,no
+332,-84,"The Keep",1983,http://www.icheckmovies.com/movies/the+keep/,1342,40,46,1,146,,http://www.imdb.com/title/tt0085780/,no,no,no,no,no
+333,-83,"Killer Klowns from Outer Space",1988,http://www.icheckmovies.com/movies/killer+klowns+from+outer+space/,5646,256,109,3,261,,http://www.imdb.com/title/tt0095444/,no,no,no,no,no
+334,-71,"The Last House on the Left",1972,http://www.icheckmovies.com/movies/the+last+house+on+the+left/,6179,163,210,4,317,,http://www.imdb.com/title/tt0068833/,no,no,no,no,no
+335,-51,"The Lost Boys",1987,http://www.icheckmovies.com/movies/the+lost+boys/,15896,904,142,3,353,,http://www.imdb.com/title/tt0093437/,"2012-03-14 22:10:21",no,no,no,no
+336,-38,"Maniac Cop",1988,http://www.icheckmovies.com/movies/maniac+cop/,1732,52,38,2,159,,http://www.imdb.com/title/tt0095583/,no,no,no,no,no
+337,-13,"Near Dark",1987,http://www.icheckmovies.com/movies/near+dark/,4817,266,45,9,427,,http://www.imdb.com/title/tt0093605/,"2012-03-14 22:10:05",no,no,no,no
+338,-5,"Nosferatu, eine Symphonie des Grauens",1922,http://www.icheckmovies.com/movies/nosferatu+eine+symphonie+des+grauens/,22875,1466,127,27,1184,Nosferatu,http://www.imdb.com/title/tt0013442/,"2012-05-06 19:32:41",no,no,no,no
+339,1,"Operazione paura",1966,http://www.icheckmovies.com/movies/operazione+paura/,1143,57,14,3,174,"Kill Baby, Kill",http://www.imdb.com/title/tt0060794/,no,no,no,no,no
+340,10,"Peeping Tom",1960,http://www.icheckmovies.com/movies/peeping+tom/,8257,784,51,20,788,,http://www.imdb.com/title/tt0054167/,"2012-03-14 22:10:06",yes,no,no,no
+341,11,"Phantom of the Paradise",1974,http://www.icheckmovies.com/movies/phantom+of+the+paradise/,2566,268,33,6,385,,http://www.imdb.com/title/tt0071994/,"2012-10-04 06:17:27",yes,no,no,no
+342,14,Piranha,1978,http://www.icheckmovies.com/movies/piranha/,4161,68,68,4,187,,http://www.imdb.com/title/tt0078087/,no,no,no,no,no
+343,24,Psychomania,1973,http://www.icheckmovies.com/movies/psychomania/,543,18,21,2,125,"The Death Wheelers",http://www.imdb.com/title/tt0067630/,no,no,no,no,no
+344,24,Q,1982,http://www.icheckmovies.com/movies/q/,1213,38,26,2,165,"Q: The Winged Serpent",http://www.imdb.com/title/tt0084556/,no,no,no,no,no
+345,24,"The Quatermass Xperiment",1955,http://www.icheckmovies.com/movies/the+quatermass+xperiment/,1167,36,8,2,161,"The Creeping Unknown",http://www.imdb.com/title/tt0049646/,no,no,no,no,no
+346,26,Razorback,1984,http://www.icheckmovies.com/movies/razorback/,893,31,12,2,137,,http://www.imdb.com/title/tt0087981/,no,no,no,no,no
+347,26,Re-Animator,1985,http://www.icheckmovies.com/movies/re-animator/,7980,607,59,7,512,,http://www.imdb.com/title/tt0089885/,"2012-03-14 22:10:05",no,no,no,no
+348,40,"Rosemary's Baby",1968,http://www.icheckmovies.com/movies/rosemarys+baby/,35650,3033,206,21,1235,,http://www.imdb.com/title/tt0063522/,"2012-03-14 22:10:06",yes,no,no,no
+349,46,Saw,2004,http://www.icheckmovies.com/movies/saw/,57448,2116,724,6,508,,http://www.imdb.com/title/tt0387564/,"2012-03-14 22:10:24",no,no,no,no
+350,47,Scanners,1981,http://www.icheckmovies.com/movies/scanners/,7655,373,64,4,396,,http://www.imdb.com/title/tt0081455/,"2012-03-14 22:10:23",no,no,no,no
+351,49,"The Serpent and the Rainbow",1988,http://www.icheckmovies.com/movies/the+serpent+and+the+rainbow/,2870,103,45,2,169,,http://www.imdb.com/title/tt0096071/,"2024-02-05 20:39:36",no,no,no,no
+352,56,Shivers,1975,http://www.icheckmovies.com/movies/shivers/,2742,123,30,3,300,,http://www.imdb.com/title/tt0073705/,"2018-09-16 06:52:05",no,no,no,no
+353,57,"Shock Waves",1977,http://www.icheckmovies.com/movies/shock+waves/,608,12,15,2,119,"Almost Human",http://www.imdb.com/title/tt0076704/,no,no,no,no,no
+354,62,Society,1989,http://www.icheckmovies.com/movies/society/,1781,107,25,3,255,,http://www.imdb.com/title/tt0098354/,no,no,no,no,no
+355,86,Tenebre,1982,http://www.icheckmovies.com/movies/tenebre/,3029,214,30,5,326,Tenebrae,http://www.imdb.com/title/tt0084777/,"2012-03-14 22:10:07",no,no,no,no
+356,86,"The Texas Chain Saw Massacre",1974,http://www.icheckmovies.com/movies/the+texas+chain+saw+massacre/,26359,1402,206,16,917,,http://www.imdb.com/title/tt0072271/,"2012-07-03 05:18:54",no,no,no,no
+357,116,Vamp,1986,http://www.icheckmovies.com/movies/vamp-1986-1/,688,19,22,2,95,,http://www.imdb.com/title/tt0092147/,no,no,no,no,no
+358,130,"White Zombie",1932,http://www.icheckmovies.com/movies/white+zombie/,2367,69,37,2,226,,http://www.imdb.com/title/tt0023694/,"2012-03-14 22:10:05",no,no,no,no
+359,135,"Witchfinder General",1968,http://www.icheckmovies.com/movies/witchfinder+general/,2149,101,29,8,275,,http://www.imdb.com/title/tt0063285/,"2012-12-18 15:36:32",no,no,no,no
+360,142,"Zombi 2",1979,http://www.icheckmovies.com/movies/zombi+2/,3172,188,46,4,307,Zombie,http://www.imdb.com/title/tt0080057/,no,no,no,yes,no
+361,-314,"The Big Lebowski",1998,http://www.icheckmovies.com/movies/the+big+lebowski/,85662,10597,729,27,1377,,http://www.imdb.com/title/tt0118715/,"2012-03-14 22:10:26",no,yes,no,no
+362,-288,"Bubba Ho-Tep",2002,http://www.icheckmovies.com/movies/bubba+ho-tep/,6131,341,90,3,182,,http://www.imdb.com/title/tt0281686/,"2012-03-14 22:10:05",no,no,no,no
+363,-271,"A Christmas Story",1983,http://www.icheckmovies.com/movies/a+christmas+story/,30133,1564,329,5,462,,http://www.imdb.com/title/tt0085334/,"2012-03-14 22:10:05",no,no,no,no
+364,-217,"Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",1964,http://www.icheckmovies.com/movies/dr.+strangelove+or+how+i+learned+to+stop+worrying+and+love+the+bomb/,52016,6604,347,39,1635,,http://www.imdb.com/title/tt0057012/,"2012-03-14 22:10:27",no,no,no,no
+365,-151,Heathers,1988,http://www.icheckmovies.com/movies/heathers/,14887,1420,119,8,484,,http://www.imdb.com/title/tt0097493/,"2013-09-15 19:34:45",no,no,no,no
+366,-114,"Kind Hearts and Coronets",1949,http://www.icheckmovies.com/movies/kind+hearts+and+coronets/,6832,921,32,22,705,,http://www.imdb.com/title/tt0041546/,"2012-05-08 20:31:40",yes,no,no,no
+367,17,"The Rocky Horror Picture Show",1975,http://www.icheckmovies.com/movies/the+rocky+horror+picture+show/,33999,2861,390,13,721,,http://www.imdb.com/title/tt0073629/,"2012-03-14 22:10:25",no,no,no,no
+368,79,"This Is Spinal Tap",1984,http://www.icheckmovies.com/movies/this+is+spinal+tap/,32285,2560,174,22,801,,http://www.imdb.com/title/tt0088258/,"2012-03-14 22:10:09",no,no,no,no
+369,126,"Withnail & I",1987,http://www.icheckmovies.com/movies/withnail+and+i/,9050,1011,94,14,552,"Withnail and I",http://www.imdb.com/title/tt0094336/,no,no,no,no,no
+370,131,"Young Frankenstein",1974,http://www.icheckmovies.com/movies/young+frankenstein/,29875,2417,127,14,792,,http://www.imdb.com/title/tt0072431/,"2012-03-14 22:10:04",no,no,no,no
+371,-366,"200 Motels",1971,http://www.icheckmovies.com/movies/200+motels/,462,20,22,2,73,,http://www.imdb.com/title/tt0066732/,no,no,no,no,no
+372,-371,"24 Hour Party People",2002,http://www.icheckmovies.com/movies/24+hour+party+people/,6670,476,42,4,251,,http://www.imdb.com/title/tt0274309/,"2016-05-01 17:37:42",no,no,no,no
+373,-363,"The Adventures of Priscilla, Queen of the Desert",1994,http://www.icheckmovies.com/movies/the+adventures+of+priscilla+queen+of+the+desert/,9985,665,50,6,394,,http://www.imdb.com/title/tt0109045/,"2012-03-14 22:10:20",no,no,no,no
+374,-347,"Arsenic and Old Lace",1944,http://www.icheckmovies.com/movies/arsenic+and+old+lace/,10658,1143,95,9,561,,http://www.imdb.com/title/tt0036613/,"2013-01-15 06:02:40",no,no,no,no
+375,-345,"Attack of the 50 Foot Woman",1958,http://www.icheckmovies.com/movies/attack+of+the+50+foot+woman/,1244,23,38,1,122,,http://www.imdb.com/title/tt0051380/,no,no,no,no,no
+376,-344,"Bad Boy Bubby",1993,http://www.icheckmovies.com/movies/bad+boy+bubby/,1779,193,22,5,271,,http://www.imdb.com/title/tt0106341/,no,no,no,yes,no
+377,-340,Bananas,1971,http://www.icheckmovies.com/movies/bananas/,5809,279,67,3,223,,http://www.imdb.com/title/tt0066808/,"2012-03-14 22:10:05",no,no,no,no
+378,-336,"The Bed Sitting Room",1969,http://www.icheckmovies.com/movies/the+bed+sitting+room/,592,32,13,3,117,,http://www.imdb.com/title/tt0064074/,no,no,no,yes,no
+379,-334,"Best in Show",2000,http://www.icheckmovies.com/movies/best+in+show/,9184,601,67,3,271,,http://www.imdb.com/title/tt0218839/,no,no,no,no,no
+380,-318,"Bottle Rocket",1996,http://www.icheckmovies.com/movies/bottle+rocket/,11405,624,93,3,279,,http://www.imdb.com/title/tt0115734/,"2012-03-14 22:10:18",no,no,no,no
+381,-310,"Bringing Up Baby",1938,http://www.icheckmovies.com/movies/bringing+up+baby/,12012,1226,146,23,914,,http://www.imdb.com/title/tt0029947/,"2013-01-26 21:53:22",no,no,no,no
+382,-303,"The Cannonball Run",1981,http://www.icheckmovies.com/movies/the+cannonball+run/,3310,82,53,3,124,,http://www.imdb.com/title/tt0082136/,no,no,no,no,no
+383,-301,"Carnal Knowledge",1971,http://www.icheckmovies.com/movies/carnal+knowledge/,1710,82,28,4,186,,http://www.imdb.com/title/tt0066892/,"2012-03-14 22:10:05",no,no,no,no
+384,-299,"Casino Royale",1967,http://www.icheckmovies.com/movies/casino+royale-1967/,4483,82,142,3,153,,http://www.imdb.com/title/tt0061452/,no,no,no,no,no
+385,-290,Clerks,1994,http://www.icheckmovies.com/movies/clerks-1994/,37481,3031,299,9,608,,http://www.imdb.com/title/tt0109445/,"2012-06-26 06:56:23",yes,no,no,no
+386,-280,Crimewave,1985,http://www.icheckmovies.com/movies/crimewave/,708,27,37,1,89,,http://www.imdb.com/title/tt0088967/,no,no,no,no,no
+387,-277,Cul-de-sac,1966,http://www.icheckmovies.com/movies/cul-de-sac/,2236,150,22,6,246,,http://www.imdb.com/title/tt0060268/,"2012-03-14 22:10:09",no,no,no,no
+388,-274,"Dark Star",1974,http://www.icheckmovies.com/movies/dark+star/,3646,201,100,7,271,,http://www.imdb.com/title/tt0069945/,"2018-11-23 22:59:32",no,no,no,no
+389,-243,"Down by Law",1986,http://www.icheckmovies.com/movies/down+by+law/,7105,840,42,9,509,,http://www.imdb.com/title/tt0090967/,"2012-03-14 22:10:18",yes,no,no,no
+390,-230,Election,1999,http://www.icheckmovies.com/movies/election/,12419,705,107,9,424,,http://www.imdb.com/title/tt0126886/,"2017-10-02 06:20:34",no,no,no,no
+391,-228,"The End",1978,http://www.icheckmovies.com/movies/the+end-1978/,392,7,13,2,52,,http://www.imdb.com/title/tt0077504/,no,no,no,no,no
+392,-220,"Fast Times at Ridgemont High",1982,http://www.icheckmovies.com/movies/fast+times+at+ridgemont+high/,16375,628,120,8,433,,http://www.imdb.com/title/tt0083929/,"2017-03-25 21:53:38",no,no,no,no
+393,-219,"Dance of the Vampires",1967,http://www.icheckmovies.com/movies/dance+of+the+vampires/,3139,221,54,4,272,"The Fearless Vampire Killers",http://www.imdb.com/title/tt0061655/,"2012-03-14 22:10:19",no,no,no,no
+394,-219,"Ferris Bueller's Day Off",1986,http://www.icheckmovies.com/movies/ferris+buellers+day+off/,60744,4679,327,11,767,,http://www.imdb.com/title/tt0091042/,"2012-06-24 02:56:50",no,no,no,no
+395,-214,Fletch,1985,http://www.icheckmovies.com/movies/fletch/,3865,155,37,1,121,,http://www.imdb.com/title/tt0089155/,no,no,no,no,no
+396,-210,Friday,1995,http://www.icheckmovies.com/movies/friday/,6587,301,70,2,169,,http://www.imdb.com/title/tt0113118/,"2013-02-03 09:00:49",no,no,no,no
+397,-210,"Fright Night",1985,http://www.icheckmovies.com/movies/fright+night/,7091,372,53,2,291,,http://www.imdb.com/title/tt0089175/,no,no,no,no,no
+398,-210,"Fritz the Cat",1972,http://www.icheckmovies.com/movies/fritz+the+cat/,3345,108,75,4,181,,http://www.imdb.com/title/tt0068612/,"2012-03-14 22:10:14",no,no,no,no
+399,-199,"Goin' South",1978,http://www.icheckmovies.com/movies/goin+south/,590,9,14,1,74,,http://www.imdb.com/title/tt0077621/,no,no,no,no,no
+400,-192,Happiness,1998,http://www.icheckmovies.com/movies/happiness/,8800,968,105,9,537,,http://www.imdb.com/title/tt0147612/,"2012-03-14 22:10:17",no,no,no,no
+401,-166,"In Bruges",2008,http://www.icheckmovies.com/movies/in+bruges/,48871,5329,345,6,779,,http://www.imdb.com/title/tt0780536/,"2012-03-14 22:10:04",no,no,no,no
+402,-159,"Jamón Jamón",1992,http://www.icheckmovies.com/movies/jamon+jamon/,1185,45,21,1,94,"Jamón, Jamón",http://www.imdb.com/title/tt0104545/,no,no,no,yes,no
+403,-156,Juno,2007,http://www.icheckmovies.com/movies/juno/,83758,4860,885,12,635,,http://www.imdb.com/title/tt0467406/,"2012-03-14 22:10:24",no,no,no,no
+404,-144,"The Ladykillers",1955,http://www.icheckmovies.com/movies/the+ladykillers/,6377,354,36,9,453,,http://www.imdb.com/title/tt0048281/,"2012-03-14 22:10:06",yes,no,no,no
+405,-129,"The Little Shop of Horrors",1960,http://www.icheckmovies.com/movies/the+little+shop+of+horrors/,6138,183,61,1,212,,http://www.imdb.com/title/tt0054033/,no,no,no,no,no
+406,-119,"The Loved One",1965,http://www.icheckmovies.com/movies/the+loved+one/,403,22,11,2,163,,http://www.imdb.com/title/tt0059410/,no,no,no,no,no
+407,-104,"Meet the Feebles",1989,http://www.icheckmovies.com/movies/meet+the+feebles/,2193,116,38,3,149,,http://www.imdb.com/title/tt0097858/,"2018-05-15 05:55:09",no,no,no,no
+408,-94,"The Monster Squad",1987,http://www.icheckmovies.com/movies/the+monster+squad/,3339,208,35,2,193,,http://www.imdb.com/title/tt0093560/,"2012-03-14 22:10:05",no,no,no,no
+409,-91,"Mystery Men",1999,http://www.icheckmovies.com/movies/mystery+men/,6748,224,104,1,125,,http://www.imdb.com/title/tt0132347/,no,no,no,no,no
+410,-85,"Night of the Comet",1984,http://www.icheckmovies.com/movies/night+of+the+comet/,1944,103,30,2,204,,http://www.imdb.com/title/tt0087799/,"2014-02-15 03:23:26",no,no,no,no
+411,-77,"Nothing Lasts Forever",1984,http://www.icheckmovies.com/movies/nothing+lasts+forever/,211,14,4,1,73,,http://www.imdb.com/title/tt0087817/,no,no,no,no,no
+412,-77,"Office Space",1999,http://www.icheckmovies.com/movies/office+space/,41098,3636,191,7,501,,http://www.imdb.com/title/tt0151804/,"2012-03-14 22:10:24",no,no,no,no
+413,-58,"Pink Flamingos",1972,http://www.icheckmovies.com/movies/pink+flamingos/,5156,332,198,13,494,,http://www.imdb.com/title/tt0069089/,"2017-05-02 06:38:50",no,no,no,no
+414,-53,Polyester,1981,http://www.icheckmovies.com/movies/polyester/,1196,93,9,3,144,,http://www.imdb.com/title/tt0082926/,"2019-10-15 02:48:54",no,no,no,no
+415,-51,"The Producers",1967,http://www.icheckmovies.com/movies/the+producers/,14812,797,125,14,574,,http://www.imdb.com/title/tt0063462/,"2015-02-07 06:15:05",no,no,no,no
+416,-46,"Quick Change",1990,http://www.icheckmovies.com/movies/quick+change/,1879,109,16,2,101,,http://www.imdb.com/title/tt0100449/,no,no,no,no,no
+417,-13,"Shakes the Clown",1991,http://www.icheckmovies.com/movies/shakes+the+clown/,565,22,13,1,47,,http://www.imdb.com/title/tt0102898/,no,no,no,no,no
+418,-13,"Shaun of the Dead",2004,http://www.icheckmovies.com/movies/shaun+of+the+dead/,77927,7044,407,13,982,,http://www.imdb.com/title/tt0365748/,"2012-03-14 22:10:24",no,no,no,no
+419,-5,"Singin' in the Rain",1952,http://www.icheckmovies.com/movies/singin+in+the+rain/,42960,4194,171,37,1562,,http://www.imdb.com/title/tt0045152/,"2012-03-14 22:10:27",yes,no,no,no
+420,-5,"Slap Shot",1977,http://www.icheckmovies.com/movies/slap+shot/,2968,195,26,2,183,,http://www.imdb.com/title/tt0076723/,no,no,no,no,no
+421,-3,"Something Wild",1986,http://www.icheckmovies.com/movies/something+wild/,2312,128,13,5,248,,http://www.imdb.com/title/tt0091983/,"2012-09-10 06:37:20",no,no,no,no
+422,0,"Spanking the Monkey",1994,http://www.icheckmovies.com/movies/spanking+the+monkey/,787,27,20,2,103,,http://www.imdb.com/title/tt0111252/,no,no,no,no,no
+423,3,"Stardust Memories",1980,http://www.icheckmovies.com/movies/stardust+memories/,3309,248,28,3,268,,http://www.imdb.com/title/tt0081554/,"2012-07-18 02:42:49",no,no,no,no
+424,6,Stripes,1981,http://www.icheckmovies.com/movies/stripes/,5400,200,63,3,170,,http://www.imdb.com/title/tt0083131/,no,no,no,no,no
+425,7,"Sullivan's Travels",1941,http://www.icheckmovies.com/movies/sullivans+travels/,7263,723,46,25,764,,http://www.imdb.com/title/tt0034240/,"2012-03-14 22:10:06",no,no,no,no
+426,23,Tillsammans,2000,http://www.icheckmovies.com/movies/tillsammans/,3324,276,28,9,285,Together,http://www.imdb.com/title/tt0203166/,"2015-08-17 15:52:26",no,no,no,no
+427,28,"The Toxic Avenger",1984,http://www.icheckmovies.com/movies/the+toxic+avenger/,4859,222,107,4,251,,http://www.imdb.com/title/tt0090190/,no,no,no,no,no
+428,36,"The Twelve Chairs",1970,http://www.icheckmovies.com/movies/the+twelve+chairs/,753,24,9,1,66,,http://www.imdb.com/title/tt0066495/,no,no,no,no,no
+429,41,Up!,1976,http://www.icheckmovies.com/movies/upexclamation/,511,22,15,1,73,,http://www.imdb.com/title/tt0075376/,no,no,no,no,no
+430,41,"Up in Smoke",1978,http://www.icheckmovies.com/movies/up+in+smoke/,5673,187,49,5,190,,http://www.imdb.com/title/tt0078446/,no,no,no,no,no
+431,51,"Welcome to the Dollhouse",1995,http://www.icheckmovies.com/movies/welcome+to+the+dollhouse/,5072,437,63,5,301,,http://www.imdb.com/title/tt0114906/,"2012-03-14 22:10:15",yes,no,no,no
+432,66,"Mujeres al borde de un ataque de ""nervios""",1988,http://www.icheckmovies.com/movies/mujeres+al+borde+de+un+ataque+de+nervios/,6523,609,37,17,516,"Women on the Verge of a Nervous Breakdown",http://www.imdb.com/title/tt0095675/,"2012-03-14 22:10:05",yes,no,no,no
+433,-347,"Cat Ballou",1965,http://www.icheckmovies.com/movies/cat+ballou/,2131,80,41,2,206,,http://www.imdb.com/title/tt0059017/,no,no,no,no,no
+434,-310,"Dead Man",1995,http://www.icheckmovies.com/movies/dead+man/,12245,1318,121,12,663,,http://www.imdb.com/title/tt0112817/,"2012-03-14 22:10:26",yes,no,no,no
+435,-203,"Il buono, il brutto, il cattivo",1966,http://www.icheckmovies.com/movies/il+buono+il+brutto+il+cattivo/,49845,7097,165,30,1532,"The Good, the Bad and the Ugly",http://www.imdb.com/title/tt0060196/,"2012-03-14 22:10:12",yes,no,no,no
+436,-203,"Il grande silenzio",1968,http://www.icheckmovies.com/movies/il+grande+silenzio/,2524,327,18,8,386,"The Great Silence",http://www.imdb.com/title/tt0063032/,no,no,no,no,no
+437,-220,"High Plains Drifter",1973,http://www.icheckmovies.com/movies/high+plains+drifter/,5849,379,41,4,343,,http://www.imdb.com/title/tt0068699/,"2023-01-30 21:06:35",no,no,no,no
+438,-193,"Johnny Guitar",1954,http://www.icheckmovies.com/movies/johnny+guitar/,4734,492,31,22,685,,http://www.imdb.com/title/tt0047136/,"2012-07-24 20:34:35",no,no,no,no
+439,-100,"One-Eyed Jacks",1961,http://www.icheckmovies.com/movies/one-eyed+jacks/,1734,64,18,10,285,,http://www.imdb.com/title/tt0055257/,no,no,no,no,no
+440,-97,"The Outlaw Josey Wales",1976,http://www.icheckmovies.com/movies/the+outlaw+josey+wales/,8448,545,38,11,497,,http://www.imdb.com/title/tt0075029/,"2012-07-21 20:02:21",no,no,no,no
+441,-42,"The Searchers",1956,http://www.icheckmovies.com/movies/the+searchers/,13572,1069,166,26,1176,,http://www.imdb.com/title/tt0049730/,"2012-03-14 22:10:06",no,no,no,no
+442,49,"The Wild Bunch",1969,http://www.icheckmovies.com/movies/the+wild+bunch/,13360,1026,103,25,1065,,http://www.imdb.com/title/tt0065214/,"2012-03-14 22:10:04",no,no,no,no
+443,-284,"Quién sabe?",1967,http://www.icheckmovies.com/movies/quien+sabequestion/,781,56,7,3,133,"A Bullet for the General",http://www.imdb.com/title/tt0061429/,no,no,no,no,no
+444,-238,"Grim Prairie Tales: Hit the Trail... to Terror",1990,http://www.icheckmovies.com/movies/grim+prairie+tales+hit+the+trail...+to+terror/,159,3,5,1,47,,http://www.imdb.com/title/tt0099704/,no,no,no,no,no
+445,-225,"The Hired Hand",1971,http://www.icheckmovies.com/movies/the+hired+hand/,704,43,12,3,161,,http://www.imdb.com/title/tt0067204/,no,no,no,no,no
+446,-163,"The Long Riders",1980,http://www.icheckmovies.com/movies/the+long+riders/,1251,37,16,3,153,,http://www.imdb.com/title/tt0081071/,no,no,no,no,no
+447,-157,"McCabe & Mrs. Miller",1971,http://www.icheckmovies.com/movies/mccabe+and+mrs.+miller/,5532,599,61,20,703,,http://www.imdb.com/title/tt0067411/,"2012-07-16 02:02:05",no,no,no,no
+448,-137,"The Missouri Breaks",1976,http://www.icheckmovies.com/movies/the+missouri+breaks/,946,34,16,4,136,,http://www.imdb.com/title/tt0074906/,no,no,no,no,no
+449,-100,"Pat Garrett and Billy the Kid",1973,http://www.icheckmovies.com/movies/pat+garrett+and+billy+the+kid/,3913,237,22,10,429,"Pat Garrett & Billy the Kid",http://www.imdb.com/title/tt0070518/,no,no,no,no,no
+450,-69,Requiescant,1967,http://www.icheckmovies.com/movies/requiescant/,293,7,5,2,71,,http://www.imdb.com/title/tt0063500/,no,no,no,no,no
+451,-61,"Run of the Arrow",1957,http://www.icheckmovies.com/movies/run+of+the+arrow/,495,14,12,4,126,,http://www.imdb.com/title/tt0050915/,no,no,no,no,no
+452,-35,"Soldier Blue",1970,http://www.icheckmovies.com/movies/soldier+blue/,473,22,3,1,86,,http://www.imdb.com/title/tt0066390/,no,no,no,no,no
+453,15,"Ulzana's Raid",1972,http://www.icheckmovies.com/movies/ulzanas+raid/,890,32,10,6,189,,http://www.imdb.com/title/tt0069436/,no,no,no,no,no
+454,-443,"Aguirre, der Zorn Gottes",1972,http://www.icheckmovies.com/movies/aguirre+der+zorn+gottes/,10649,1465,93,18,974,"Aguirre, the Wrath of God",http://www.imdb.com/title/tt0068182/,"2012-03-14 22:10:04",no,no,no,no
+455,-416,"Barry Lyndon",1975,http://www.icheckmovies.com/movies/barry+lyndon/,18389,2252,146,24,1105,,http://www.imdb.com/title/tt0072684/,"2012-03-14 22:10:27",no,no,no,no
+456,-327,"The Decline of Western Civilization",1981,http://www.icheckmovies.com/movies/the+decline+of+western+civilization/,910,57,9,2,161,,http://www.imdb.com/title/tt0082252/,"2012-03-14 22:10:06",no,no,no,no
+457,-313,"Donnie Darko",2001,http://www.icheckmovies.com/movies/donnie+darko/,91800,9990,1028,21,1248,,http://www.imdb.com/title/tt0246578/,"2012-03-14 22:10:27",yes,no,no,no
+458,-294,Eraserhead,1977,http://www.icheckmovies.com/movies/eraserhead/,18781,1810,357,20,1068,,http://www.imdb.com/title/tt0074486/,"2012-03-14 22:10:25",yes,no,no,no
+459,-289,Fantasia,1940,http://www.icheckmovies.com/movies/fantasia/,56512,2202,253,20,837,,http://www.imdb.com/title/tt0032455/,"2012-03-14 22:10:25",no,no,no,no
+460,-109,Performance,1970,http://www.icheckmovies.com/movies/performance/,3022,193,79,17,455,,http://www.imdb.com/title/tt0066214/,"2014-08-10 07:19:35",no,no,no,no
+461,-83,"Repo Man",1984,http://www.icheckmovies.com/movies/repo+man/,7124,510,81,9,382,,http://www.imdb.com/title/tt0087995/,"2012-09-10 06:37:20",no,no,no,no
+462,-4,"The Trip",1967,http://www.icheckmovies.com/movies/the+trip-1967/,820,23,17,3,126,,http://www.imdb.com/title/tt0062395/,no,no,no,no,no
+463,4,"Two-Lane Blacktop",1971,http://www.icheckmovies.com/movies/two-lane+blacktop/,2946,269,33,13,455,,http://www.imdb.com/title/tt0067893/,"2012-03-14 22:10:05",no,no,no,no
+464,-452,"Ai no korîda",1976,http://www.icheckmovies.com/movies/ai+no+korida/,3934,226,103,16,498,"In the Realm of the Senses",http://www.imdb.com/title/tt0074102/,"2015-06-24 19:53:10",no,no,no,no
+465,-384,"Capturing the Friedmans",2003,http://www.icheckmovies.com/movies/capturing+the+friedmans/,4752,291,29,8,281,,http://www.imdb.com/title/tt0342172/,no,no,no,no,no
+466,-379,"C'est arrivé près de chez vous",1992,http://www.icheckmovies.com/movies/cest+arrive+pres+de+chez+vous/,6064,591,84,12,535,"Man Bites Dog",http://www.imdb.com/title/tt0103905/,"2015-08-02 05:58:56",no,no,no,no
+467,-376,"Christiane F. - Wir Kinder vom Bahnhof Zoo",1981,http://www.icheckmovies.com/movies/christiane+f.+-+wir+kinder+vom+bahnhof+zoo/,2904,255,20,2,201,"Christiane F.",http://www.imdb.com/title/tt0082176/,"2012-03-14 22:10:05",no,no,no,no
+468,-365,"The Cook, the Thief, His Wife & Her Lover",1989,http://www.icheckmovies.com/movies/the+cook+the+thief+his+wife+and+her+lover/,6184,672,97,10,534,,http://www.imdb.com/title/tt0097108/,"2012-03-14 22:10:13",yes,no,no,no
+469,-361,Crumb,1994,http://www.icheckmovies.com/movies/crumb/,5113,527,30,12,408,,http://www.imdb.com/title/tt0109508/,"2012-03-14 22:10:05",yes,no,no,no
+470,-347,"Dazed and Confused",1993,http://www.icheckmovies.com/movies/dazed+and+confused/,24879,1911,204,7,615,,http://www.imdb.com/title/tt0106677/,"2012-06-25 05:14:16",no,no,no,no
+471,-331,Diva,1981,http://www.icheckmovies.com/movies/diva/,1872,113,22,7,334,,http://www.imdb.com/title/tt0082269/,"2012-03-14 22:10:20",yes,no,no,no
+472,-329,"Dogtown and Z-Boys",2001,http://www.icheckmovies.com/movies/dogtown+and+z-boys/,2309,110,11,4,92,,http://www.imdb.com/title/tt0275309/,no,no,no,no,no
+473,-325,"The Draughtsman's Contract",1982,http://www.icheckmovies.com/movies/the+draughtsmans+contract/,1905,170,20,8,314,,http://www.imdb.com/title/tt0083851/,no,no,no,no,no
+474,-313,"Electra Glide in Blue",1973,http://www.icheckmovies.com/movies/electra+glide+in+blue/,868,56,7,2,144,,http://www.imdb.com/title/tt0070022/,no,no,no,no,no
+475,-313,Elephant,2003,http://www.icheckmovies.com/movies/elephant/,16546,1217,242,10,536,,http://www.imdb.com/title/tt0363589/,"2012-03-14 22:10:19",yes,no,no,no
+476,-300,Festen,1998,http://www.icheckmovies.com/movies/festen/,12553,1593,76,19,785,"The Celebration",http://www.imdb.com/title/tt0154420/,"2012-03-14 22:10:04",yes,no,no,no
+477,-297,Flesh,1968,http://www.icheckmovies.com/movies/flesh/,564,17,33,4,126,,http://www.imdb.com/title/tt0062979/,no,no,no,yes,no
+478,-287,"Funny Ha Ha",2002,http://www.icheckmovies.com/movies/funny+ha+ha/,546,29,16,1,71,,http://www.imdb.com/title/tt0327753/,no,no,no,no,no
+479,-275,"Grey Gardens",1975,http://www.icheckmovies.com/movies/grey+gardens/,3967,322,32,10,338,,http://www.imdb.com/title/tt0073076/,"2012-03-14 22:10:06",yes,no,no,no
+480,-267,Head,1968,http://www.icheckmovies.com/movies/head/,1172,68,21,4,184,,http://www.imdb.com/title/tt0063049/,no,no,no,yes,no
+481,-250,Idioterne,1998,http://www.icheckmovies.com/movies/idioterne/,3735,276,92,6,330,"The Idiots",http://www.imdb.com/title/tt0154421/,"2012-03-14 22:10:15",no,no,no,no
+482,-243,Inserts,1975,http://www.icheckmovies.com/movies/inserts/,200,10,3,1,52,,http://www.imdb.com/title/tt0073172/,no,no,no,no,no
+483,-241,Irréversible,2002,http://www.icheckmovies.com/movies/irreversible/,13785,1267,289,10,659,Irreversible,http://www.imdb.com/title/tt0290673/,"2012-03-14 22:10:24",no,no,no,no
+484,-222,"La jetée",1962,http://www.icheckmovies.com/movies/la+jetee/,10476,1365,60,19,745,"La Jetée",http://www.imdb.com/title/tt0056119/,"2012-03-14 22:10:07",yes,no,no,no
+485,-221,"The Last Movie",1971,http://www.icheckmovies.com/movies/the+last+movie/,452,15,19,4,127,,http://www.imdb.com/title/tt0067327/,no,no,no,no,no
+486,-220,"The Last Waltz",1978,http://www.icheckmovies.com/movies/the+last+waltz/,3782,280,12,10,279,,http://www.imdb.com/title/tt0077838/,no,no,no,yes,no
+487,-199,"The Loveless",1981,http://www.icheckmovies.com/movies/the+loveless/,458,19,7,1,86,Breakdown,http://www.imdb.com/title/tt0085872/,no,no,no,no,no
+488,-192,"Man on Wire",2008,http://www.icheckmovies.com/movies/man+on+wire/,11683,830,44,7,357,,http://www.imdb.com/title/tt1155592/,"2015-01-31 05:50:24",no,no,no,no
+489,-184,"Metallica: Some Kind of Monster",2004,http://www.icheckmovies.com/movies/metallica+some+kind+of+monster/,2759,94,26,4,112,,http://www.imdb.com/title/tt0387412/,no,no,no,no,no
+490,-180,"Mishima: A Life in Four Chapters",1985,http://www.icheckmovies.com/movies/mishima+a+life+in+four+chapters/,2626,306,20,6,370,,http://www.imdb.com/title/tt0089603/,"2013-08-19 06:16:42",no,no,no,no
+491,-128,Primer,2004,http://www.icheckmovies.com/movies/primer/,16867,1542,251,7,479,,http://www.imdb.com/title/tt0390384/,"2012-03-14 22:10:19",no,no,no,no
+492,-127,"Prospero's Books",1991,http://www.icheckmovies.com/movies/prosperos+books/,896,62,17,4,141,,http://www.imdb.com/title/tt0102722/,"2017-06-30 17:13:05",no,no,no,no
+493,-113,"Requiem for a Dream",2000,http://www.icheckmovies.com/movies/requiem+for+a+dream/,78743,8210,738,20,1190,,http://www.imdb.com/title/tt0180093/,"2012-03-14 22:10:27",yes,no,no,no
+494,-105,"Rumble Fish",1983,http://www.icheckmovies.com/movies/rumble+fish/,3645,274,36,8,272,,http://www.imdb.com/title/tt0086216/,no,no,no,no,no
+495,-103,"Salò o le 120 giornate di Sodoma",1975,http://www.icheckmovies.com/movies/salo+o+le+120+giornate+di+sodoma/,7500,437,334,14,600,"Salò, or the 120 Days of Sodom",http://www.imdb.com/title/tt0073650/,"2012-03-14 22:10:22",no,no,no,no
+496,-94,"Sex, Lies, and Videotape",1989,http://www.icheckmovies.com/movies/sex+lies+and+videotape/,9940,564,89,12,498,,http://www.imdb.com/title/tt0098724/,no,no,no,yes,no
+497,-57,Teaserama,1955,http://www.icheckmovies.com/movies/teaserama/,168,0,13,1,33,,http://www.imdb.com/title/tt0048700/,no,no,no,no,no
+498,-44,"Touching the Void",2003,http://www.icheckmovies.com/movies/touching+the+void/,3328,256,12,7,203,,http://www.imdb.com/title/tt0379557/,no,no,no,no,no
+499,-25,"F for Fake",1973,http://www.icheckmovies.com/movies/f+for+fake/,4298,538,41,11,471,,http://www.imdb.com/title/tt0072962/,"2015-07-01 01:34:07",yes,no,no,no
+500,-19,"Week End",1967,http://www.icheckmovies.com/movies/week+end/,3854,356,96,15,541,Weekend,http://www.imdb.com/title/tt0062480/,"2012-03-14 22:10:06",no,no,no,no
+501,-15,"What's Up, Tiger Lily?",1966,http://www.icheckmovies.com/movies/whats+up+tiger+lilyquestion/,2328,63,64,3,97,,http://www.imdb.com/title/tt0061177/,"2012-03-14 22:10:04",no,no,no,no
+502,-15,"When We Were Kings",1996,http://www.icheckmovies.com/movies/when+we+were+kings/,2562,185,7,9,240,,http://www.imdb.com/title/tt0118147/,"2012-06-02 07:18:20",no,no,no,no
