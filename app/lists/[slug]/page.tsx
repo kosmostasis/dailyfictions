@@ -1,25 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { getListBySlug, getListMovieIds } from "@/lib/lists";
-import { getConfig, getMovieDetails, posterUrl } from "@/lib/tmdb";
-
-async function getListMovies(slug: string) {
-  const ids = await getListMovieIds(slug);
-  const limit = 24;
-  const slice = ids.slice(0, limit);
-  if (slice.length === 0) return [];
-  const [config, ...details] = await Promise.all([
-    getConfig(),
-    ...slice.map((id) => getMovieDetails(id)),
-  ]);
-  const baseUrl = config.images.secure_base_url;
-  return details.map((m) => ({
-    id: m.id,
-    title: m.title,
-    posterUrl: posterUrl(baseUrl, m.poster_path),
-    releaseDate: m.release_date ?? "",
-  }));
-}
+import { getListBySlug, getListMovies } from "@/lib/lists";
 
 export default async function ListDetailPage({
   params,
@@ -29,7 +10,7 @@ export default async function ListDetailPage({
   const { slug } = await params;
   const [list, movies] = await Promise.all([
     getListBySlug(slug),
-    getListMovies(slug),
+    getListMovies(slug, 24),
   ]);
   if (!list) notFound();
 
@@ -50,7 +31,7 @@ export default async function ListDetailPage({
               rel="noopener noreferrer"
               className="text-sm text-sky-600 underline dark:text-sky-400"
             >
-              {list.icheckMoviesOnly ? "View on iCheckMovies (account required) →" : "View source →"}
+              {list.icheckMoviesOnly ? "View full list on iCheckMovies →" : "View full list →"}
             </a>
           </p>
         )}
